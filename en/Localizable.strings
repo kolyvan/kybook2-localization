@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   rocket
 
@@ -211,7 +211,7 @@
 "FILE"              = "File";
 "FILES"             = "Files";
 "FOLDER"            = "Folder";
-"FOLDER_CONFIG"     = "Folder Config";
+"FOLDER_CONFIG"     = "Folder settings";
 "ACTIONS"           = "Actions";
 "SORTING"           = "Sorting";
 "GROUPING"          = "Grouping";
@@ -399,7 +399,7 @@
 "ADD_LINK"              = "Add Link";
 "ADD_TEXT_ENCODING"     = "Add Encoding";
 "ADD_MOBI_PID"          = "Add PID";
-"ADD_PASSWORD"          = "Add Passoword";
+"ADD_PASSWORD"          = "Add Password";
 "ENTER_TITLE"           = "Enter Title";
 "ENTER_COLOR"           = "Enter Color";
 "ENTER_ENCODING"        = "Enter Encoding";
@@ -479,7 +479,7 @@
 "FONT_SIZE"         = "Font size";
 "FONT_BOLD"         = "Bold";
 "FONT_ITALIC"       = "Italic";
-"FAVORITE_FONTS"    = "Favofite Fonts";
+"FAVORITE_FONTS"    = "Favorite Fonts";
 "USER_FONTS"        = "User Fonts";
 "SYSTEM_FONTS"      = "System Fonts";
 "DOWNLODABLE_FONTS" = "Downloadable Fonts";
@@ -553,13 +553,13 @@
 
 /* BOOKREADER COMICS SETTINGS */
 
-"COMICS_SETTINGS"           = "Comics Settings";
+"COMICS_SETTINGS"           = "Comics settings";
 "ADAPTIVE"                  = "Adaptive";
 
 
 /* BOOKREADER AUDIO SETTINGS */
 
-"AUDIO_SETTINGS"            = "Audio Settings";
+"AUDIO_SETTINGS"            = "Audio settings";
 "WAVEFORM"                  = "Animate sine waveform";
 "SUBTITLES"                 = "Subtitles";
 "SUBTITLES_HINT"            = "Application supports subtitles in SRT format";
@@ -571,7 +571,7 @@
 /* COMMON SETTINGS */
 
 "SETTINGS"              = "Settings";
-"MORE_SETTINGS"         = "More Settings";
+"MORE_SETTINGS"         = "More settings";
 "MISC_CONF"             = "Misc";
 "ADVANCED"              = "Advanced";
 
@@ -834,7 +834,7 @@
 
 /* BOOKSHELF SETTINGS */
 
-"BOOKSHEL_CONF"     = "Bookshelf Config";
+"BOOKSHEL_CONF"     = "Bookshelf settings";
 "REVERSE_SORT"      = "Reverse Sort";
 "COLORED_CARD"      = "Colored Card";
 "SHELVES_COVER"     = "Shelves For Covers";
