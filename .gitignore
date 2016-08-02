@@ -1,0 +1,6 @@
+## generic files to ignore
+*~
+*.DS_Store
+
+## my
+tmp/*

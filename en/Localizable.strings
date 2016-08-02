@@ -1,0 +1,1211 @@
+/* 
+  Localizable.strings
+  rocket
+
+  Created by Kolyvan on 26.04.15.
+  Copyright (c) 2015 Kolyvan. All rights reserved.
+*/
+
+
+/* COMMON */
+
+"DEFAULT"           = "Default";
+"EMPTY"             = "Empty";
+"NONE"              = "None";
+"UNKNOWN"           = "Unknown";
+
+
+/* COMMON VERBS */
+
+"ADD"               = "Add";
+"EDIT"              = "Edit";
+
+"CREATE"            = "Create";
+"COPY"              = "Copy";
+"MOVE"              = "Move";
+"REMOVE"            = "Remove";
+"RENAME"            = "Rename";
+
+"OPEN"              = "Open";
+"SAVE"              = "Save";
+"SHARE"             = "Share";
+"SEARCH"            = "Search";
+
+"SELECT"            = "Select";
+"SELECT_ALL"        = "Select All";
+
+"RELOAD"            = "Reload";
+"RESTART"           = "Restart";
+"START"             = "Start";
+"STOP"              = "Stop";
+"CANCEL"            = "Cancel";
+"CONTINUE"          = "Continue";
+"RESET"             = "Reset";
+"DONE"              = "Done";
+
+"SEND"              = "Send";
+"SYNC"              = "Synchronize";
+"UPLOAD"            = "Upload";
+
+"ENABLE"            = "Enable";
+"EXCLUDE"           = "Exclude";
+"RELINK"            = "Relink";
+
+"READ"              = "Read";
+"LISTEN"            = "Listen";
+
+"SHOW"              = "Show";
+"HIDE"              = "Hide";
+
+"GO"                = "Go";
+"SPEAK"             = "Speak";
+"TRANSLATE"         = "Translate";
+"FETCH"             = "Fetch";
+"MARK"              = "Mark";
+"CUSTOMIZE"         = "Customize";
+
+
+/* COMMON WORDS */
+
+"ACTION"            = "Action";
+"AUTO"              = "Auto";
+"NOTE"              = "Note";
+"USER"              = "User";
+"SAMPLE"            = "Sample";
+"DATABASE"          = "Database";
+"STORAGE"           = "Storage";
+"STORAGES"          = "Storages";
+"IMAGE"             = "Image";
+"IMAGES"            = "Images";
+"BOOK"              = "Book";
+"BOOKS"             = "Books";
+"AUDIOBOOK"         = "Audiobook";
+"TEXT"              = "Text";
+"COLOR"             = "Color";
+"AUDIO"             = "Audio";
+"GUIDE"             = "Guide";
+"MORE"              = "More";
+"BACKGROUND"        = "Background";
+"BLACK"             = "Black";
+"CHAPTER"           = "Chapter";
+"MODE"              = "Mode";
+"ALWAYS"            = "Always";
+"OFF"               = "Off";
+"LIST"              = "List";
+"CARDS"             = "Cards";
+
+
+/* COMMON DATE TIME */
+
+"DATE"              = "Date";
+"TODAY"             = "Today";
+"YESTERDAY"         = "Yesterday";
+"WEAK_AGO"          = "Week Ago";
+"MONTH_AGO"         = "Month Ago";
+"YEAR_AGO"          = "Year Ago";
+
+
+/* COMMON PHRASES */
+
+"BLANK_PAGE"        = "Blank Page";
+"WAIT_MESSAGE"      = "Please wait..";
+"WAITING"           = "Waiting..";
+"SEARCHING"         = "Searching..";
+"NO_SEARCH_RESULT"  = "Oops, we can't find what you are looking for";
+"OPEN_BOOK"         = "Open a book";
+"CLOSE_BOOK"        = "Close a book";
+"BOOK_COVERS"       = "Book Covers";
+"EMPTY_TEXT"        = "No text";
+"FILE_SIZE"         = "File size";
+
+
+/* APP MAIN */
+
+"KYBOOK"            = "KyBook";
+"MYBOOKS_TITLE"     = "Books";
+"MYFILES_TITLE"     = "Files";
+"SEARCH_TITLE"      = "Search";
+"LIBRARIES_TITLE"   = "Libraries";
+"USERSPACE_TITLE"   = "User";
+"MAIN_SCREEN"       = "Main Screen";
+"APPLICATION"       = "Application";
+"PROFILE"           = "Profile";
+"FEEDBACK"          = "Feedback";
+"SUPPORT"           = "Support";
+
+
+/* DIALOG */
+
+"USERNAME"              = "Username";
+"PASSWORD"              = "Password";
+"EMAIL"                 = "E-Mail";
+"ENTER_NAME"            = "Enter Name";
+"LOGIN"                 = "Login";
+"LOGOUT"                = "Logout";
+"SIGN_IN"               = "Sign In";
+"SING_UP"               = "Sign Up";
+
+
+/* DIALOG PLACEHOLDERS */
+
+"USERNAME_HINT"     = "user name";
+"PASSWORD_HINT"     = "password";
+"SEARCH_HINT"       = "search";
+"TITLE_HINT"        = "title";
+
+
+/* DIALOG REMOVE FILE/BOOK */
+
+"DELETE"                = "Delete";
+"DELETE_BOOK"           = "Delete Book";
+"DELETE_FILE"           = "Delete File";
+"DELETE_RECORD"         = "Delete Record";
+"DELETE_ALL"            = "Delete All";
+"DELETE?"               = "Delete?";
+"DELETE_Q_FMT"          = "Delete '%@'?";       // Delete 'something'?
+"DELETE_ITEMS?"         = "Delete %@ '%@'?";    // Delete file 'name.ext'?
+"DELETE_FILES?"         = "Delete %lu files?";  // Delete 2 files?
+"DELETE_RECORD_DEVICE"  = "Files on this device";
+"DELETE_RECORD_MSG"     = "Delete all files with this book, delete the record from Database and Cloud Storage";
+"WARNING_DELETE_FOLDER" = "Are you sure?\nAll content in the folder '%@' will be deleted!\nEnter '%@' to confirm.";
+"WARNING_DELETE_DB_ITEM" = "Are you sure?\nDatabase record will be deleted permanently!";
+
+
+/* DOWNLOAD */
+
+"DOWNLOAD"              = "Download";
+"ASK_DOWNLOAD_FMT"      = "Download '%@'?";     // Download 'something'?
+"DOWNLOADING"           = "Downloading";
+"DOWNLOAD_COMPLETE"     = "Download Complete";
+"DOWNLOADS"             = "Downloads";
+"DOWNLOADED"            = "Downloaded";
+
+
+/* STATE */
+
+"STATE"                 = "State";
+"STATUS"                = "Status";
+
+"RUNNING"               = "Running..";
+"LOADING"               = "Loading, please wait..";
+"PREPARING"             = "Preparing..";
+"INSTALLATION"          = "Installation..";
+
+"CANCELLED"             = "Cancelled";
+"FAILURE"               = "Failure";
+"COMPLETED"             = "Completed";
+"FINISHED"              = "Finished";
+"READY"                 = "Ready";
+
+"DISCONNECTED"          = "Disconnected";
+"CONNECTING"            = "Connecting..";
+"CONNECTED"             = "Connected";
+"BOOTSTRAP"             = "Bootstrap";
+
+
+/* FILES */
+
+"DEVICE"            = "Device";
+"LOCALNET"          = "Localnet";
+"INTERNET"          = "Internet";
+"FILE"              = "File";
+"FILES"             = "Files";
+"FOLDER"            = "Folder";
+"FOLDER_CONFIG"     = "Folder Config";
+"ACTIONS"           = "Actions";
+"SORTING"           = "Sorting";
+"GROUPING"          = "Grouping";
+"SHOWING"           = "Showing";
+"CREATE_FOLDER"     = "Create a folder";
+"SELECT_FOLDER"     = "Select a folder";
+"SELECT_FILE"       = "Select a file";
+"FILES_EXT_FMT"     = "Files %@";       // Files epub,pdf,djvu
+"NO_FILES_EXT_FMT"  = "No files %@";    // No files epub,pdf,djvu
+"NO_FILES"          = "No files";
+"EMPTY_FOLDER"      = "This folder is empty";
+"FOLDER_FOOTER"     = "%@ in %d files"; // 12KB in 3 files
+"DEVICE_FOLDERS"    = "Folders";
+"ALL_DEVICE_FOLDERS"= "Folders on the device";
+"EMPTY_STORAGES"    = "You have not added any storage";
+"SUBFOLDERS_TITLE"  = "Subfolders in '%@'";         // Subfolders in 'Books/1'
+"NOSUBFOLDERS_FMT"  = "No subfolders in '%@'";      // No subfolders in 'Books/1'
+"COPY_FILES_FMT"    = "%@ files from '%@' to '%@'"; // Move files from 'Downloads' to 'Books/1'
+"TRANSFERRING"      = "File Transfer";
+"IMPORT_FILE"       = "Import File";
+"EXPORT_FILE"       = "Export File";
+"PROTECTED_FILE_TITLE" = "The file is protected";
+"PLEASE_ENTER_PASSWORD" = "Please enter a password";
+"SIBLING_FOLDERS"   = "Sibling folders";
+
+
+/* SORTING GROUPING */
+
+"BY_NAME"           = "By Name";
+"BY_DATE"           = "By Date";
+"BY_SIZE"           = "By Size";
+"BY_FORMAT"         = "By Format";
+"BY_AUTHOR"         = "By Author";
+"BY_SEQUENCE"       = "By Sequence";
+"BY_SUBJECT"        = "By Subject";
+"BY_TAG"            = "By Tag";
+"BY_TITLE"          = "By Title";
+"BY_BOOK"           = "By Book";
+"BY_POSITION"       = "By Position";
+"BY_PROGRESS"       = "By Progress";
+
+
+/* CELLS PRESENTATION */
+
+"SMALL_CARDS"       = "Small Cards";
+"BOOK_COVERS_SMALL" = "Small Covers";
+"BOOK_PILES"        = "Piles";
+"BOOK_BACKS"        = "Backs";
+"FLAT_PRESENTATION" = "Flat";
+"MASONRY_LAYOUT"    = "Mosaic";
+
+
+/* DROPBOX */
+
+"DROPBOX_LINK_TITLE"        = "Dropbox is not linked";
+"DROPBOX_LINK_MESSAGE"      = "Select your preferred authentication method";
+"DROPBOX_LINK_RUN_APP"      = "Run Dropbox App";
+"DROPBOX_LINK_OPEN_SITE"    = "Open www.dropbox.com";
+"DROPBOX_ADD_TITLE"         = "Add Dropbox";
+"DROPBOX_ADD_MESSAGE"       = "Grant permission to access your files inside Dropbox";
+"DROPBOX_MIGRATE_MESSAGE"   = "Sorry, this update requires relink your Dropbox";
+
+
+/* YANDEX DISK */
+
+"YANDEX_DISK"               = "Yandex Disk";
+"YANDEX_DISK_APP"           = "Yandex Disk App";
+"YANDEX_ADD_TITLE"          = "Add Yandex Disk";
+"YANDEX_ADD_MESSAGE"        = "Grant permission to access your files inside Yandex Disk";
+
+
+/* GOOGLE DRIVE */
+
+"GOOGLE_DRIVE"              = "Google Drive";
+
+
+/* CLOUDS PERM */
+
+"STORAGE_PERM_FULL"         = "Full access";
+"STORAGE_PERM_APP"          = "Only to the App Folder";
+
+
+/* SMB/CIFS */
+
+"SMB_SHARES"            = "Shared";
+"LOCAL_NETWORK"         = "Local Network";
+"NETWORK_NEIGHBORHOOD"  = "Network Neighborhood";
+"SMB_WORKGROUP"         = "Workgroup (optional)";
+"SMB_SERVER"            = "Server";
+"SMB_SHARE"             = "Sharepoint";
+"SMB_USERNAME"          = "User (optional)";
+"SMB_PASSWORD"          = "Password (optional)";
+"NETBIOS_DISCOVERY"     = "Local Network Discovery";
+
+
+/* WEBDAV */
+
+"ADD_WEBDAV"            = "Add WebDAV Server";
+"KNOWN_WEBDAVS"         = "Known WebDAV Cloud Storage";
+
+
+/* LIBRARIES */
+
+"EMPTY_LIBRARIES"       = "You have not added any libraries";
+
+
+/* LITRES */
+
+"LITRES"                    = "LitRes";
+"LITRES_SITE"               = "LitRes Site";
+"LITRES_CONNECT_MESSAGE"    = "KyBook would like to connect with your LitRes";
+"BASKET"                    = "Basket";
+"TO_BASKET"                 = "Add to Cart";
+"FROM_BASKET"               = "Remove from Cart";
+"BUYBOOK_FMT"               = "Buy for %@";  // Buy for $5
+
+
+/* OPDS CATALOG */
+
+"OPDS_CATALOG"              = "OPDS Catalog";
+"LOCAL_OPDS"                = "Find in Localnet";
+"ADD_OPDS_CATALOG_FOOTER"   = "Enter an address into the search field for adding a custom OPDS Сatalog.";
+"BAD_OPDS_SEARCH"           = "OPDS Catalog does not support searching";
+
+
+/* BOOKCARD */
+
+"BOOK_CARD"     = "Book Card";
+"TITLE"         = "Title";
+"AUTHOR"        = "Author";
+"AUTHORS"       = "Authors";
+"SUBJECT"       = "Subject";
+"SUBJECTS"      = "Subjects";
+"SEQUENCE"      = "Sequence";
+"SEQUENCES"     = "Sequences";
+"ANNOTATION"    = "Annotation";
+"LANGUAGE"      = "Language";
+"ISBN"          = "ISBN";
+"IDENTIFIER"    = "Identifier";
+"IDENTIFIERS"   = "Identifiers";
+"LINK"          = "Link";
+"LINKS"         = "Links";
+"LOCATIONS"     = "Locations";
+"PUBLISHER"     = "Publisher";
+"KEYWORDS"      = "Keywords";
+"NOTES"         = "Notes";
+"REVIEWS"       = "Reviews";
+"RELATED_BOOKS" = "Related books";
+"TAGS"          = "Tags";
+"GENRES"        = "Genres";
+"COLLECTIONS"   = "Collections";
+"RATING"        = "Rating";
+"SOURCE"        = "Source";
+"READ_STAT"     = "Stats of reading";
+"READ_STAT_FMT" = "At %@, Read %d%% for %@"; // At 15:30, Read 12% for 5min
+"TEXT_ENCODING" = "Text Encoding";
+"MOBI_PID"      = "MobiPocket PID (Kindle Serial Number)";
+
+"METADATA"      = "Metadata";
+"SAVE_CHANGES_TITLE" = "The data has been edited. Save changes?";
+
+"BOOK_READ_STATE_TITLE" = "Feedback";
+"BOOK_READ_STATE_HINT" = "Impression about the book";
+"BOOK_READ_STATE_DONE" = "Have read";
+"BOOK_READ_STATE_NONE" = "Mark as read";
+
+
+/* BOOKCARD ACTIONS */
+
+"ADD_AUTHOR"            = "Add Author";
+"ADD_SUBJECT"           = "Add Subject";
+"ADD_ID"                = "Add ID";
+"ADD_TAG"               = "Add Tag";
+"ADD_TITLE"             = "Add Title";
+"ADD_SUBTITLE"          = "Add Subtitle";
+"ADD_SEQUENCE"          = "Add Sequence";
+"ADD_SEQUENCE_NUMBER"   = "Add Sequence number";
+"ADD_ANNOTATION"        = "Add Annotation";
+"ADD_LANG"              = "Add Language";
+"ADD_PUBLISHER"         = "Add Publisher";
+"ADD_DATE"              = "Add Date";
+"ADD_ISBN"              = "Add ISBN";
+"ADD_KEYWORDS"          = "Add Keywords";
+"ADD_LIBID"             = "Add LIBID";
+"ADD_LINK"              = "Add Link";
+"ADD_TEXT_ENCODING"     = "Add Encoding";
+"ADD_MOBI_PID"          = "Add PID";
+"ADD_PASSWORD"          = "Add Passoword";
+"ENTER_TITLE"           = "Enter Title";
+"ENTER_COLOR"           = "Enter Color";
+"ENTER_ENCODING"        = "Enter Encoding";
+"ACQUIRE_BOOK"          = "Acquire";
+
+
+/* BOOKCARD COVER */
+
+"BOOK_COVER"            = "Book Cover";
+"SELECT_COVER_IMAGE"    = "Change Cover";
+"COVER_FROM_BOOK"       = "Restore from the book";
+"PHOTOS"                = "Photos";
+"PHOTO"                 = "Photo";
+"WEB"                   = "Web";
+"WEB_SEARCH"            = "Web Search";
+
+
+/* BOOKCARD RATING */
+
+"RATING_0"              = "Not rated";
+"RATING_1"              = "Do not read";
+"RATING_2"              = "Very bad";
+"RATING_3"              = "Bad";
+"RATING_4"              = "Mediocre";
+"RATING_5"              = "So so";
+"RATING_6"              = "Fine";
+"RATING_7"              = "Good";
+"RATING_8"              = "Very good";
+"RATING_9"              = "Great";
+"RATING_10"             = "Masterwork";
+
+
+/* BOOKREADER */
+
+"PAGE_FMT"              = "Page %u";
+"PAGE_FMT_SHORT"        = "p. %u";
+"BACK_TO_PAGE_FMT"      = "Back to page %u";
+
+"CONTENTS"              = "Contents";
+"EMPTY_TOC"             = "This book does not contain a table of contents";
+"BOOKMARKS"             = "Bookmarks";
+"EMPTY_NOTES"           = "No bookmarks and notes";
+
+"LOADING_STATUS"        = "Loading..";
+"LAYOUTING_STATUS"      = "Layout..";
+
+"EXTRAS"                = "Extras";
+"THUMBNAILS"            = "Thumbnails";
+"AUTOSCROLL"            = "Auto scroll";
+"DEFINE"                = "Define";
+"RAPID_READ"            = "Speed Reading";
+
+"RESET_BOOK_CURSOR_TITLE" = "The read position";
+"RESET_BOOK_CURSOR_MESSAGE" = "It seems what the read position in this book was recently changed on the another your device. Would you like to go to the read position obtained from iCloud?";
+
+
+/* BOOKREADER SEARCH PARAMS */
+
+"MATCHING_TEXTUTAL"     = "Textual";
+"MATCHING_REGULAR"      = "Pattern (Regex)";
+"MATCHING_FUZZY"        = "Fuzzy";
+
+
+/* BOOKREADER NOTE DRAW MODE */
+
+"DRAW_FILL"                  = "Fill";
+"DRAW_STRIKETHROUGH"         = "Strikethrough";
+"DRAW_UNDERLINE"             = "Underline";
+"DRAW_WAVY"                  = "Wavy";
+"DRAW_DOTS"                  = "Dots";
+
+
+/* BOOKREADER FONT SETTINGS */
+
+"FONT"              = "Font";
+"FONTS"             = "Fonts";
+"FONT_SIZE"         = "Font size";
+"FONT_BOLD"         = "Bold";
+"FONT_ITALIC"       = "Italic";
+"FAVORITE_FONTS"    = "Favofite Fonts";
+"USER_FONTS"        = "User Fonts";
+"SYSTEM_FONTS"      = "System Fonts";
+"DOWNLODABLE_FONTS" = "Downloadable Fonts";
+"HINT_USER_FONTS"   = "Copy a font files (.ttf or .otf) into App Documents via iTunes File Sharing";
+
+
+/* BOOKREADER THEME SETTINGS */
+
+"THEMES"            = "Themes";
+"ADD_THEME_CELL"    = "Add";        // short title
+"DAY"               = "Day";
+"NIGHT"             = "Night";
+"SEPIA"             = "Sepia";
+"DARK"              = "Dark";
+"SAND"              = "Sand";
+"TANGO"             = "Tango";
+"BRIGHTNESS"        = "Brightness";
+"USER_IMAGES_HINT"  = "Copy Images:\n- via iTunes File Sharing into KyBook Documents.\n- via Files into App/Images Folder.\n\nThe background images is possible only for epub/fb2 books. The scroll mode is only compatible with pattern.";
+
+
+/* BOOKREADER LAYOUT SETTINGS */
+
+"PARAGRAPH"                 = "Paragraph";
+"LAYOUT"                    = "Layout";
+"PARA_INDENT"               = "Indent";
+"PARA_SPACING"              = "Spacing";
+"KERNING"                   = "Kerning";
+"LINE_HEIGHT"               = "Line Height (%)";
+"LINE_SPACING"              = "Line Spacing";
+"JUSTIFICATION"             = "Justification";
+"HYPHENATION"               = "Hyphens";
+"PAGE_TURN_MODE"            = "Page Turn";
+"PAGE_TURN_CURL"            = "Curl";
+"PAGE_TURN_SCROLL"          = "Scroll";
+"PAGE_TURN_SLIDE"           = "Slide";
+"PAGE_SPREAD_LANDSCAPE"     = "Page Spread in Landscape Orientation";
+"PAGE_SPREAD"               = "Double-Page Spread";
+"PAGE_MARGINS"              = "Page Margins";
+"LEFT_MARGIN"               = "Left";
+"RIGHT_MARGIN"              = "Right";
+"TOP_MARGIN"                = "Top";
+"BOTTOM_MARGIN"             = "Bottom";
+"PAGE_MISC"                 = "Page Misc";
+"PAGE_HEADER"               = "Header";
+"PAGE_FOOTER"               = "Footer";
+"USER_STYLESHEET"           = "User Stylesheet";
+"SELECT_USER_STYLESHEET"    = "Select User Stylesheet";
+"USER_STYLESHEET_HINT"      = "Copy Stylesheet File (.css):\n- via iTunes File Sharing into KyBook Documents.\n- via Files into App/Styles Folder.";
+"PASS_BOOK_STYLES"          = "Ignore Book Styles";
+"SOLE_BOOK"                 = "Only for this book";
+"SOLE_BOOK_TITLE"           = "The scope of settings";
+"SOLE_BOOK_HINT"            = "By default the settings apply to all books of the same format";
+"RENDER_TABLE"              = "The method of a table's rendering";
+"AS_IMAGE"                  = "As Image";
+"AS_TEXT"                   = "As Text";
+
+
+/* BOOKREADER PDF/DJVU SETTINGS */
+
+"DOCUMENT"                  = "Document";
+"FIT_MODE"                  = "Fit Mode";
+"FIT_TEXT"                  = "Text";
+"FIT_WIDTH"                 = "Width";
+"FIT_PAGE"                  = "Page";
+"HIGHLIGHT_LINKS"           = "Highlight Links";
+"HIGH_QUALITY"              = "High Quality";
+"RENDER_ALL"                = "Render All";
+"RENDER_PROGRESSIVE"        = "Progressive";
+"RENDER_FAST_ZOOM"          = "Quick zoom";
+"RENDER"                    = "Render";
+
+/* BOOKREADER COMICS SETTINGS */
+
+"COMICS_SETTINGS"           = "Comics Settings";
+"ADAPTIVE"                  = "Adaptive";
+
+
+/* BOOKREADER AUDIO SETTINGS */
+
+"AUDIO_SETTINGS"            = "Audio Settings";
+"WAVEFORM"                  = "Animate sine waveform";
+"SUBTITLES"                 = "Subtitles";
+"SUBTITLES_HINT"            = "Application supports subtitles in SRT format";
+"PLAYBACK_RATE"             = "Rate";
+"PLAYLIST"                  = "Playlist";
+"PLAYLIST_HINT"             = "Automatically generate a playlist from audio files in a folder";
+
+
+/* COMMON SETTINGS */
+
+"SETTINGS"              = "Settings";
+"MORE_SETTINGS"         = "More Settings";
+"MISC_CONF"             = "Misc";
+"ADVANCED"              = "Advanced";
+
+/* CACHING SETTINGS */
+
+"CACHING_CONF"          = "Caching";
+"INTERNET_IMAGES"       = "Internet Images";
+"CLEAR_CACHE"           = "Clear cache";
+"MAXSIZE_MB"            = "Maximum Size (MB)";
+"FILESIZE_MB"           = "File Size (MB)";
+"LIFETIME_DAYS"         = "Lifetime (Days)";
+
+
+/* DATABASE SETTINGS */
+
+"DATABASE_CONF"         = "Database";
+"RESET_DB"              = "Reset Database";
+"CONFIRM_RESET_DB"      = "Are you sure?\nAll content in the database will be deleted!\nEnter 'Reset' to confirm.";
+"DATABASE_TIMESTAMP"    = "Timestamp";
+"BACKUP_DB"             = "Backup Database";
+"BACKUP_DB_MESSAGE"     = "Save a backup copy of the database to Files/App/Backups folder?";
+"NO_BACKUPS"            = "No backups";
+"RESTORE_DB"            = "Restore Database";
+"RESTORE_DB_MESSAGE"    = "Are you sure?\nAll content in the database will be replaced from a backup!";
+"WIPE_DB_TITLE"         = "Database";
+"WIPE_DB_MESSAGE"       = "Attention please! The application's database has been reseted. It's not an error.";
+"AUTO_ADD_BOOKRECORD"   = "Automatically add a record into the database for files";
+"AUTO_ADD_BOOKRECORD_DOWNLOAD" = "downloaded from Internet";
+"AUTO_ADD_BOOKRECORD_DOCUMENTS" = "obtained by iTunes";
+
+
+/* SYNC SETTINGS */
+
+"SYNC_CONF"                 = "Synchronization";
+"ICLOUD_SYNC"               = "iCloud Synchronization";
+"ICLOUD_SYNC_HINT"          = "Synchronize the metadata of books (a reading position, bookmarks, notes, etc.) via iCloud";
+"SYNC_TIMESTAMP"            = "Last Sync";
+"CLOUD_LIFE_REFRESH"        = "Refresh the open book";
+"CLOUD_LIFE_REFRESH_HINT"   = "Update a reading position, bookmarks and notes in an open book when receiving the push notification about changes on an other device";
+"CLOUD_SYNC_APPDIR"         = "Files/App folder";
+"CLOUD_SYNC_APPDIR_HINT"    = "Synchronize the files added by user into Files/App folder (fonts, styles, images, summaries)";
+"SIGN_IN_ICLOUD_TITLE"      = "Sign in to iCloud";
+"SIGN_IN_ICLOUD_MESSAGE"    = "Sign in to your iCloud account. On the Home screen, launch Settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.";
+"NO_ICLOUD_MESSAGE"         = "Please, sign in to your iCloud account for using Society";
+"ICLOUD_RESOLVING_MESSAGE"  = "Checking a status of iCloud account..";
+"ICLOUD_DISABLED_MESSAGE"   = "iCloud was disabled, please check your settings for using Society";
+"SYNC_METADATA_IN"          = "Synchronize metadata for books";
+"SYNC_METADATA_IN_HINT"     = "";
+"IN_DEVICE"                 = "On the device";
+"IN_CLOUD"                  = "In iCloud";
+"IN_LOCALNET"               = "In Local Network";
+"IN_INTERNET"               = "In Cloud Storage";
+"CLOUD_SYNC_PUSH_NOTIFICATION_ALERT" = "Please allow the application to send you notifications for stable synchronization >>";
+
+
+/* i18 SETTINGS */
+
+"INTERNATIONALIZATION"  = "Internationalization";
+"ADD_LANG_DIRECTION"    = "Add Direction";
+"TRANSLATION_SERVICE"   = "Translation Service";
+"TRANSLATION_DIRECTION" = "Direction of translation";
+"AUTO_DETECT_LANG"      = "Auto Detect Language";
+"LANGUAGE_PAIR"         = "Language Pair";
+
+
+/* BOOKREADER SETTINGS */
+
+"BOOK_READER"               = "While reading";
+"LOCK_ROTATION"             = "Lock Rotation";
+"LOCK_ROTATION_HINT"        = "Do not change the device orientation as long as the book is openned";
+"LOCK_ROTATION_HINT_WARN"   = "Do not change the device orientation as long as the book is openned.\nLock rotation is not supported for iPad Air 2 and iPad Mini 2 with iOS 9!";
+"AUTO_FULLSCREEN"           = "Full Screen - Auto";
+"AUTO_FULLSCREEN_HINT"      = "Automatically switch to full-screen mode after the opening of the book";
+"IDLE_TIMER_OFF"            = "Idle timer is off";
+"IDLE_TIMER_OFF_HINT"       = "As long as the book is open, the screen remains switched on";
+"SCALE_TEXT_VIA_PINCH_HINT" = "Pinch to resize text for EPUB, MOBI, FB2 in the page turn mode: Curl.";
+"SCALE_TEXT_VIA_PINCH"      = "Pinch to resize text";
+"BOOK_EDGE_PAN_GESTURE"     = "Swipe gesture on an edge of the screen";
+"BOOK_EDGE_PAN_GESTURE_HINT" = "Use a swipe gesture on an edge of the screen to open the left side menu in the page curl mode and the right menu in all modes. To perform this setting, should to close a book.";
+"BOOK_NAV_PANELS"           = "Navigation Panels";
+"BOOK_HEADER"               = "Header/Footer";
+"BOOK_HEADER_LUMA"          = "Text Brightness";
+"BOOK_FOOTER"               = "Footer";
+"PAGES_LEFT"                = "Pages left in a chapter";
+"PAGES_LEFT_HINT"           = "Only applicable for EPUB, MOBI, FB2.";
+
+
+/* BOOKREADER RAPID SELECTION SETTINGS */
+
+"RAPID_SELECTION"           = "Fast Selection";
+"RAPID_MENU"                = "Fast Menu Item";
+"RAPID_SELECTION_HINT"      = "The fast selection, without lifting a finger from the screen.";
+"RAPID_MENU_HINT"           = "The menu item, which will be executed after a fast selection, without the popup menu.";
+
+
+/* BOOKREADER TAP SETTINGS */
+
+"BOOK_TAP_INTERACT"         = "Interaction method";
+"BOOK_TAP_INTERACT_TITLE"   = "An interaction with the links and other interactive elements in a book";
+"BOOK_TAP_INTERACT_HINT"    = "This setting is only applicable for EPUB,FB2,MOBI,KB. To perform this setting, should to close a book.";
+"TAP_GESTURE"               = "Tap";
+"LONG_PRESS_GESTURE"        = "Long Press";
+"TAP_LONG_PRESS_GESTURE"    = "Tap, Long Press";
+
+
+/* MISC SETTINGS */
+
+"COMPATIBILITY"             = "Compatibility";
+"NORMALIZED_AUTHOR"         = "Normalized form of author's title";
+"SHOW_SIZE_OF_BATCH"        = "Show size of category";
+"HIDE_EMPTY_BACTH"          = "Hide empty categories";
+"BOOKCARD_WORD_COUNT"       = "Word count";
+"RESTORE_AT_LAUNCH"         = "Restore state at startup";
+"HELP_SHOW_TIPS"            = "Show Tips";
+"ITUNES_FILE_SHARING"       = "iTunes File Sharing";
+"WATCH_DOCUMENTS_FOLDER"    = "Observe KyBook Documents";
+"WATCH_DOCUMENTS_FOLDER_HINT" = "Watch for new files in KyBook Documents folder when your device is connected to a computer via USB";
+"FILES_SHOW_SIBLINGS"       = "Sibling folders";
+"FILES_GROUP_BOOKS"         = "Grouping by books";
+"FILES_CONF_HINT"           = "Sibling folders - a side panel for subfolders in a landscape orientation.\nGrouping by books - an additional grouping mode by the attributes of a book.";
+"FILES_GROUPING_HINT"       = "Groupings by author/series are only suitable for the showing modes other than 'Files'";
+
+
+/* BOOKCARD ANIMATION SETTINGS */
+
+"BOOKCARD_ANIMATION"    = "Animation";
+"SIMPLE_ANIMATION"      = "Simple";
+"FLIP_ANIMATION"        = "Flip";
+"ZOOM_ANIMATION"        = "Zoom";
+"PUSH_ANIMATION"        = "Push";
+
+
+/* MENU SETTINGS */
+
+"MENU_CONF"             = "Menu";
+"MENU_ITEMS"            = "Menu Items";
+"SYSTEM_POPUP_MENU"     = "System Menu";
+
+
+/* NETWORK SETTINGS */
+
+"NETWORK_CONF"          = "Network";
+"OPEN_URL"              = "Open URL";
+"SAFARI"                = "Safari";
+"STREAMING"             = "Streaming";
+"AUDIO_STREAMING"       = "Audio Streaming";
+"DOWNLOAD_BOOKS"        = "Books downloading";
+"SELECT_DOWNLOAD_FORMAT" = "Always opt for File Format";
+"PROXY_SERVER"          = "Proxy server";
+"SELECT_PROXY"          = "Select proxy";
+"PROXY_LIST"            = "Proxies list";
+"DIRECT_CONNECT"        = "Directly";
+"OPDS_CATALOG_SESSION_TITLE" = "The connection method to a catalog server";
+"OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server -> OPDS catalog";
+
+
+/* TOR SETTINGS */
+
+"TOR_NETWORK"           = "Tor network";
+"TOR_NETWORK_ALERT"     = "";
+"TOR_BOOTSTRAP_ALERT"   = "Bootstrapping of Tor network may take a long time. Please wait.";
+"TOR_NETWORK_HINT"      = "KyBook will automatically join to the Tor network and tunnels traffic for .onion OPDS catalogs and websites.\n\nWeb browsing and downloading through the Tor network will be significantly slower than through a non-tunneled connection.\n\nPlease note that KyBook is not intended for web surfing anonymously! Tor KyBook only solves the problem of network reachability.\n\nThis product uses the Tor distributed networks is produced independently from the Tor anonymity software and carries no guarantee from The Tor Project about quality, suitability or anything else.";
+"TOR_BRIDGES"           = "Bridges";
+"TOR_ADD_BRIDGE"        = "Add a bridge";
+"TOR_BRIDGES_HINT"      = "Bridges are Tor relays that help you circumvent censorship. More info at bridges.torproject.org";
+
+
+/* TTS SETTINGS */
+
+"TTS_TITLE"             = "Speech Synthesis";
+"TTS_CONF"              = "Speech Synthesis";
+"TTS_PITCH"             = "Pitch";
+"TTS_RATE"              = "Rate";
+"TTS_VOICES"            = "Voices";
+
+
+/* APP THEME SETTINGS */
+
+"APP_THEME"             = "App Theme";
+"THEME_EDIT"            = "Theme";
+"THEME_NAME_PROMT"      = "Theme Name";
+"THEME_COLOR"           = "Primary";
+"THEME_CONTRAST"        = "Contrast";
+"THEME_DIVIDER"         = "Separator";
+"THEME_ACCENT"          = "Accent";
+"THEME_TEXT"            = "Text";
+"THEME_SECOND_TEXT"     = "Secondary Text";
+"THEME_SECOND_BACK"     = "Secondary Background";
+"THEME_BACKGROUND"      = "Background";
+"THEME_CONTROL"         = "Controls";
+"THEME_SELECTION"       = "Selection";
+"THEME_PATTERN"         = "Pattern";
+"THEME_RETINA"          = "Retina";
+"THEME_GRADIENT"        = "Gradient";
+
+
+/* VOCABULARY SETTINGS */
+
+"DICTIONARY"            = "Dictionary";
+"DICT_LEMMA"            = "Lemma";
+"DICT_LEMMA_HINT"       = "Lookup by a canonical form of a word (Lemma).";
+"USER_DICTIONARIES"     = "User's dictionaries";
+"ENTER_WORD"            = "Enter a word";
+"LOADING_VOCABULARY_FMT"= "Loading '%@'";
+"SEARCH_VOCABULARY_FMT" = "Search in '%@'";
+"RECORD_COUNT"          = "Number of records";
+"NO_LANGUAGE"           = "Language is not specified";
+"VOCABULARY_FORMAT"     = "Dictionary format";
+"DICTIONARIES"          = "Dictionaries";
+"DICTIONARIES_HINT"     = "Select the free dictionary to download and install";
+"INSTALLED_DICTIONARIES" = "Installed dictionaries";
+"ACTION_DICTIONARY"     = "Add dictionary";
+"DOWNLOAD_DICTIONARY"   = "Download from the Internet";
+"INSTALL_DICTIONARY"    = "Install from the Files";
+"INSTALL_DICTIONARY_HINT" = "Supported format of dictionaries - StarDict, Lingvo DSL. Zipped (.zip, .rar, .tar, .tbz, .tgz) and plain (.dsl) files.";
+"INSTALLED_DICTIONARY_HINT" = "You can change the dictionaries order, temporarily disable or completely remove an dictionary.";
+"DICTIONARY_HINT"       = "For searching in a dictionary, select a word in a book and then tap 'Define' in the context menu.";
+
+
+/* TRANSLATION SETTIGNS */
+
+"TRANSLATION_CONF" = "Translation";
+
+
+/* SOUND SETTINGS */
+
+"SOUNDS"        = "Sounds";
+"EVENTS"        = "Events";
+"PAGE_CURL"     = "Page Curl";
+
+
+/* SEARCH SETTINGS */
+
+"SEARCH_SETTINGS"       = "Search Settings";
+"SEARCH_INTERNET"       = "Search Internet";
+"SEARCH_PAID"           = "Search Paid Books";
+"LANGUAGE_FILTER"       = "Filter By Language";
+"LANGUAGE_FILTER_HINT"  = "Language codes, separated by commas";
+
+
+/* SIDEBAR SETTINGS */
+
+"SIDEBAR"               = "Sidebar";
+"SIDEBAR_SOLID"         = "Solid";
+"SIDEBAR_GRADIENT"      = "Gradient";
+"SIDEBAR_PATTERN"       = "Pattern";
+"SIDEBAR_ABSTRACT"      = "Abstract";
+
+
+/* LAUNCH SETTINGS */
+
+"LAUNCH"                = "Launch";
+"LAUNCH_FAILURE_ALERT"  = "Failed to launch the command";
+"LAUNCH_NONE_ALERT"     = "No valid commands";
+"LAUNCH_EDIT"           = "Edit Launch";
+"LAUNCH_COMMAND"        = "Command";
+"LAUNCH_COMMANDS"       = "Commands";
+"RESET_COMMANDS_Q"      = "Reset commands?";
+
+
+/* BOOKSHELF SETTINGS */
+
+"BOOKSHEL_CONF"     = "Bookshelf Config";
+"REVERSE_SORT"      = "Reverse Sort";
+"COLORED_CARD"      = "Colored Card";
+"SHELVES_COVER"     = "Shelves For Covers";
+
+
+/* COLOR PALETTE */
+
+"COLORS"                = "Palette";
+"SWITCH_PALLETE"        = "Switch the palette";
+"System Colors"         = "System Colors";
+"iOS7 Colors"           = "iOS7 Colors";
+"Cool Colors"           = "Cool Colors";
+"Flat Colors"           = "Flat Colors";
+"HTML Colors"           = "HTML Colors";
+"X11 Colors"            = "X11 Colors";
+
+
+/* SHARE */
+
+"SHARE_CONF"            = "Share";
+"SHARE_BOOK_TEMPLATE"   = "Template Message in case of the Book";
+"SHARE_TEXT_TEMPLATE"   = "Template Message in case of the Text";
+"SHARE_ATTACHMENTS"     = "Attachments";
+"READ_IN_KYBOOK"        = "Read in #KyBook";
+"OPEN_IN"               = "Open in ...";
+"OPEN_IN_SAFARI"        = "Open In Safari";
+"OPEN_IN_FAIL_TITLE"    = "No suitable Apps installed";
+"OPEN_IN_FAIL_MESSAGE"  = "Your device doesn't seem to have any other Apps installed that can open this file.";
+"SAVE_AS_PDF"           = "Save as PDF";
+
+
+/* SOCIETY */
+
+"SOCIETY"               = "Society";
+"ADMIN"                 = "Admin";
+"MODERATOR"             = "Moderator";
+"ADMAN"                 = "Adman";
+"BANNED"                = "Banned";
+"ANONYMOUS"             = "Anonymous";
+"REVIEW_TITLE"          = "Review";
+"YOUR_REVIEW"           = "Your Review";
+"ADD_REVIEW"            = "Add Review";
+"DIGEST"                = "Digest";
+"ADD_REPLY"             = "Add Reply";
+"POST_TITLE"            = "Post";
+"REPLY_TITLE"           = "Reply";
+"EDIT_POST"             = "Edit Post";
+"ADD_POST"              = "Add Post";
+"POSTS"                 = "Posts";
+"MY"                    = "My";
+"ME"                    = "Me";
+"SOCIETY_CONF"          = "Society";
+"REGION"                = "Region";
+"RUSSIA"                = "Russia";
+"CLOUD_ENABLED"         = "Use iCloud";
+"CLOUD_DB"              = "In Cloud";
+
+
+/* IAP AD */
+
+"IAP_TITLE"             = "In-App Purchases";
+"IAP_RESTORED"          = "Purchase restored";
+"IAP_COMPLETED"         = "Purchase completed. Thank you very much";
+"IAP_FAILED"            = "Purchase failed";
+"IAP_UNABLE"            = "Sorry, unable to make a purchase";
+"IAP_RESTORE"           = "Restore purchases";
+"IAP_RESTORE_HINT"      = "If you have already purchased an in-app purchase before, please tap on 'Restore Purchases' button";
+"IAP_BETATEST"          = "The in-app purchases, acquired in the beta version, become void!";
+"IAP_UNABLE_COMPLETE"   = "Unable to complete the purchase";
+"IAP_UNKNOWN_PID_FMT"   = "Unknown identifier: %@";
+"BIZ_BUY_TITLE"         = "Buy Now";
+"BIZ_BUY_PRO_SALE_TITLE" = "Buy (discount)";
+"BIZ_UPGRADE_PRO"       = "Upgrade to Pro";
+"BIZ_PURCHASE_PRO"      = "For upgrade to Pro, please pay the in-app purchase and all features of the application will become available. Upgrade to Pro additionally removes all advertising.";
+"BIZ_INFORM_PRO"        = "KyBook provides Pro features for free during a trial period. To continue use the Pro features after the trial period, please upgrade KyBook to Pro.";
+"BIZ_PURCHASE_PROMISE"  = "Sure, I'll buy later";
+"BIZ_PRO_TRIAL_LEFT_FMT" = "Free Pro - %@";
+"BIZ_PRO_TERM_LEFT_FMT" = "Paid Pro - %@";
+"BIZ_REQUIRE_PRO"       = "Requires upgrade to Pro!";
+"BIZ_PRO"               = "Pro";
+"BLANK_AD_BANNER"       = "Disable ads!";
+
+
+/* TIPS */
+
+"BOOK_TIP_FULLSCREEN"   = "Exit a full-screen mode\nTap at the center of the screen";
+"BOOK_TIP_SIDEBAR"      = "Open a sidebar menu\nSwipe from the edge";
+"BOOK_TIP_BOOKMARK"     = "Add a bookmark";
+"BOOK_TIP_SETTINGS"     = "Settings";
+"BOOK_TIP_MORE"         = "Table of Content, Bookmarks";
+"BOOK_TIP_MENU"         = "Advanced features: speech synthesis, speed reading";
+
+
+/* IMAGE SELECT */
+
+"IMAGE_SELECT_IMAGES"   = "IMAGES";
+"IMAGE_SELECT_PHOTOS"   = "PHOTOS";
+"IMAGE_SELECT_GOOGLE"   = "GOOGLE";
+"IMAGE_SELECT_FLICKR"   = "FLICKR";
+
+
+/* BOOKS SCANNER */
+
+"SCAN_TITLE"            = "Add Books";
+"SCAN_STORAGE"          = "Select Storage";
+"SCAN_PROCESSING"       = "Processing..";
+"SCAN_START_HINT"       = "Select a storage to scan";
+"SCAN_PROGRESS_FMT"     = "Total: %u, New: %u/%u";
+
+
+/* RAPID READ */
+
+"RAPID_READ_WMP_FMT"    = "%u words per minute";
+"RAPID_READ_TIME_LEFT"  = "left";
+"RAPID_READ_WORDS"      = "words";
+
+
+/* SUMMARY */
+
+"SUMMARY"               = "Summary";
+"SUMMARIES"             = "Summaries";
+"SUMMARY_CONF"          = "Summary Settings";
+"SUMMARY_STYLES"        = "Styles";
+"SUMMARY_TYPING"        = "When typing";
+"SUMMARY_QUOTE"         = "Сitation";
+"SUMMARY_QUOTE_LINK"    = "Insert Link";
+"TYPING_ASSISTANCE"     = "Assistance during typing";
+"SPELL_CHECKING"        = "Spell Checking";
+"DETECT_LINKS"          = "Detect links";
+"SUMMARY_STYLE"         = "Style";
+"READONLY"              = "Readonly";
+"SUMMARIES_SIMPLE"      = "Simple";
+"SUMMARIES_FOCUSED"     = "Focused";
+"SUMMARIES_SOLID"       = "Solid";
+"SUMMARIES_BLUR"        = "Blurred";
+"SUMMARIES_COVER"       = "Cover";
+"AUTO_SUMMARY"          = "Auto Summarizer";
+"RUN_SUMMARIZER"        = "Run";
+
+
+/* LANGUAGE SELECT */
+
+"LANGUAGES"             = "Languages";
+"ENTER_LANGUAGE"        = "Enter Language";
+
+
+/* FILES SYNCHRONIZER */
+
+"SYNCHRONIZER"          = "Synchro";
+"SYNC_NOW"              = "Sync Now";
+"SYNC_DATE"             = "Synchronization Date";
+"PLEASE_SELECT_FOLDERS" = "Please, select the folders";
+"SYNC_COLLECTING"       = "Collecting";
+"SYNC_ANALYZING"        = "Analyzing";
+"SYNC_EXECUTING"        = "Executing";
+"SYNC_TASKS_FMT"        = "Tasks: %zd";     // Tasks: 5
+"SYNCER_FOOTER_NOTICE"  = "Warning! Implementation of the synchronization function for the folders is still not completed and does not fully tested. Use it at your own risk.";
+
+
+/* BOOK MAKER */
+
+"TITLE_PAGE"    = "Title Page";
+"MAKE_AUDIOBOOK"    = "Make Audiobook";
+
+/* BOOKS CATEGORIES */
+
+"NEW"               = "New";
+"RECENT"            = "Recent";
+"TOP_RATED"         = "Top Rated";
+"ALL_BOOKS"         = "All Books";
+"FREE_BOOKS"        = "Free Books";
+"AUDIOBOOKS"        = "Audio Books";
+"HOT"               = "Hot";
+"POPULAR"           = "Popular";
+"BESTSELLERS"       = "Bestsellers";
+"MY_BOOKS"          = "My Books";
+
+/* HOME CONTROLLER */
+
+"TAP_TO_CONTINUE_READ" = "Tap to continue reading";
+
+/* SSL */
+
+"SSL_WHITELIST"         = "Whitelist";
+"SSL_WARNING_TITLE"     = "SSL Warning";
+"SSL_WARNING_MESSAGE"   = "Either the SSL certificate is self-signed or the certificate was signed by an untrusted authority.";
+
+/* ARCHIVE */
+
+"EMPTY_ARCHIVE" = "Empty Archive";
+"UNARCHIVE"     = "Unarchive";
+"UNARCHIVE?"    = "Unarchive?";
+
+/* FAVORITES */
+
+"FAVORITES"         = "Favorites";
+"ADD_FAVORITE"      = "Add to Favorite";
+"EMPTY_FAVORITES"   = "No saved favorites";
+"GROUP_FAVORITES"   = "Sort Favorites";
+
+
+/* ABOUT APP */
+
+"RATE_APP"              = "Rate KyBook";
+"RATE_APPSTORE"         = "Rate on the App Store";
+"RATE_TWITTER"          = "Tweet on Twitter";
+"RATE_VKONTAKTE"        = "Post to VK.com";
+"RATE_FACEBOOK"         = "Post to Facebook";
+"RATE_TEXT_TEMPLATE"    = "KyBook 2 - The best way to read your book ever!";
+"SEND_FEEDBACK"         = "Send Feedback";
+"SHAKE_FOR_FEEDBACK"    = "Shake For Feedback";
+"HELP"                  = "Help";
+"HELP_FAQ"              = "FAQ";
+"HELP_DISCUSS"          = "Discuss";
+"ABOUT_APP"             = "About";
+"APP_VERSION"           = "Version";
+"SOCIAL_MEDIA"          = "Social Media";
+"FOLLOW_TWITTER"        = "Follow @KyBook_App";
+"FOLLOW_VKONTAKTE"      = "KyBook VKontakte";
+"COPYRIGHT_NAME"        = "Konstantin Bukreev";
+
+
+/* RATE APP */
+
+"RATEAPP_TITLE_FMT"     = "Would you mind rating %@?";
+"RATEAPP_ASK_FMT"       = "Enjoying %@?";
+"RATEAPP_RATE"          = "How about a rating on the App Store, then?";
+"RATEAPP_FEEDBACK"      = "Would you mind giving us some feedback?";
+"RATEAPP_AGREE"         = "Sure, I'll rate";
+"RATEAPP_YES"           = "Yes!";
+"RATEAPP_NO"            = "Not really";
+"RATEAPP_OK"            = "Ok, sure";
+"RATEAPP_CANCEL"        = "No, thanks";
+
+/* AUTH */
+
+"AUTH"              = "Authentication";
+"AUTH_SUCCESS"      = "Authentication is successful";
+"AUTHENTICATED"     = "Authenticated";
+
+
+/* ??? */
+
+"PACKAGE"           = "Package";
+"VIRTUAL"           = "Virtual";
+
+/* ERRORS */
+
+"Error"                     = "Error";
+
+"UNKNOWN_FAILURE"           = "Unknown Failure";
+
+"NETWORK_FAILURE"           = "Network Error";
+"FILE_IO_ERROR"             = "File System Error";
+"OUT_OF_MEMORY"             = "Out of memory";
+
+"NO_NETWORK_CONNECTION"     = "No network connection";
+"NOT_RESPONDING"            = "Not Responding";
+"EMPTY_RESPONSE"            = "Empty Response";
+"BAD_RESPONSE"              = "Invalid Response";
+
+"NOT_FOUND"                 = "Not Found";
+
+"AUTH_REQUIRED"             = "Authentication Required";
+"UNAUTHORIZED"              = "Unauthorized";
+"ACCESS_DENIED"             = "Access Denied";
+
+"FAILURE_RESPONSE"          = "Reported about an error";
+"SERVER_ERROR"              = "Server reported an error";
+"FATAL_ERROR"               = "Oops, something went wrong!";
+"INTERNAL_ERROR"            = "Internal Error";
+
+"BAD_NAME"                  = "Invalid Name";
+"BAD_PATH"                  = "Invalid Path";
+"BAD_ZIPFILE"               = "Unable unzip a file";
+"BAD_EPUB"                  = "Invalid EPub file";
+
+"DAILY_LIMIT"               = "Daily limit is exceeded";
+"TEXT_TOO_LONG"             = "The text size exceeds the maximum";
+
+"BAD_LANGUAGE_CODE"         = "Wrong Language Code";
+"BAD_LANG_TARGET"           = "The target language is missing or an invalid";
+"BAD_LANG_DIRECTION"        = "The specified translation direction is not supported";
+"BAD_LANG_TEXT"             = "The text could not be translated";
+
+"ICLOUD_NOT_CONNECTED"      = "iCloud is not connected";
+
+"DUPLICATE_STORAGE"         = "Duplicate Storage";
+"DUPLICATE_LIBRARY"         = "Duplicate Library";
+"YANDEX_NOT_LINKED"         = "Yandex Disk is not linked";
+
+"ERROR_401_STORAGE_TITLE"   = "Unauthorized";
+"ERROR_401_STORAGE_MESSAGE" = "It seems the previous authentication has become invalid. Please reconnect %@ again";
+
+"STORAGE_NOT_LINKED"        = "Cloud Storage is not linked";
+"STORAGE_ENDPOINT_ERR"      = "Reported about an error";
+
+"SPEECH_SYNTHESIZER_ERROR"          = "No Speech Synthesizer";
+"SPEECH_SYNTHESIZER_VOICE_ERROR"    = "Unable find a proper voice for speech synthesis";
+
+"FAIL_SENDMAIL_TITLE"       = "Unable to send email";
+"FAIL_SENDMAIL_MESSAGE"     = "Please configure your email account";
+
+"SIGN_IN_FAILURE"           = "Authorization Failure";
+"SING_UP_FAILURE"           = "Registration Failure";
+"PASS_RECOVER_FAILURE"      = "Password Recovery Failure";
+
+"ALREADY_EXISTS"            = "Already Exists";
+"USERNAME_ALREADY_EXISTS"   = "This username already exists";
+"USERNAME_NOT_AVAILABLE"    = "This username is not available";
+
+"UNABLE_OPENBOOK"           = "Unable to open the book";
+"DRM_PROTECTION_FAILURE"    = "Failed to open the book due to DRM protection";
+"BAD_FILE_FORMAT"           = "Invalid file format";
+
+"NOT_IMPLEMENTED"           = "Not implemented";
+"UNSUPPORTED"               = "This feature is unsupported";
+"UNSUPPORTED_FILE_FORMAT"   = "File format is not supported";
+"UNSUPPORTED_VERSION"       = "Unsupported vesion";
+"UNSUPPORTED_ACTION_STORAGE"= "Unable to perform";
+"COPY_SMB_NOT_IMPLEMENTED"  = "The copy operation is not impemented for SMB/CIFS";
+
+"ALERT_BAD_LAYOUT"          = "It seems the layout become void and the KyBook could not handle it! Please close the book and next clean the Books Cache in the App Settings!";
+
+
+/* SMB ERRORS */
+
+"UNABLE_RESOLVE"            = "Unable resolve the hostname/address";
+"UNABLE_CONNECT"            = "Unable connect to a network computer";
+"BAD_SHARE"                 = "Invalid Sharepoint";
+"FILE_IS_DIRECTORY"         = "File is a directory";
+"FILE_ALREADY_EXISTS"       = "File already exists";
+
+/* WEBDAV ERRORS */
+
+"Server returns a wrong WebDav response" = "Server returns a wrong WebDav response";
+
+
+/* VENDORS */
+
+// texted
+"Open Link"     = "Open Link";
+"Edit Link"     = "Edit Link";
+"Insert Link"   = "Insert Link";
+"Title"         = "Title";
+"Done"          = "Done";
+"Cancel"        = "Cancel";
+
+
+/* OBSOLETE (NOT USED NOW)
+
+"NAME_HINT"         = "name";
+"PATH_HINT"         = "path";
+"RECOMMENDED_TITLE" = "Recommended";
+"MAIN_TITLE"        = "Main";
+"IMPORT_METADATA_V1" = "Import Metadata v1";
+"REMOVEADS"         = "Remove Ads";
+"NO_IMAGES"         = "No Images";
+"GENERAL"           = "General";
+"DETACH"            = "Detach";
+"SMB"               = "SMB/CIFS";
+"SET_COVER"         = "Set Cover";
+"PAGE"              = "Page";
+"GENERAL_CONF"      = "General";
+"ADD_DEVICE_FOLDER" = "Add Folder";
+"CUSTOM_URL_SCHEME" = "Customize URL scheme";
+*/
+
+/* DROPBOX OBSOLETE
+
+"DROPBOX_NOT_LINKED"    = "Dropbox is not linked";
+"DROPBOX_ENDED"         = "Dropbox Session Ended";
+"DROPBOX_ASK_RELINK"    = "Do you want to relink?";
+*/

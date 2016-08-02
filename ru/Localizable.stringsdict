@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.stringsdict.plist
+   rocket
+
+   Created by Kolyvan on 16.11.15.
+   Copyright (c) 2015 Kolyvan. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>%d words</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@words@</string>
+            <key>words</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>нет слов</string>
+                <key>one</key>
+                <string>%d слово</string>
+                <key>few</key>
+                <string>%d слова</string>
+                <key>other</key>
+                <string>%d слов</string>
+            </dict>
+        </dict>
+        <key>%d records</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@records@</string>
+            <key>records</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>нет записей</string>
+                <key>one</key>
+                <string>%d запись</string>
+                <key>few</key>
+                <string>%d записи</string>
+                <key>other</key>
+                <string>%d записей</string>
+            </dict>
+        </dict>
+        <key>%d files</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@files@</string>
+            <key>files</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>нет файлов</string>
+                <key>one</key>
+                <string>%d файл</string>
+                <key>few</key>
+                <string>%d файла</string>
+                <key>other</key>
+                <string>%d файлов</string>
+            </dict>
+        </dict>
+        <key>%d pages</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@pages@</string>
+            <key>pages</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>ноль страниц</string>
+                <key>one</key>
+                <string>%d страница</string>
+                <key>few</key>
+                <string>%d страницы</string>
+                <key>other</key>
+                <string>%d страниц</string>
+            </dict>
+        </dict>
+        <key>%d days</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@days@</string>
+            <key>days</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>ноль дней</string>
+                <key>one</key>
+                <string>%d день</string>
+                <key>few</key>
+                <string>%d дня</string>
+                <key>other</key>
+                <string>%d дней</string>
+            </dict>
+        </dict>
+        <key>%d words</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@words@</string>
+            <key>words</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>ноль слов</string>
+                <key>one</key>
+                <string>%d слово</string>
+                <key>few</key>
+                <string>%d слова</string>
+                <key>other</key>
+                <string>%d слов</string>
+            </dict>
+        </dict>
+    </dict>
+</plist>
