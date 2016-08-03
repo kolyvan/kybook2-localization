@@ -459,7 +459,7 @@
 /* BOOKREADER SEARCH PARAMS */
 
 "MATCHING_TEXTUTAL"     = "Текстовый";
-"MATCHING_REGULAR"      = "Шаблон (Regex)";
+"MATCHING_REGULAR"      = "Шаблон";
 "MATCHING_FUZZY"        = "Нечёткий";
 
 
@@ -1139,12 +1139,12 @@
 "FAIL_SENDMAIL_MESSAGE"     = "Пожалуйста, настройте учетную запись электронной почты";
 
 "SIGN_IN_FAILURE"           = "Ошибка авторизации";
-"SING_UP_FAILURE"           = "Не удалось зарегистрироватся";
+"SING_UP_FAILURE"           = "Не удалось зарегистрироваться";
 "PASS_RECOVER_FAILURE"      = "Не удалось восстановить пароль";
 
 "ALREADY_EXISTS"            = "Уже существует";
 "USERNAME_ALREADY_EXISTS"   = "Имя пользователя уже существует";
-"USERNAME_NOT_AVAILABLE"    = "Имя пользователя не доступно";
+"USERNAME_NOT_AVAILABLE"    = "Имя пользователя недоступно";
 
 "UNABLE_OPENBOOK"           = "Невозможно открыть книгу";
 "DRM_PROTECTION_FAILURE"    = "Не удалось открыть книгу из-за DRM защиты";
