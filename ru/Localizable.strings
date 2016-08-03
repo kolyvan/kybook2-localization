@@ -345,7 +345,7 @@
 "AUTHORS"       = "Авторы";
 "SUBJECT"       = "Сюжет";
 "SUBJECTS"      = "Сюжеты";
-"SEQUENCE"      = "Серии";
+"SEQUENCE"      = "Серия";
 "SEQUENCES"     = "Серии";
 "ANNOTATION"    = "Аннотация";
 "LANGUAGE"      = "Язык";
@@ -376,7 +376,7 @@
 "BOOK_READ_STATE_TITLE" = "Ваше мнение";
 "BOOK_READ_STATE_HINT" = "Впечатление о книге";
 "BOOK_READ_STATE_DONE" = "Прочитано";
-"BOOK_READ_STATE_NONE" = "Пометить, как прочитанное";
+"BOOK_READ_STATE_NONE" = "Отметить как прочитанное";
 
 
 /* BOOKCARD ACTIONS */
