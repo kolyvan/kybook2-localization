@@ -32,7 +32,7 @@
 "SEARCH"            = "Suchen";
 
 "SELECT"            = "Wählen";
-"SELECT_ALL"        = "Wählen Sie alle";
+"SELECT_ALL"        = "Alle auswählen";
 
 "RELOAD"            = "Neu laden";
 "RESTART"           = "Neustart";
@@ -41,7 +41,7 @@
 "CANCEL"            = "Abbrechen";
 "CONTINUE"          = "Forfahren";
 "RESET"             = "Zurücksetzen";
-"DONE"              = "Erledigt";
+"DONE"              = "Fertig";
 
 "SEND"              = "Senden";
 "SYNC"              = "Synchronisieren";
@@ -225,7 +225,7 @@
 "EMPTY_FOLDER"      = "Dieser Ordner ist leer";
 "FOLDER_FOOTER"     = "%@ in %d Dateien"; // 12KB in 3 files
 "DEVICE_FOLDERS"    = "Ordner";
-"ALL_DEVICE_FOLDERS"= "Ordner auf dem Gerät";
+"ALL_DEVICE_FOLDERS"= "Ordner auf dem Mobilgerät";
 "EMPTY_STORAGES"    = "Sie haben keine Speicher";
 "SUBFOLDERS_TITLE"  = "Unterordner in '%@'";         // Subfolders in 'Books/1'
 "NOSUBFOLDERS_FMT"  = "Keine Unterordner in '%@'";      // No subfolders in 'Books/1'
@@ -267,7 +267,7 @@
 /* DROPBOX */
 
 "DROPBOX_LINK_TITLE"        = "Dropbox ist nicht verbunden";
-"DROPBOX_LINK_MESSAGE"      = "Select your preferred authentication method";
+"DROPBOX_LINK_MESSAGE"      = "Wählen Sie Ihre bevorzugte Authentifizierungsmethode";
 "DROPBOX_LINK_RUN_APP"      = "Lauf Dropbox Applikation";
 "DROPBOX_LINK_OPEN_SITE"    = "Öffnen Sie www.dropbox.com";
 "DROPBOX_ADD_TITLE"         = "Hinzufügen Dropbox";
@@ -450,16 +450,16 @@
 "THUMBNAILS"            = "Thumbnails";
 "AUTOSCROLL"            = "Auto scroll";
 "DEFINE"                = "Definition";
-"RAPID_READ"            = "Speed Reading";
+"RAPID_READ"            = "Schnelllesen";
 
 "RESET_BOOK_CURSOR_TITLE" = "Die Leseposition";
-"RESET_BOOK_CURSOR_MESSAGE" = "It seems what the read position in this book was recently changed on the another your device. Would you like to go to the read position obtained from iCloud?";
+"RESET_BOOK_CURSOR_MESSAGE" = "Es scheint, was in diesem Buch die Leseposition vor kurzem auf der anderen Gerät geändert wurde. Möchten Sie die Leseposition von iCloud erhalten zu gehen?";
 
 
 /* BOOKREADER SEARCH PARAMS */
 
-"MATCHING_TEXTUTAL"     = "Textual";
-"MATCHING_REGULAR"      = "Pattern (Regex)";
+"MATCHING_TEXTUTAL"     = "Text";
+"MATCHING_REGULAR"      = "Regex";
 "MATCHING_FUZZY"        = "Fuzzy";
 
 
@@ -589,82 +589,82 @@
 
 "DATABASE_CONF"         = "Datenbank";
 "RESET_DB"              = "Reset-Datenbank";
-"CONFIRM_RESET_DB"      = "Are you sure?\nAll content in the database will be deleted!\nEnter 'Reset' to confirm.";
-"DATABASE_TIMESTAMP"    = "Timestamp";
-"BACKUP_DB"             = "Backup Database";
-"BACKUP_DB_MESSAGE"     = "Save a backup copy of the database to Files/App/Backups folder?";
-"NO_BACKUPS"            = "No backups";
-"RESTORE_DB"            = "Restore Database";
-"RESTORE_DB_MESSAGE"    = "Are you sure?\nAll content in the database will be replaced from a backup!";
-"WIPE_DB_TITLE"         = "Database";
-"WIPE_DB_MESSAGE"       = "Attention please! The application's database has been reseted. It's not an error.";
-"AUTO_ADD_BOOKRECORD"   = "Automatically add a record into the database for files";
-"AUTO_ADD_BOOKRECORD_DOWNLOAD" = "downloaded from Internet";
-"AUTO_ADD_BOOKRECORD_DOCUMENTS" = "obtained by iTunes";
+"CONFIRM_RESET_DB"      = "Bist du sicher?\nAlle Inhalte der Datenbank entfernt werden!\nGeben Sie die 'Zurücksetzen' zu bestätigen.";
+"DATABASE_TIMESTAMP"    = "Zeitstempel";
+"BACKUP_DB"             = "Backup-Datenbank";
+"BACKUP_DB_MESSAGE"     = "Speichern Sie eine Backup der Datenbank in Dateien Files/App/Backups Ordner?";
+"NO_BACKUPS"            = "Kein Backups";
+"RESTORE_DB"            = "Restore-Database";
+"RESTORE_DB_MESSAGE"    = "Bist du sicher?\nAlle Inhalte der Datenbank wird durch eine Backup ersetzt werden!";
+"WIPE_DB_TITLE"         = "Datenbank";
+"WIPE_DB_MESSAGE"       = "Achtung! Die Datenbank der Applikation wurde zurückgesetzt worden. Es ist kein Fehler.";
+"AUTO_ADD_BOOKRECORD"   = "Automatisch hinzufügen einen Datensatz in die Datenbank für Dateien";
+"AUTO_ADD_BOOKRECORD_DOWNLOAD" = "aus dem Internet geladen";
+"AUTO_ADD_BOOKRECORD_DOCUMENTS" = "von iTunes erhalten";
 
 
 /* SYNC SETTINGS */
 
 "SYNC_CONF"                 = "Synchronization";
 "ICLOUD_SYNC"               = "iCloud Synchronization";
-"ICLOUD_SYNC_HINT"          = "Synchronize the metadata of books (a reading position, bookmarks, notes, etc.) via iCloud";
-"SYNC_TIMESTAMP"            = "Last Sync";
-"CLOUD_LIFE_REFRESH"        = "Refresh the open book";
-"CLOUD_LIFE_REFRESH_HINT"   = "Update a reading position, bookmarks and notes in an open book when receiving the push notification about changes on an other device";
-"CLOUD_SYNC_APPDIR"         = "Files/App folder";
-"CLOUD_SYNC_APPDIR_HINT"    = "Synchronize the files added by user into Files/App folder (fonts, styles, images, summaries)";
-"SIGN_IN_ICLOUD_TITLE"      = "Sign in to iCloud";
+"ICLOUD_SYNC_HINT"          = "Synchronisieren Sie die Metadaten der Bücher (eine Leseposition, Lesezeichen, Notizen, etc.) via iCloud";
+"SYNC_TIMESTAMP"            = "Letzter Sync";
+"CLOUD_LIFE_REFRESH"        = "Aktualisieren Sie die offenen Buch";
+"CLOUD_LIFE_REFRESH_HINT"   = "Aktualisieren einer Leseposition, Lesezeichen und Notizen in einem offenen Buch beim Empfang von Push-Benachrichtigung über Änderungen an einem anderen Mobilgerät";
+"CLOUD_SYNC_APPDIR"         = "Files/App Ordner";
+"CLOUD_SYNC_APPDIR_HINT"    = "Synchronisieren Sie die hinzugefügten Dateien durch Benutzer in Files/App Ordner (Schriften, Stile, Bilder, Konspekt)";
+"SIGN_IN_ICLOUD_TITLE"      = "Einloggen in iCloud";
 "SIGN_IN_ICLOUD_MESSAGE"    = "Sign in to your iCloud account. On the Home screen, launch Settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.";
-"NO_ICLOUD_MESSAGE"         = "Please, sign in to your iCloud account for using Society";
-"ICLOUD_RESOLVING_MESSAGE"  = "Checking a status of iCloud account..";
-"ICLOUD_DISABLED_MESSAGE"   = "iCloud was disabled, please check your settings for using Society";
-"SYNC_METADATA_IN"          = "Synchronize metadata for books";
+"NO_ICLOUD_MESSAGE"         = "Bitte einloggen, um Ihre iCloud-Account für die Verein mit";
+"ICLOUD_RESOLVING_MESSAGE"  = "Überprüfen eines Status von iCloud-Account..";
+"ICLOUD_DISABLED_MESSAGE"   = "iCloud war deaktiviert, Bitte überprüfen Sie die Einstellungen für die Verein mit";
+"SYNC_METADATA_IN"          = "Synchronisieren von Metadaten für Bücher";
 "SYNC_METADATA_IN_HINT"     = "";
-"IN_DEVICE"                 = "On the device";
+"IN_DEVICE"                 = "Auf dem Mobilgerät";
 "IN_CLOUD"                  = "In iCloud";
-"IN_LOCALNET"               = "In Local Network";
+"IN_LOCALNET"               = "In lokalen Netzwerk";
 "IN_INTERNET"               = "In Cloud Storage";
-"CLOUD_SYNC_PUSH_NOTIFICATION_ALERT" = "Please allow the application to send you notifications for stable synchronization >>";
+"CLOUD_SYNC_PUSH_NOTIFICATION_ALERT" = "Bitte erlauben Sie die Applikation, die Sie Benachrichtigungen für eine stabile Synchronisation senden >>";
 
 
 /* i18 SETTINGS */
 
-"INTERNATIONALIZATION"  = "Internationalization";
-"ADD_LANG_DIRECTION"    = "Add Direction";
-"TRANSLATION_SERVICE"   = "Translation Service";
-"TRANSLATION_DIRECTION" = "Direction of translation";
-"AUTO_DETECT_LANG"      = "Auto Detect Language";
-"LANGUAGE_PAIR"         = "Language Pair";
+"INTERNATIONALIZATION"  = "Internationalisierung";
+"ADD_LANG_DIRECTION"    = "Hinzufügen Übersetzungsrichtung";
+"TRANSLATION_SERVICE"   = "Übersetzungsdienst";
+"TRANSLATION_DIRECTION" = "Übersetzungsrichtung ";
+"AUTO_DETECT_LANG"      = "Autodetect Sprache";
+"LANGUAGE_PAIR"         = "Sprachpaar";
 
 
 /* BOOKREADER SETTINGS */
 
-"BOOK_READER"               = "While reading";
-"LOCK_ROTATION"             = "Lock Rotation";
-"LOCK_ROTATION_HINT"        = "Do not change the device orientation as long as the book is openned";
+"BOOK_READER"               = "Während des Lesens";
+"LOCK_ROTATION"             = "Drehverschluß";
+"LOCK_ROTATION_HINT"        = "Das Gerät nicht Ausrichtung zu ändern, solange das Buch geöffnet";
 "LOCK_ROTATION_HINT_WARN"   = "Do not change the device orientation as long as the book is openned.\nLock rotation is not supported for iPad Air 2 and iPad Mini 2 with iOS 9!";
-"AUTO_FULLSCREEN"           = "Full Screen - Auto";
-"AUTO_FULLSCREEN_HINT"      = "Automatically switch to full-screen mode after the opening of the book";
-"IDLE_TIMER_OFF"            = "Idle timer is off";
-"IDLE_TIMER_OFF_HINT"       = "As long as the book is open, the screen remains switched on";
+"AUTO_FULLSCREEN"           = "Vollbild - Automatik";
+"AUTO_FULLSCREEN_HINT"      = "Automatisches Umschalten auf Vollbild -Modus nach dem Öffnen des Buches";
+"IDLE_TIMER_OFF"            = "Idle-Timer ausgeschaltet ist";
+"IDLE_TIMER_OFF_HINT"       = "Solange das Buch geöffnet ist, der Bildschirm bleibt eingeschaltet";
 "SCALE_TEXT_VIA_PINCH_HINT" = "Pinch to resize text for EPUB, MOBI, FB2 in the page turn mode: Curl.";
 "SCALE_TEXT_VIA_PINCH"      = "Pinch to resize text";
-"BOOK_EDGE_PAN_GESTURE"     = "Swipe gesture on an edge of the screen";
+"BOOK_EDGE_PAN_GESTURE"     = "Swipe Geste auf einem Rand des Bildschirms";
 "BOOK_EDGE_PAN_GESTURE_HINT" = "Use a swipe gesture on an edge of the screen to open the left side menu in the page curl mode and the right menu in all modes. To perform this setting, should to close a book.";
-"BOOK_NAV_PANELS"           = "Navigation Panels";
-"BOOK_HEADER"               = "Header/Footer";
-"BOOK_HEADER_LUMA"          = "Text Brightness";
-"BOOK_FOOTER"               = "Footer";
-"PAGES_LEFT"                = "Pages left in a chapter";
-"PAGES_LEFT_HINT"           = "Only applicable for EPUB, MOBI, FB2.";
+"BOOK_NAV_PANELS"           = "Navigationsfenster";
+"BOOK_HEADER"               = "Kopfzeile/Fußzeile";
+"BOOK_HEADER_LUMA"          = "Text Bildschirmhelligkeit";
+"BOOK_FOOTER"               = "Fußzeile";
+"PAGES_LEFT"                = "Linken Seiten in einem Kapitel";
+"PAGES_LEFT_HINT"           = "Gilt nur für EPUB, MOBI, FB2.";
 
 
 /* BOOKREADER RAPID SELECTION SETTINGS */
 
-"RAPID_SELECTION"           = "Fast Selection";
-"RAPID_MENU"                = "Fast Menu Item";
-"RAPID_SELECTION_HINT"      = "The fast selection, without lifting a finger from the screen.";
-"RAPID_MENU_HINT"           = "The menu item, which will be executed after a fast selection, without the popup menu.";
+"RAPID_SELECTION"           = "Schnellauswahl";
+"RAPID_MENU"                = "Schnellauswahl Menüpunkt";
+"RAPID_SELECTION_HINT"      = "Schnellauswahl - ohne den Finger vom Bildschirm anheben.";
+"RAPID_MENU_HINT"           = "Der Menüpunkt, der nach der Schnellauswahl ausgeführt werden, ohne Anzeige der Menüs.";
 
 
 /* BOOKREADER TAP SETTINGS */
@@ -673,25 +673,25 @@
 "BOOK_TAP_INTERACT_TITLE"   = "An interaction with the links and other interactive elements in a book";
 "BOOK_TAP_INTERACT_HINT"    = "This setting is only applicable for EPUB,FB2,MOBI,KB. To perform this setting, should to close a book.";
 "TAP_GESTURE"               = "Tippe";
-"LONG_PRESS_GESTURE"        = "Long Press";
-"TAP_LONG_PRESS_GESTURE"    = "Tap, Long Press";
+"LONG_PRESS_GESTURE"        = "Lange drücken";
+"TAP_LONG_PRESS_GESTURE"    = "Tippe, Lange drücken";
 
 
 /* MISC SETTINGS */
 
-"COMPATIBILITY"             = "Compatibility";
-"NORMALIZED_AUTHOR"         = "Normalized form of author's title";
-"SHOW_SIZE_OF_BATCH"        = "Show size of category";
-"HIDE_EMPTY_BACTH"          = "Hide empty categories";
-"BOOKCARD_WORD_COUNT"       = "Word count";
-"RESTORE_AT_LAUNCH"         = "Restore state at startup";
-"HELP_SHOW_TIPS"            = "Show Tips";
+"COMPATIBILITY"             = "Kompatibilität";
+"NORMALIZED_AUTHOR"         = "Normierte Form Autor Titel";
+"SHOW_SIZE_OF_BATCH"        = "Zeigen Sie Größe der Kategorie";
+"HIDE_EMPTY_BACTH"          = "Verbergen leere Kategorien";
+"BOOKCARD_WORD_COUNT"       = "Wortzahl";
+"RESTORE_AT_LAUNCH"         = "Zustand wiederherstellen, wenn die Applikation gestartet wird";
+"HELP_SHOW_TIPS"            = "Show Tooltips";
 "ITUNES_FILE_SHARING"       = "iTunes File Sharing";
-"WATCH_DOCUMENTS_FOLDER"    = "Observe KyBook Documents";
+"WATCH_DOCUMENTS_FOLDER"    = "KyBook Dokuments";
 "WATCH_DOCUMENTS_FOLDER_HINT" = "Watch for new files in KyBook Documents folder when your device is connected to a computer via USB";
-"FILES_SHOW_SIBLINGS"       = "Sibling folders";
-"FILES_GROUP_BOOKS"         = "Grouping by books";
-"FILES_CONF_HINT"           = "Sibling folders - a side panel for subfolders in a landscape orientation.\nGrouping by books - an additional grouping mode by the attributes of a book.";
+"FILES_SHOW_SIBLINGS"       = "Geschwister Ordner";
+"FILES_GROUP_BOOKS"         = "Gruppierung nach Bücher";
+"FILES_CONF_HINT"           = "Geschwister Ordner - Sidebar Ordner im Querformat .\nGruppierung nach Bücher - weitere Kategorien auf Attribute des Buches basiert.";
 "FILES_GROUPING_HINT"       = "Groupings by author/series are only suitable for the showing modes other than 'Files'";
 
 
@@ -815,7 +815,7 @@
 /* SIDEBAR SETTINGS */
 
 "SIDEBAR"               = "Sidebar";
-"SIDEBAR_SOLID"         = "Solid";
+"SIDEBAR_SOLID"         = "Normallack";
 "SIDEBAR_GRADIENT"      = "Gradient";
 "SIDEBAR_PATTERN"       = "Ornament";
 "SIDEBAR_ABSTRACT"      = "Abstrakt";
@@ -823,13 +823,13 @@
 
 /* LAUNCH SETTINGS */
 
-"LAUNCH"                = "Launch";
-"LAUNCH_FAILURE_ALERT"  = "Failed to launch the command";
-"LAUNCH_NONE_ALERT"     = "No valid commands";
-"LAUNCH_EDIT"           = "Edit Launch";
-"LAUNCH_COMMAND"        = "Command";
-"LAUNCH_COMMANDS"       = "Commands";
-"RESET_COMMANDS_Q"      = "Reset commands?";
+"LAUNCH"                = "Starten";
+"LAUNCH_FAILURE_ALERT"  = "Konnte den Befehl zu starten";
+"LAUNCH_NONE_ALERT"     = "Keine gültige Befehle";
+"LAUNCH_EDIT"           = "Editieren Starten";
+"LAUNCH_COMMAND"        = "Befehl";
+"LAUNCH_COMMANDS"       = "Befehle";
+"RESET_COMMANDS_Q"      = "Reset-Befehle?";
 
 
 /* BOOKSHELF SETTINGS */
@@ -868,25 +868,25 @@
 
 /* SOCIETY */
 
-"SOCIETY"               = "Society";
+"SOCIETY"               = "Verein";  // Gesellschaft
 "ADMIN"                 = "Admin";
 "MODERATOR"             = "Moderator";
 "ADMAN"                 = "Adman";
 "BANNED"                = "Banned";
 "ANONYMOUS"             = "Anonymous";
-"REVIEW_TITLE"          = "Review";
-"YOUR_REVIEW"           = "Your Review";
-"ADD_REVIEW"            = "Add Review";
-"DIGEST"                = "Digest";
-"ADD_REPLY"             = "Add Reply";
-"POST_TITLE"            = "Post";
-"REPLY_TITLE"           = "Reply";
-"EDIT_POST"             = "Edit Post";
-"ADD_POST"              = "Add Post";
-"POSTS"                 = "Posts";
+"REVIEW_TITLE"          = "Rezension";
+"YOUR_REVIEW"           = "Ihre Rezension";
+"ADD_REVIEW"            = "Rezension hinzufügen";
+"DIGEST"                = "Hash-Code";
+"ADD_REPLY"             = "Antwort hinzufügen";
+"POST_TITLE"            = "Posten";
+"REPLY_TITLE"           = "Antwort";
+"EDIT_POST"             = "Post bearbeiten";
+"ADD_POST"              = "Antworten";
+"POSTS"                 = "Posten";
 "MY"                    = "My";
 "ME"                    = "Me";
-"SOCIETY_CONF"          = "Society";
+"SOCIETY_CONF"          = "Verein";
 "REGION"                = "Bereich";
 "RUSSIA"                = "Russland";
 "CLOUD_ENABLED"         = "Verwenden Sie iCloud";
@@ -915,17 +915,17 @@
 "BIZ_PRO_TERM_LEFT_FMT" = "Paid Pro - %@";
 "BIZ_REQUIRE_PRO"       = "Requires upgrade to Pro!";
 "BIZ_PRO"               = "Pro";
-"BLANK_AD_BANNER"       = "Disable ads!";
+"BLANK_AD_BANNER"       = "Deaktivieren Sie Werbung!";
 
 
 /* TIPS */
 
-"BOOK_TIP_FULLSCREEN"   = "Exit a full-screen mode\nTap at the center of the screen";
-"BOOK_TIP_SIDEBAR"      = "Open a sidebar menu\nSwipe from the edge";
-"BOOK_TIP_BOOKMARK"     = "Add a bookmark";
-"BOOK_TIP_SETTINGS"     = "Settings";
-"BOOK_TIP_MORE"         = "Table of Content, Bookmarks";
-"BOOK_TIP_MENU"         = "Advanced features: speech synthesis, speed reading";
+"BOOK_TIP_FULLSCREEN"   = "Vollbildmodus beenden\nTippen Sie in der Mitte des Bildschirms";
+"BOOK_TIP_SIDEBAR"      = "Öffnen Sie eine Sidebar\nSwipe Geste vom Rand";
+"BOOK_TIP_BOOKMARK"     = "Lesezeichen hinzufügen";
+"BOOK_TIP_SETTINGS"     = "Einstellungen";
+"BOOK_TIP_MORE"         = "Inhaltsverzeichnis, Lesezeichen";
+"BOOK_TIP_MENU"         = "Erweiterte Funktionen: Sprachausgabe, Schnelllesen";
 
 
 /* IMAGE SELECT */
@@ -954,23 +954,23 @@
 
 /* SUMMARY */
 
-"SUMMARY"               = "Summary";
-"SUMMARIES"             = "Summaries";
-"SUMMARY_CONF"          = "Summary Settings";
-"SUMMARY_STYLES"        = "Styles";
-"SUMMARY_TYPING"        = "When typing";
-"SUMMARY_QUOTE"         = "Сitation";
-"SUMMARY_QUOTE_LINK"    = "Insert Link";
-"TYPING_ASSISTANCE"     = "Assistance during typing";
-"SPELL_CHECKING"        = "Spell Checking";
-"DETECT_LINKS"          = "Detect links";
-"SUMMARY_STYLE"         = "Style";
-"READONLY"              = "Readonly";
-"SUMMARIES_SIMPLE"      = "Simple";
-"SUMMARIES_FOCUSED"     = "Focused";
-"SUMMARIES_SOLID"       = "Solid";
-"SUMMARIES_BLUR"        = "Blurred";
-"SUMMARIES_COVER"       = "Cover";
+"SUMMARY"               = "Konspekt"; //Auszug
+"SUMMARIES"             = "Konspekt"; //Auszüge
+"SUMMARY_CONF"          = "Konspekt Einstellungen";
+"SUMMARY_STYLES"        = "Stile";
+"SUMMARY_TYPING"        = "Beim Tippen";
+"SUMMARY_QUOTE"         = "Zitat";
+"SUMMARY_QUOTE_LINK"    = "Inserieren Link";
+"TYPING_ASSISTANCE"     = "Unterstützung bei tippen";
+"SPELL_CHECKING"        = "Rechtschreibprüfung";
+"DETECT_LINKS"          = "Identifizieren Links";
+"SUMMARY_STYLE"         = "Stil";
+"READONLY"              = "Schreibgeschützt";
+"SUMMARIES_SIMPLE"      = "Einfach"; // Normal
+"SUMMARIES_FOCUSED"     = "Konzentriert";
+"SUMMARIES_SOLID"       = "Normallack";
+"SUMMARIES_BLUR"        = "Verschwommen";
+"SUMMARIES_COVER"       = "Bucheinbände";
 "AUTO_SUMMARY"          = "Auto Summarizer";
 "RUN_SUMMARIZER"        = "Run";
 
@@ -984,20 +984,20 @@
 /* FILES SYNCHRONIZER */
 
 "SYNCHRONIZER"          = "Synchro";
-"SYNC_NOW"              = "Sync Now";
-"SYNC_DATE"             = "Synchronization Date";
-"PLEASE_SELECT_FOLDERS" = "Please, select the folders";
-"SYNC_COLLECTING"       = "Collecting";
+"SYNC_NOW"              = "Synchronisieren";
+"SYNC_DATE"             = "Synchronisation Datum";
+"PLEASE_SELECT_FOLDERS" = "Bitte Ordner auswählen";
+"SYNC_COLLECTING"       = "Datensammlung";
 "SYNC_ANALYZING"        = "Analyzing";
-"SYNC_EXECUTING"        = "Executing";
-"SYNC_TASKS_FMT"        = "Tasks: %zd";     // Tasks: 5
+"SYNC_EXECUTING"        = "Arbeite";
+"SYNC_TASKS_FMT"        = "Aufgaben: %zd";     // Tasks: 5
 "SYNCER_FOOTER_NOTICE"  = "Warning! Implementation of the synchronization function for the folders is still not completed and does not fully tested. Use it at your own risk.";
 
 
 /* BOOK MAKER */
 
-"TITLE_PAGE"    = "Title Page";
-"MAKE_AUDIOBOOK"    = "Make Audiobook";
+"TITLE_PAGE"        = "Titelblatt";
+"MAKE_AUDIOBOOK"    = "Erstellen Hörbuch";
 
 /* BOOKS CATEGORIES */
 
@@ -1043,37 +1043,37 @@
 "RATE_TWITTER"          = "Tweet auf Twitter";
 "RATE_VKONTAKTE"        = "Auf VK.com posten";
 "RATE_FACEBOOK"         = "Auf Facebook posten";
-"RATE_TEXT_TEMPLATE"    = "KyBook 2 - The best way to read your book ever!";
+"RATE_TEXT_TEMPLATE"    = "KyBook 2 - Beste eReader Applikation für Ihre Bücher!";
 "SEND_FEEDBACK"         = "Feedback schicken";
-"SHAKE_FOR_FEEDBACK"    = "Shake For Feedback";
+"SHAKE_FOR_FEEDBACK"    = "Shake für Feedback";
 "HELP"                  = "Hilfe";
 "HELP_FAQ"              = "FAQ";
 "HELP_DISCUSS"          = "Diskutieren";
 "ABOUT_APP"             = "Über";
 "APP_VERSION"           = "Version";
 "SOCIAL_MEDIA"          = "Sozialen Medien";
-"FOLLOW_TWITTER"        = "Follow @KyBook_App";
+"FOLLOW_TWITTER"        = "Folge @KyBook_App";
 "FOLLOW_VKONTAKTE"      = "KyBook VKontakte";
 "COPYRIGHT_NAME"        = "Konstantin Bukreev";
 
 
 /* RATE APP */
 
-"RATEAPP_TITLE_FMT"     = "Would you mind rating %@?";
-"RATEAPP_ASK_FMT"       = "Enjoying %@?";
-"RATEAPP_RATE"          = "How about a rating on the App Store, then?";
-"RATEAPP_FEEDBACK"      = "Would you mind giving us some feedback?";
-"RATEAPP_AGREE"         = "Sure, I'll rate";
-"RATEAPP_YES"           = "Yes!";
-"RATEAPP_NO"            = "Not really";
-"RATEAPP_OK"            = "Ok, sure";
-"RATEAPP_CANCEL"        = "No, thanks";
+"RATEAPP_TITLE_FMT"     = "Könnten Sie die %@ bewerten?";
+"RATEAPP_ASK_FMT"       = "Haben Sie die %@ mögen?";
+"RATEAPP_RATE"          = "Gästebucheinträge im App Store?";
+"RATEAPP_FEEDBACK"      = "Schreiben Sie uns, warum?";
+"RATEAPP_AGREE"         = "Natürlich";
+"RATEAPP_YES"           = "Ja!";
+"RATEAPP_NO"            = "Nicht wirklich";
+"RATEAPP_OK"            = "Ja, sicher";
+"RATEAPP_CANCEL"        = "Nein Danke";
 
 /* AUTH */
 
-"AUTH"              = "Authentication";
-"AUTH_SUCCESS"      = "Authentication is successful";
-"AUTHENTICATED"     = "Authenticated";
+"AUTH"              = "Authentifizierung";
+"AUTH_SUCCESS"      = "Authentifizierung ist erfolgreich";
+"AUTHENTICATED"     = "Authentifizierte";
 
 
 /* ??? */
@@ -1083,90 +1083,90 @@
 
 /* ERRORS */
 
-"Error"                     = "Error";
+"Error"                     = "Fehler";
 
-"UNKNOWN_FAILURE"           = "Unknown Failure";
+"UNKNOWN_FAILURE"           = "Unbekannter Fehler";
 
-"NETWORK_FAILURE"           = "Network Error";
-"FILE_IO_ERROR"             = "File System Error";
-"OUT_OF_MEMORY"             = "Out of memory";
+"NETWORK_FAILURE"           = "Netzwerkfehler";
+"FILE_IO_ERROR"             = "Dateisystemfehler";
+"OUT_OF_MEMORY"             = "Nicht genügend Speicher";
 
-"NO_NETWORK_CONNECTION"     = "No network connection";
-"NOT_RESPONDING"            = "Not Responding";
+"NO_NETWORK_CONNECTION"     = "Keine Netzwerk Verbindung";
+"NOT_RESPONDING"            = "Leere Antwort";
 "EMPTY_RESPONSE"            = "Empty Response";
-"BAD_RESPONSE"              = "Invalid Response";
+"BAD_RESPONSE"              = "Ungültige Antwort";
 
-"NOT_FOUND"                 = "Not Found";
+"NOT_FOUND"                 = "Nicht gefunden";
 
-"AUTH_REQUIRED"             = "Authentication Required";
-"UNAUTHORIZED"              = "Unauthorized";
-"ACCESS_DENIED"             = "Access Denied";
+"AUTH_REQUIRED"             = "Authentifizierung erforderlich";
+"UNAUTHORIZED"              = "Autorisierungsfehler";
+"ACCESS_DENIED"             = "Zugriff verweigert";
 
-"FAILURE_RESPONSE"          = "Reported about an error";
-"SERVER_ERROR"              = "Server reported an error";
-"FATAL_ERROR"               = "Oops, something went wrong!";
-"INTERNAL_ERROR"            = "Internal Error";
+"FAILURE_RESPONSE"          = "Berichtet über einen Fehler";
+"SERVER_ERROR"              = "Server berichtet über einen Fehler";
+"FATAL_ERROR"               = "Oops, Irgendwas lief schief!";
+"INTERNAL_ERROR"            = "Interner Fehler";
 
-"BAD_NAME"                  = "Invalid Name";
-"BAD_PATH"                  = "Invalid Path";
-"BAD_ZIPFILE"               = "Unable unzip a file";
-"BAD_EPUB"                  = "Invalid EPub file";
+"BAD_NAME"                  = "Ungültiger Name";
+"BAD_PATH"                  = "Ungültige Dateipfad";
+"BAD_ZIPFILE"               = "Konnte nicht entpacken eine Datei";
+"BAD_EPUB"                  = "Ungültige EPub Datei";
 
-"DAILY_LIMIT"               = "Daily limit is exceeded";
-"TEXT_TOO_LONG"             = "The text size exceeds the maximum";
+"DAILY_LIMIT"               = "Tageslimit überschritten";
+"TEXT_TOO_LONG"             = "Die Textgröße überschreitet die maximale";
 
-"BAD_LANGUAGE_CODE"         = "Wrong Language Code";
-"BAD_LANG_TARGET"           = "The target language is missing or an invalid";
-"BAD_LANG_DIRECTION"        = "The specified translation direction is not supported";
-"BAD_LANG_TEXT"             = "The text could not be translated";
+"BAD_LANGUAGE_CODE"         = "Falsche Sprachcode";
+"BAD_LANG_TARGET"           = "Die Zielsprache fehlt oder eine ungültige";
+"BAD_LANG_DIRECTION"        = "Die angegebene Übersetzungsrichtung wird nicht unterstützt";
+"BAD_LANG_TEXT"             = "Konnte den Text übersetzen";
 
-"ICLOUD_NOT_CONNECTED"      = "iCloud is not connected";
+"ICLOUD_NOT_CONNECTED"      = "iCloud ist nicht verbunden";
 
-"DUPLICATE_STORAGE"         = "Duplicate Storage";
-"DUPLICATE_LIBRARY"         = "Duplicate Library";
-"YANDEX_NOT_LINKED"         = "Yandex Disk is not linked";
+"DUPLICATE_STORAGE"         = "Datenlager existiert bereits";
+"DUPLICATE_LIBRARY"         = "Bibliothek existiert bereits";
+"YANDEX_NOT_LINKED"         = "Yandex Disk ist nicht verbunden";
 
-"ERROR_401_STORAGE_TITLE"   = "Unauthorized";
-"ERROR_401_STORAGE_MESSAGE" = "It seems the previous authentication has become invalid. Please reconnect %@ again";
+"ERROR_401_STORAGE_TITLE"   = "Autorisierungsfehler";
+"ERROR_401_STORAGE_MESSAGE" = "Es scheint, die vorherige Authentifizierung ungültig geworden. Bitte wieder anschließen %@ wieder";
 
-"STORAGE_NOT_LINKED"        = "Cloud Storage is not linked";
-"STORAGE_ENDPOINT_ERR"      = "Reported about an error";
+"STORAGE_NOT_LINKED"        = "Cloud Storage ist nicht verbunden";
+"STORAGE_ENDPOINT_ERR"      = "Berichtet über einen Fehler";
 
-"SPEECH_SYNTHESIZER_ERROR"          = "No Speech Synthesizer";
-"SPEECH_SYNTHESIZER_VOICE_ERROR"    = "Unable find a proper voice for speech synthesis";
+"SPEECH_SYNTHESIZER_ERROR"          = "Keine Sprachausgabe";
+"SPEECH_SYNTHESIZER_VOICE_ERROR"    = "Kann nicht die richtige Voice zu finden für Sprachausgabe";
 
-"FAIL_SENDMAIL_TITLE"       = "Unable to send email";
-"FAIL_SENDMAIL_MESSAGE"     = "Please configure your email account";
+"FAIL_SENDMAIL_TITLE"       = "Konnte nicht E-Mail senden";
+"FAIL_SENDMAIL_MESSAGE"     = "Bitte konfigurieren Sie Ihre E-Mail-Konto";
 
-"SIGN_IN_FAILURE"           = "Authorization Failure";
-"SING_UP_FAILURE"           = "Registration Failure";
-"PASS_RECOVER_FAILURE"      = "Password Recovery Failure";
+"SIGN_IN_FAILURE"           = "Autorisierungsfehler";
+"SING_UP_FAILURE"           = "Konnte nicht registrieren";
+"PASS_RECOVER_FAILURE"      = "Passwort konnte nicht wiederherstellen";
 
-"ALREADY_EXISTS"            = "Already Exists";
-"USERNAME_ALREADY_EXISTS"   = "This username already exists";
-"USERNAME_NOT_AVAILABLE"    = "This username is not available";
+"ALREADY_EXISTS"            = "Bereits vorhanden";
+"USERNAME_ALREADY_EXISTS"   = "Benutzername existiert schon";
+"USERNAME_NOT_AVAILABLE"    = "Benutzername nicht verfügbar";
 
-"UNABLE_OPENBOOK"           = "Unable to open the book";
-"DRM_PROTECTION_FAILURE"    = "Failed to open the book due to DRM protection";
-"BAD_FILE_FORMAT"           = "Invalid file format";
+"UNABLE_OPENBOOK"           = "Kann nicht das Buch zu öffnen";
+"DRM_PROTECTION_FAILURE"    = "Kann nicht das Buch zu öffnen aufgrund von DRM-Schutz";
+"BAD_FILE_FORMAT"           = "Ungültige Dateiformat";
 
-"NOT_IMPLEMENTED"           = "Not implemented";
-"UNSUPPORTED"               = "This feature is unsupported";
-"UNSUPPORTED_FILE_FORMAT"   = "File format is not supported";
-"UNSUPPORTED_VERSION"       = "Unsupported vesion";
-"UNSUPPORTED_ACTION_STORAGE"= "Unable to perform";
-"COPY_SMB_NOT_IMPLEMENTED"  = "The copy operation is not impemented for SMB/CIFS";
+"NOT_IMPLEMENTED"           = "Nicht implementiert";
+"UNSUPPORTED"               = "Diese Funktion wird nicht unterstützt";
+"UNSUPPORTED_FILE_FORMAT"   = "Datei-Format wird nicht unterstützt";
+"UNSUPPORTED_VERSION"       = "Die Version wird nicht unterstützt";
+"UNSUPPORTED_ACTION_STORAGE"= "Kann nicht ausführen";
+"COPY_SMB_NOT_IMPLEMENTED"  = "Die Kopieren wird nicht implementiert für SMB/CIFS";
 
 "ALERT_BAD_LAYOUT"          = "It seems the layout become void and the KyBook could not handle it! Please close the book and next clean the Books Cache in the App Settings!";
 
 
 /* SMB ERRORS */
 
-"UNABLE_RESOLVE"            = "Unable resolve the hostname/address";
-"UNABLE_CONNECT"            = "Unable connect to a network computer";
-"BAD_SHARE"                 = "Invalid Sharepoint";
-"FILE_IS_DIRECTORY"         = "File is a directory";
-"FILE_ALREADY_EXISTS"       = "File already exists";
+"UNABLE_RESOLVE"            = "Kann nicht den Hostnamen oder die Adresse auflösen";
+"UNABLE_CONNECT"            = "Können Sie eine Verbindung zu einem Netzcomputer";
+"BAD_SHARE"                 = "Ungültige Sharepoint";
+"FILE_IS_DIRECTORY"         = "Datei befindet ein Directory";
+"FILE_ALREADY_EXISTS"       = "Datei existiert bereits";
 
 /* WEBDAV ERRORS */
 
@@ -1176,12 +1176,12 @@
 /* VENDORS */
 
 // texted
-"Open Link"     = "Open Link";
-"Edit Link"     = "Edit Link";
-"Insert Link"   = "Insert Link";
-"Title"         = "Title";
-"Done"          = "Done";
-"Cancel"        = "Cancel";
+"Open Link"     = "Öffnen Link";
+"Edit Link"     = "Editieren Link";
+"Insert Link"   = "Inserieren Link";
+"Title"         = "Titel";
+"Done"          = "Fertig";
+"Cancel"        = "Abbrechen";
 
 
 /* OBSOLETE (NOT USED NOW)

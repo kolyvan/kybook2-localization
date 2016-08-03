@@ -20,11 +20,11 @@
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>zero words</string>
+                <string>null Worte</string>
                 <key>one</key>
-                <string>one word</string>
+                <string>ein Wort</string>
                 <key>other</key>
-                <string>%d words</string>
+                <string>%d Wörter</string>
             </dict>
         </dict>
         <key>%d records</key>
@@ -38,11 +38,11 @@
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>zero records</string>
+                <string>null Datensätze</string>
                 <key>one</key>
-                <string>one record</string>
+                <string>ein Datensatz</string>
                 <key>other</key>
-                <string>%d records</string>
+                <string>%d Datensätze</string>
             </dict>
         </dict>
         <key>%d files</key>
@@ -56,11 +56,11 @@
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>zero files</string>
+                <string>null Dateien</string>
                 <key>one</key>
-                <string>one file</string>
+                <string>ein Datei</string>
                 <key>other</key>
-                <string>%d files</string>
+                <string>%d Dateien</string>
             </dict>
         </dict>
         <key>%d pages</key>
@@ -74,11 +74,11 @@
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>zero pages</string>
+                <string>null Seiten</string>
                 <key>one</key>
-                <string>one page</string>
+                <string>ein Seite</string>
                 <key>other</key>
-                <string>%d pages</string>
+                <string>%d Seiten</string>
             </dict>
         </dict>
         <key>%d days</key>
@@ -92,29 +92,11 @@
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>zero days</string>
+                <string>null Tage</string>
                 <key>one</key>
-                <string>%d day</string>
+                <string>ein Tag</string>
                 <key>other</key>
-                <string>%d days</string>
-            </dict>
-        </dict>
-        <key>%d words</key>
-        <dict>
-            <key>NSStringLocalizedFormatKey</key>
-            <string>%#@words@</string>
-            <key>words</key>
-            <dict>
-                <key>NSStringFormatSpecTypeKey</key>
-                <string>NSStringPluralRuleType</string>
-                <key>NSStringFormatValueTypeKey</key>
-                <string>d</string>
-                <key>zero</key>
-                <string>zero words</string>
-                <key>one</key>
-                <string>one word</string>
-                <key>other</key>
-                <string>%d words</string>
+                <string>%d Tage</string>
             </dict>
         </dict>
     </dict>
