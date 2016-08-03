@@ -459,7 +459,7 @@
 /* BOOKREADER SEARCH PARAMS */
 
 "MATCHING_TEXTUTAL"     = "Textual";
-"MATCHING_REGULAR"      = "Pattern (Regex)";
+"MATCHING_REGULAR"      = "Regex";
 "MATCHING_FUZZY"        = "Fuzzy";
 
 
@@ -1118,7 +1118,7 @@
 "BAD_LANGUAGE_CODE"         = "Wrong Language Code";
 "BAD_LANG_TARGET"           = "The target language is missing or an invalid";
 "BAD_LANG_DIRECTION"        = "The specified translation direction is not supported";
-"BAD_LANG_TEXT"             = "The text could not be translated";
+"BAD_LANG_TEXT"             = "Could not translate the text";
 
 "ICLOUD_NOT_CONNECTED"      = "iCloud is not connected";
 
@@ -1153,9 +1153,9 @@
 "NOT_IMPLEMENTED"           = "Not implemented";
 "UNSUPPORTED"               = "This feature is unsupported";
 "UNSUPPORTED_FILE_FORMAT"   = "File format is not supported";
-"UNSUPPORTED_VERSION"       = "Unsupported vesion";
+"UNSUPPORTED_VERSION"       = "Unsupported version";
 "UNSUPPORTED_ACTION_STORAGE"= "Unable to perform";
-"COPY_SMB_NOT_IMPLEMENTED"  = "The copy operation is not impemented for SMB/CIFS";
+"COPY_SMB_NOT_IMPLEMENTED"  = "The copy operation is not implemented for SMB/CIFS";
 
 "ALERT_BAD_LAYOUT"          = "It seems the layout become void and the KyBook could not handle it! Please close the book and next clean the Books Cache in the App Settings!";
 
