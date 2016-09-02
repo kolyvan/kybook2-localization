@@ -99,22 +99,22 @@
                 <string>%d days</string>
             </dict>
         </dict>
-        <key>%d words</key>
+        <key>%d books</key>
         <dict>
             <key>NSStringLocalizedFormatKey</key>
-            <string>%#@words@</string>
-            <key>words</key>
+            <string>%#@books@</string>
+            <key>books</key>
             <dict>
                 <key>NSStringFormatSpecTypeKey</key>
                 <string>NSStringPluralRuleType</string>
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>zero words</string>
+                <string>zero books</string>
                 <key>one</key>
-                <string>one word</string>
+                <string>one book</string>
                 <key>other</key>
-                <string>%d words</string>
+                <string>%d books</string>
             </dict>
         </dict>
     </dict>

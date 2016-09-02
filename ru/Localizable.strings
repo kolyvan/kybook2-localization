@@ -42,6 +42,7 @@
 "CONTINUE"          = "Продолжить";
 "RESET"             = "Сбросить";
 "DONE"              = "Готово";
+"AGREE"             = "Согласен";
 
 "SEND"              = "Отправить";
 "SYNC"              = "Синхронизировать";
@@ -56,6 +57,7 @@
 
 "SHOW"              = "Показать";
 "HIDE"              = "Скрыть";
+"CLOSE"             = "Закрыть";
 
 "GO"                = "Перейти";
 "SPEAK"             = "Произнести";
@@ -117,6 +119,7 @@
 "BOOK_COVERS"       = "Книжные обложки";
 "EMPTY_TEXT"        = "Текст отсутствует";
 "FILE_SIZE"         = "Размер файла";
+"ABOUT_AUTHOR"      = "Об авторе";
 
 
 /* APP MAIN */
@@ -236,7 +239,8 @@
 "PROTECTED_FILE_TITLE" = "Файл защищен";
 "PLEASE_ENTER_PASSWORD" = "Пожалуйста, введите пароль";
 "SIBLING_FOLDERS"   = "Одноуровневые папки";
-
+"READONLY_STORAGE_TITLE" = "Хранилище только для чтения";
+"READONLY_STORAGE_MSG_FMT" = "Невозможно выполнить операцию. Нет разрешения на запись в '%@'.";
 
 /* SORTING GROUPING */
 
@@ -287,6 +291,10 @@
 
 "GOOGLE_DRIVE"              = "Google Диск";
 
+/* cloud.mai.ru */
+
+"CLOUD_MAIL_RU"             = "Облако Mail.ru";
+"CLOUD_MAIL_RU_CAUTION"     = "Внимание, это неофициальная реализация протокола для работы с Облаком Mail.ru.\nВы подключаете облако на свой страх и риск и без каких либо гарантий о качестве, пригодности, сохранности данных, безопасности или о чем-нибудь еще.\nПеред использованием ознакомьтесь с лицензионным соглашением по использованию Сервиса Облако@mail.ru https://cloud.mail.ru/LA/";
 
 /* CLOUDS PERM */
 
@@ -335,6 +343,23 @@
 "LOCAL_OPDS"                = "Искать в локальной сети";
 "ADD_OPDS_CATALOG_FOOTER"   = "Введите адрес в поле поиска для добавления произвольного OPDS каталога";
 "BAD_OPDS_SEARCH"           = "OPDS Каталог не поддерживает поиск";
+"OPDS_CATALOG_PROBING"      = "Проверка..";
+"OPDS_CATALOG_FIX_MESSAGE"  = "Возможно адрес OPDS каталога был указан не полностью. Адрес был исправлен на возможно правильный. Пожалуйста, проверьте внимательно.";
+
+
+/* SAMIZDAT */
+
+"SAMIZDAT"          = "Самиздат";
+"RESET_UPDATE"      = "Сбросить обновление";
+"SAMIZDAT_UPDATED"  = "Обновлялось";
+"SAMIZDAT_SIZE"     = "Объем";
+"SAMIZDAT_VISITORS" = "Посетителей за год";
+"SAMIZDAT_IMPORT"   = "Импортировать авторов";
+"SAMIZDAT_IMPORT_HINT" = "Импортировать авторов из .json файла созданного KyBook или из простого списка ссылок на страницы авторов в формате .txt";
+"SAMIZDAT_EXPORT"   = "Экспортировать авторов";
+"SAMIZDAT_EXPORT_HINT" = "Экспортировать авторов как .json файл в папку Файлы/App/Samizdat";
+"SAMIZDAT_AUTHORS"  = "Все авторы по алфавиту";
+"SAMIZDAT_SERVER"   = "Сервер Самиздат (имя хоста)";
 
 
 /* BOOKCARD */
@@ -364,6 +389,7 @@
 "GENRES"        = "Сюжеты";
 "COLLECTIONS"   = "Коллекции";
 "RATING"        = "Оценка";
+"MY_RATING"     = "Моя оценка";
 "SOURCE"        = "Источник";
 "READ_STAT"     = "Статистика чтения";
 "READ_STAT_FMT" = "На %@, прочитано %d%% за %@";
@@ -404,6 +430,7 @@
 "ENTER_COLOR"           = "Ввести цвет";
 "ENTER_ENCODING"        = "Укажите кодировку";
 "ACQUIRE_BOOK"          = "Приобрести";
+"READ_ONLINE"           = "Читать на сайте";
 
 
 /* BOOKCARD COVER */
@@ -1001,8 +1028,11 @@
 
 /* BOOKS CATEGORIES */
 
-"NEW"               = "Новинки";
+"NEW"               = "Новинка";
+"NEWS"              = "Новости";
 "RECENT"            = "Недавнее";
+"LATEST"            = "Новинки";
+"UPDATES"           = "Обновления";
 "TOP_RATED"         = "Лучшие";
 "ALL_BOOKS"         = "Все книги";
 "FREE_BOOKS"        = "Бесплатные книги";
@@ -1011,6 +1041,7 @@
 "POPULAR"           = "Популярные";
 "BESTSELLERS"       = "Бестселлеры";
 "MY_BOOKS"          = "Мои книги";
+
 
 /* HOME CONTROLLER */
 
@@ -1032,8 +1063,10 @@
 
 "FAVORITES"         = "Избранное";
 "ADD_FAVORITE"      = "Добавить в избранное";
+"REMOVE_FAVORITE"   = "Удалить из избранных";
 "EMPTY_FAVORITES"   = "Нет избранного";
 "GROUP_FAVORITES"   = "Сортировать избранное";
+"FAVORITED"         = "В избранном";
 
 
 /* ABOUT APP */
@@ -1061,13 +1094,16 @@
 
 "RATEAPP_TITLE_FMT"     = "Вы не могли бы дать оценку %@?";
 "RATEAPP_ASK_FMT"       = "Нравится %@?";
-"RATEAPP_RATE"          = "Оставите отзыв на App Store?";
+"RATEAPP_RATE"          = "Оставите отзыв в App Store?";
 "RATEAPP_FEEDBACK"      = "Напишите нам, почему?";
 "RATEAPP_AGREE"         = "Конечно";
 "RATEAPP_YES"           = "Да!";
 "RATEAPP_NO"            = "Не совсем";
 "RATEAPP_OK"            = "Хорошо";
 "RATEAPP_CANCEL"        = "Нет, спасибо";
+"RATEAPP_SUBTITLE"      = "Ваша оценка приложению";
+"RATEAPP_RATE_DO"       = "Оставить отзыв в App Store";
+"RATEAPP_FEEDBACK_DO"   = "Написать нам, почему";
 
 /* AUTH */
 
@@ -1109,7 +1145,7 @@
 
 "BAD_NAME"                  = "Неверное имя";
 "BAD_PATH"                  = "Неверный путь";
-"BAD_ZIPFILE"               = "Ошибка во время распаковки архива";
+"BAD_ZIPFILE"               = "Ощибка во время распаковки архива";
 "BAD_EPUB"                  = "Недействительный EPub файл";
 
 "DAILY_LIMIT"               = "Превышен дневной лимит";
@@ -1159,6 +1195,7 @@
 
 "ALERT_BAD_LAYOUT"          = "Кажется, разметка стала недействительной и KyBook не смог справиться с этим! Пожалуйста, закройте книгу и очистите кэш книг в настройках!";
 
+"BAD_LOGIN_PASSWORD"        = "Недействительный логин или пароль";
 
 /* SMB ERRORS */
 

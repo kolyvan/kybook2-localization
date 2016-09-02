@@ -99,5 +99,23 @@
                 <string>%d Tage</string>
             </dict>
         </dict>
+        <key>%d books</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@books@</string>
+            <key>books</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>null Bücher</string>
+                <key>one</key>
+                <string>ein Buch</string>
+                <key>other</key>
+                <string>%d Bücher</string>
+            </dict>
+        </dict>
     </dict>
 </plist>

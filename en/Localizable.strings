@@ -42,6 +42,7 @@
 "CONTINUE"          = "Continue";
 "RESET"             = "Reset";
 "DONE"              = "Done";
+"AGREE"             = "I agree";
 
 "SEND"              = "Send";
 "SYNC"              = "Synchronize";
@@ -56,6 +57,7 @@
 
 "SHOW"              = "Show";
 "HIDE"              = "Hide";
+"CLOSE"             = "Close";
 
 "GO"                = "Go";
 "SPEAK"             = "Speak";
@@ -117,6 +119,7 @@
 "BOOK_COVERS"       = "Book Covers";
 "EMPTY_TEXT"        = "No text";
 "FILE_SIZE"         = "File size";
+"ABOUT_AUTHOR"      = "About the author";
 
 
 /* APP MAIN */
@@ -236,6 +239,8 @@
 "PROTECTED_FILE_TITLE" = "The file is protected";
 "PLEASE_ENTER_PASSWORD" = "Please enter a password";
 "SIBLING_FOLDERS"   = "Sibling folders";
+"READONLY_STORAGE_TITLE" = "Readonly Storage";
+"READONLY_STORAGE_MSG_FMT" = "Could not perform this operation. No write permissions to '%@'.";
 
 
 /* SORTING GROUPING */
@@ -287,6 +292,10 @@
 
 "GOOGLE_DRIVE"              = "Google Drive";
 
+/* cloud.mai.ru */
+
+"CLOUD_MAIL_RU"             = "Cloud Mail.ru";
+"CLOUD_MAIL_RU_CAUTION"     = "Warning, this is an unofficial implementation of a protocol for working with Cloud Mail.ru.\nYou connect the cloud at your own risk and without any warranty of quality, availability, data integrity, security, or about anything else.\nBefore use read the license agreement of the Service cloud@mail.ru https://cloud.mail.ru/LA/";
 
 /* CLOUDS PERM */
 
@@ -335,6 +344,23 @@
 "LOCAL_OPDS"                = "Find in Localnet";
 "ADD_OPDS_CATALOG_FOOTER"   = "Enter an address into the search field for adding a custom OPDS Сatalog.";
 "BAD_OPDS_SEARCH"           = "OPDS Catalog does not support searching";
+"OPDS_CATALOG_PROBING"      = "Probing..";
+"OPDS_CATALOG_FIX_MESSAGE"  = "It seems what the OPDS catalog address was not fully specified. The address was corrected to proper one. Please check carefully.";
+
+
+/* SAMIZDAT */
+
+"SAMIZDAT"          = "Samizdat";
+"RESET_UPDATE"      = "Reset update";
+"SAMIZDAT_UPDATED"  = "Updated";
+"SAMIZDAT_SIZE"     = "Volume";
+"SAMIZDAT_VISITORS" = "Visitors per year";
+"SAMIZDAT_IMPORT"   = "Import authors";
+"SAMIZDAT_IMPORT_HINT" = "";
+"SAMIZDAT_EXPORT"   = "Export authors";
+"SAMIZDAT_EXPORT_HINT" = "";
+"SAMIZDAT_AUTHORS"  = "All authors alphabetically";
+"SAMIZDAT_SERVER"   = "Samizdat server (hostname)";
 
 
 /* BOOKCARD */
@@ -364,6 +390,7 @@
 "GENRES"        = "Genres";
 "COLLECTIONS"   = "Collections";
 "RATING"        = "Rating";
+"MY_RATING"     = "My rating";
 "SOURCE"        = "Source";
 "READ_STAT"     = "Stats of reading";
 "READ_STAT_FMT" = "At %@, Read %d%% for %@"; // At 15:30, Read 12% for 5min
@@ -404,6 +431,7 @@
 "ENTER_COLOR"           = "Enter Color";
 "ENTER_ENCODING"        = "Enter Encoding";
 "ACQUIRE_BOOK"          = "Acquire";
+"READ_ONLINE"           = "Read online";
 
 
 /* BOOKCARD COVER */
@@ -1002,7 +1030,10 @@
 /* BOOKS CATEGORIES */
 
 "NEW"               = "New";
+"NEWS"              = "News";
 "RECENT"            = "Recent";
+"LATEST"            = "New";
+"UPDATES"           = "Updates";
 "TOP_RATED"         = "Top Rated";
 "ALL_BOOKS"         = "All Books";
 "FREE_BOOKS"        = "Free Books";
@@ -1031,9 +1062,11 @@
 /* FAVORITES */
 
 "FAVORITES"         = "Favorites";
-"ADD_FAVORITE"      = "Add to Favorite";
+"ADD_FAVORITE"      = "Add to favorites";
+"REMOVE_FAVORITE"   = "Remove from favorites";
 "EMPTY_FAVORITES"   = "No saved favorites";
 "GROUP_FAVORITES"   = "Sort Favorites";
+"FAVORITED"         = "Favorited";
 
 
 /* ABOUT APP */
@@ -1068,6 +1101,9 @@
 "RATEAPP_NO"            = "Not really";
 "RATEAPP_OK"            = "Ok, sure";
 "RATEAPP_CANCEL"        = "No, thanks";
+"RATEAPP_SUBTITLE"      = "Please rate your experience";
+"RATEAPP_RATE_DO"       = "Rate it on the App Store";
+"RATEAPP_FEEDBACK_DO"   = "Send us some feedback";
 
 /* AUTH */
 
@@ -1159,6 +1195,7 @@
 
 "ALERT_BAD_LAYOUT"          = "It seems the layout become void and the KyBook could not handle it! Please close the book and next clean the Books Cache in the App Settings!";
 
+"BAD_LOGIN_PASSWORD"        = "Invalid login or password";
 
 /* SMB ERRORS */
 
