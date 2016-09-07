@@ -117,5 +117,23 @@
                 <string>%d Bücher</string>
             </dict>
         </dict>
+        <key>%d authors</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@authors@</string>
+            <key>authors</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>null Autoren</string>
+                <key>one</key>
+                <string>ein Autor</string>
+                <key>other</key>
+                <string>%d Autoren</string>
+            </dict>
+        </dict>
     </dict>
 </plist>

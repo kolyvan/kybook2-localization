@@ -129,5 +129,25 @@
                 <string>%d книг</string>
             </dict>
         </dict>
+        <key>%d authors</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@authors@</string>
+            <key>authors</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>ноль авторов</string>
+                <key>one</key>
+                <string>один автор</string>
+                <key>few</key>
+                <string>%d автора</string>
+                <key>other</key>
+                <string>%d авторов</string>
+            </dict>
+        </dict>
     </dict>
 </plist>

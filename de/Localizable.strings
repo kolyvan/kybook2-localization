@@ -182,6 +182,9 @@
 "DOWNLOAD_COMPLETE"     = "Download Complete";
 "DOWNLOADS"             = "Downloads";
 "DOWNLOADED"            = "Heruntergeladen";
+"DOWNLOAD_FILE"         = "Herunterladen Datei";
+"DOWNLOAD_FILE_MESSAGE" = "Geben Sie die URL zum Herunterladen einer Datei";
+
 
 
 /* STATE */
@@ -191,6 +194,8 @@
 
 "RUNNING"               = "Arbeite..";
 "LOADING"               = "Laden, bitte warten..";
+"LOADING_SHORT"         = "Laden..";
+"LOADING_FMT"           = "Laden %u%%";
 "PREPARING"             = "Vorbereiten..";
 "INSTALLATION"          = "Installation..";
 
@@ -351,6 +356,7 @@
 /* SAMIZDAT */
 
 "SAMIZDAT"          = "Samizdat";
+"SAMIZDAT_SITE"     = "Samizdat Webseite";
 "RESET_UPDATE"      = "Reset-Update";
 "SAMIZDAT_UPDATED"  = "Updated";
 "SAMIZDAT_SIZE"     = "Volume";
@@ -361,6 +367,9 @@
 "SAMIZDAT_EXPORT_HINT" = "";
 "SAMIZDAT_AUTHORS"  = "All authors alphabetically";
 "SAMIZDAT_SERVER"   = "Samizdat server (hostname)";
+"ADD_TO_BOOKS"      = "In den Bücher";
+"SAMIZDAT_UPDATES_HINT" = "Pull to refresh and obtain the latest update";
+"SAMIZDAT_ADD_AUTHOR_HINT" = "Use a long-press gesture to add an author";
 
 
 /* BOOKCARD */
@@ -432,6 +441,8 @@
 "ENTER_ENCODING"        = "Geben Sie den Encoding";
 "ACQUIRE_BOOK"          = "Akquirieren";
 "READ_ONLINE"           = "Online lesen";
+"SHARE_INFO"            = "Teilen Info";
+"SHARE_FILE"            = "Teilen Datei";
 
 
 /* BOOKCARD COVER */
@@ -773,6 +784,7 @@
 "TTS_CONF"              = "Sprachausgabe";
 "TTS_PITCH"             = "Tonhöhe";
 "TTS_RATE"              = "Rate";
+"TTS_VOLUME"            = "Lautstärke";
 "TTS_VOICES"            = "Voices";
 
 

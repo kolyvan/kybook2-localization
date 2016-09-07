@@ -182,6 +182,8 @@
 "DOWNLOAD_COMPLETE"     = "Загрузка завершена";
 "DOWNLOADS"             = "Загрузки";
 "DOWNLOADED"            = "Загружено";
+"DOWNLOAD_FILE"         = "Загрузить файл";
+"DOWNLOAD_FILE_MESSAGE" = "Введите URL для загрузки файла";
 
 
 /* STATE */
@@ -191,6 +193,8 @@
 
 "RUNNING"               = "Выполнение..";
 "LOADING"               = "Загрузка, пожалуйста, подождите..";
+"LOADING_SHORT"         = "Загрузка..";
+"LOADING_FMT"           = "Загрузка %u%%";
 "PREPARING"             = "Подготовка..";
 "INSTALLATION"          = "Установка..";
 
@@ -350,6 +354,7 @@
 /* SAMIZDAT */
 
 "SAMIZDAT"          = "Самиздат";
+"SAMIZDAT_SITE"     = "сайт Самиздат";
 "RESET_UPDATE"      = "Сбросить обновление";
 "SAMIZDAT_UPDATED"  = "Обновлялось";
 "SAMIZDAT_SIZE"     = "Объем";
@@ -360,6 +365,9 @@
 "SAMIZDAT_EXPORT_HINT" = "Экспортировать авторов как .json файл в папку Файлы/App/Samizdat";
 "SAMIZDAT_AUTHORS"  = "Все авторы по алфавиту";
 "SAMIZDAT_SERVER"   = "Сервер Самиздат (имя хоста)";
+"ADD_TO_BOOKS"      = "Добавить в Книги";
+"SAMIZDAT_UPDATES_HINT" = "Потяните, чтобы обновить и получить последние обновления";
+"SAMIZDAT_ADD_AUTHOR_HINT" = "Подсказка, используйте длительное нажатие на ячейке автора или текста для добавления в свой список";
 
 
 /* BOOKCARD */
@@ -431,6 +439,8 @@
 "ENTER_ENCODING"        = "Укажите кодировку";
 "ACQUIRE_BOOK"          = "Приобрести";
 "READ_ONLINE"           = "Читать на сайте";
+"SHARE_INFO"            = "Поделиться информацией";
+"SHARE_FILE"            = "Поделиться файлом";
 
 
 /* BOOKCARD COVER */
@@ -772,6 +782,7 @@
 "TTS_CONF"              = "Синтез речи";
 "TTS_PITCH"             = "Тембр";
 "TTS_RATE"              = "Скорость";
+"TTS_VOLUME"            = "Громкость";
 "TTS_VOICES"            = "Голоса";
 
 
@@ -1145,7 +1156,7 @@
 
 "BAD_NAME"                  = "Неверное имя";
 "BAD_PATH"                  = "Неверный путь";
-"BAD_ZIPFILE"               = "Ощибка во время распаковки архива";
+"BAD_ZIPFILE"               = "Ошибка во время распаковки архива";
 "BAD_EPUB"                  = "Недействительный EPub файл";
 
 "DAILY_LIMIT"               = "Превышен дневной лимит";
