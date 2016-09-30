@@ -350,6 +350,7 @@
 "BAD_OPDS_SEARCH"           = "OPDS Catalog does not support searching";
 "OPDS_CATALOG_PROBING"      = "Probing..";
 "OPDS_CATALOG_FIX_MESSAGE"  = "It seems what the OPDS catalog address was not fully specified. The address was corrected to proper one. Please check carefully.";
+"OPDS_CATALOG_BAD_CONTENT_FMT" = "OPDS Catalog returned the wrong content type '%@' from %@";
 
 
 /* SAMIZDAT */
@@ -489,6 +490,9 @@
 "AUTOSCROLL"            = "Auto scroll";
 "DEFINE"                = "Define";
 "RAPID_READ"            = "Speed Reading";
+"GOTO_PAGE"             = "Go to page";
+"GOTO_MENU"             = "Go to..";
+"PAGE_NO"               = "Page number";
 
 "RESET_BOOK_CURSOR_TITLE" = "The read position";
 "RESET_BOOK_CURSOR_MESSAGE" = "It seems what the read position in this book was recently changed on the another your device. Would you like to go to the read position obtained from iCloud?";
@@ -639,6 +643,7 @@
 "AUTO_ADD_BOOKRECORD"   = "Automatically add a record into the database for files";
 "AUTO_ADD_BOOKRECORD_DOWNLOAD" = "downloaded from Internet";
 "AUTO_ADD_BOOKRECORD_DOCUMENTS" = "obtained by iTunes";
+"APPEND_DB"             = "Add to Database";
 
 
 /* SYNC SETTINGS */
@@ -663,6 +668,8 @@
 "IN_LOCALNET"               = "In Local Network";
 "IN_INTERNET"               = "In Cloud Storage";
 "CLOUD_SYNC_PUSH_NOTIFICATION_ALERT" = "Please allow the application to send you notifications for stable synchronization >>";
+"CLOUD_SYNC_PUSH_NOTIFICATION_STATUS" = "Push notifications";
+"CLOUD_SYNC_PUSH_NOTIFICATION_HINT" = "Notifications are required for stable synchronization of the books metadata between your devices";
 
 
 /* i18 SETTINGS */
@@ -769,12 +776,12 @@
 /* TOR SETTINGS */
 
 "TOR_NETWORK"           = "Tor network";
-"TOR_NETWORK_ALERT"     = "";
 "TOR_BOOTSTRAP_ALERT"   = "Bootstrapping of Tor network may take a long time. Please wait.";
-"TOR_NETWORK_HINT"      = "KyBook will automatically join to the Tor network and tunnels traffic for .onion OPDS catalogs and websites.\n\nWeb browsing and downloading through the Tor network will be significantly slower than through a non-tunneled connection.\n\nPlease note that KyBook is not intended for web surfing anonymously! Tor KyBook only solves the problem of network reachability.\n\nThis product uses the Tor distributed networks is produced independently from the Tor anonymity software and carries no guarantee from The Tor Project about quality, suitability or anything else.";
+"TOR_NETWORK_CONF_HEADER" = "Attention! KyBook automatically join to the Tor network when opening .onion OPDS catalog.";
+"TOR_NETWORK_CONF_FOOTER" = "KyBook will automatically join to the Tor network and tunnels traffic for .onion OPDS catalogs and websites.\n\nWeb browsing and downloading through the Tor network will be significantly slower than through a non-tunneled connection.\n\nPlease note that KyBook is not intended for web surfing anonymously! Tor KyBook only solves the problem of network reachability.\n\nThis product uses the Tor distributed networks is produced independently from the Tor anonymity software and carries no guarantee from The Tor Project about quality, suitability or anything else.";
 "TOR_BRIDGES"           = "Bridges";
 "TOR_ADD_BRIDGE"        = "Add a bridge";
-"TOR_BRIDGES_HINT"      = "Bridges are Tor relays that help you circumvent censorship. More info at bridges.torproject.org";
+"TOR_BRIDGES_HINT"      = "Bridges are Tor relays that help you circumvent censorship. Bridges are not mandatory! Only if you suspect your access to the Tor network is being blocked, you may want to use bridges. More info at bridges.torproject.org";
 
 
 /* TTS SETTINGS */
@@ -1121,6 +1128,13 @@
 "AUTH"              = "Authentication";
 "AUTH_SUCCESS"      = "Authentication is successful";
 "AUTHENTICATED"     = "Authenticated";
+
+
+/* PERMISSIONS */
+
+"PERMISSION_HEADER" = "Hi, KyBook would like to get the permission.";
+"PERMISSION_NOTIFICATION_FOOTER" = "We can send you notifications for better synchronization of the books metadata between your devices. These notifications will not include sounds, badges and alerts. Processing of notifications will take place in the background. You can always change the notification regime in the device settings.";
+"PERMISSION_NOTIFICATION_ALLOW" = "Allow notifications";
 
 
 /* ??? */
