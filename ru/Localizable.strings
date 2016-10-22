@@ -129,7 +129,7 @@
 "MYFILES_TITLE"     = "Файлы";
 "SEARCH_TITLE"      = "Поиск";
 "LIBRARIES_TITLE"   = "Библиотеки";
-"USERSPACE_TITLE"   = "Пользователь";
+"USERSPACE_TITLE"   = "Личный кабинет";
 "MAIN_SCREEN"       = "Главный экран";
 "APPLICATION"       = "Приложение";
 "PROFILE"           = "Профиль";
@@ -155,6 +155,7 @@
 "PASSWORD_HINT"     = "пароль";
 "SEARCH_HINT"       = "искать";
 "TITLE_HINT"        = "название";
+"NAME_HINT"         = "имя";
 
 
 /* DIALOG REMOVE FILE/BOOK */
@@ -245,6 +246,20 @@
 "SIBLING_FOLDERS"   = "Одноуровневые папки";
 "READONLY_STORAGE_TITLE" = "Хранилище только для чтения";
 "READONLY_STORAGE_MSG_FMT" = "Невозможно выполнить операцию. Нет разрешения на запись в '%@'.";
+
+/* FILES MAIN SETTINS  */
+
+"FILES_DOWNLOADS_DEST"              = "Хранилище для загрузок";
+"FILES_DOWNLOADS_DEST_HINT"         = "Расположение папки 'Загрузки'. В эту папку будут загружаться файлы из OPDS каталогов и библиотек";
+"FILES_INBOX_DEST"                  = "Хранилище для Inbox";
+"FILES_INBOX_DEST_HINT"             = "Расположение папки 'Inbox'. В эту папку будут помещаться файлы переданные из другого приложения";
+"FILES_APP_FOLDER"                  = "Папка Файлы/App";
+"FILES_APP_FOLDER_HINT"             = "Показать папку 'App' в разделе Файлы. Папка Файлы/App содержит такие файлы как шрифты, обложки, конспекты, резервные копии и т.п.";
+"FILES_ITUNES_FOLDERS_MODE"         = "iTunes Общие файлы - новые папки";
+"FILES_ITUNES_FOLDERS_MODE_AUTO"    = "Добавить в Файлы";
+"FILES_ITUNES_FOLDERS_MODE_MOVE"    = "Перемещать в Файлы/Книги";
+"FILES_ITUNES_FOLDERS_MODE_MANUAL"  = "Игнорировать. Разрешить добавить позже вручную";
+"FILES_ITUNES_FOLDERS_MODE_HINT"    = "Реакция на обнаружение новых папок добавленных пользователем через iTunes Общие файлы.\n\n - автоматически создавать корневые папки в разделе Файлы.\n - Перемещать папки в Файлы/Книги.\n - Разрешить пользователю самостоятельно создавать корневые папки в разделе Файлы.";
 
 /* SORTING GROUPING */
 
@@ -492,6 +507,7 @@
 "GOTO_PAGE"             = "Перейти на страницу";
 "GOTO_MENU"             = "Перейти..";
 "PAGE_NO"               = "Номер страницы";
+"HORIZ_SCROLL_LOCK"     = "Гориз. прокрутка";
 
 "RESET_BOOK_CURSOR_TITLE" = "Позиция чтения";
 "RESET_BOOK_CURSOR_MESSAGE" = "Кажется, что позиция чтения была недавно изменена на другом вашем устройстве. Вы бы хотели перейти на позицию чтения полученную из iCloud?";
@@ -1247,7 +1263,6 @@
 
 /* OBSOLETE (NOT USED NOW)
 
-"NAME_HINT"         = "имя";
 "PATH_HINT"         = "путь";
 "RECOMMENDED_TITLE" = "Рекомендации";
 "MAIN_TITLE"        = "Главная";
