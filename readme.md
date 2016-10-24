@@ -14,4 +14,8 @@ Please, feel free to send a pull request or create an issue if found any typo or
 * Do not remove the semicolons **;** at the end of line!
 * As finished, submit a pull request.
 
-### And if you are not familiar with such things as forking, pull request, etc then you can send directly to me your localization.
+#### And if you are not familiar with such things as forking, pull request, etc then you can send directly to me your localization.
+
+
+### Thanks
+- [Carsten Perthel](https:///github.com/cpesoft) for the German translation.
