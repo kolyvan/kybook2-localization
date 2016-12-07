@@ -65,6 +65,7 @@
 "FETCH"             = "Holen";
 "MARK"              = "Markieren";
 "CUSTOMIZE"         = "Anpassen";
+"CHANGE"            = "Ändern";
 
 
 /* COMMON WORDS */
@@ -247,6 +248,7 @@
 "SIBLING_FOLDERS"   = "Geschwister Ordner";
 "READONLY_STORAGE_TITLE" = "Nur-Lesen Speicher";
 "READONLY_STORAGE_MSG_FMT" = "Vorgang konnte nicht durchgeführt werden. Keine Schreibberechtigungen für '%@'.";
+"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "Must first copy the archive file to the device from the cloud storage.";
 
 /* FILES MAIN SETTINS  */
 
@@ -365,6 +367,7 @@
 "BAD_OPDS_SEARCH"           = "OPDS Katalog unterstützt keine Suche";
 "OPDS_CATALOG_PROBING"      = "Verifikation..";
 "OPDS_CATALOG_FIX_MESSAGE"  = "Es scheint, als ob die OPDS Katalog-Adresse nicht vollständig angegeben wurde. Die Adresse wurde korrigiert. Bitte sorgfältig überprüfen.";
+"OPDS_CATALOG_BAD_CONTENT_FMT" = "OPDS Catalog returned the wrong content type '%@' from %@";
 
 
 /* SAMIZDAT */
@@ -785,8 +788,7 @@
 "PROXY_LIST"            = "Liste der Proxy-Server";
 "DIRECT_CONNECT"        = "Direkte Verbindung";
 "OPDS_CATALOG_SESSION_TITLE" = "Die Verbindungsmethode zu einem Katalogserver";
-"OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server -> OPDS catalog";
-"OPDS_CATALOG_BAD_CONTENT_FMT" = "OPDS Catalog returned the wrong content type '%@' from %@";
+"OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server";
 
 
 /* TOR SETTINGS */
@@ -1042,6 +1044,15 @@
 "LANGUAGES"             = "Sprachen";
 "ENTER_LANGUAGE"        = "Sprache wählen";
 
+/* LOCALIZATION SETTINGS */
+
+"LOCALIZATION_CONF"             = "Localization";
+"LOCALIZATION_HEADER"           = "List of supported user interface languages";
+"LOCALIZATION_FOOTER"           = "Please report about any inaccuracies and offer new localization in https://github.com/kolyvan/kybook2-localization";
+"LOCALIZATION_CHANGE_TITLE"     = "Change Language";
+"LOCALIZATION_CHANGE_MESSAGE"   = "Warning - this is a dangerous feature! Applying can cause issues during the application startup. Use it at your own risk.";
+"LOCALIZATION_CHANGE_MESSAGE2"  = "For applying changes the application must be closed right now!\nPlease start KyBook after the closing.";
+
 
 /* FILES SYNCHRONIZER */
 
@@ -1122,6 +1133,7 @@
 "FOLLOW_TWITTER"        = "Folge @KyBook_App";
 "FOLLOW_VKONTAKTE"      = "KyBook VKontakte";
 "COPYRIGHT_NAME"        = "Konstantin Bukreev";
+"ACKNOWLEDGMENT"        = "Acknowledgement";
 
 
 /* RATE APP */

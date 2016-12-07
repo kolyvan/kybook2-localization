@@ -65,6 +65,7 @@
 "FETCH"             = "Fetch";
 "MARK"              = "Mark";
 "CUSTOMIZE"         = "Customize";
+"CHANGE"            = "Change";
 
 
 /* COMMON WORDS */
@@ -246,6 +247,7 @@
 "SIBLING_FOLDERS"   = "Sibling folders";
 "READONLY_STORAGE_TITLE" = "Readonly Storage";
 "READONLY_STORAGE_MSG_FMT" = "Could not perform this operation. No write permissions to '%@'.";
+"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "Must first copy the archive file to the device from the cloud storage.";
 
 /* FILES MAIN SETTINS  */
 
@@ -786,7 +788,7 @@
 "PROXY_LIST"            = "Proxies list";
 "DIRECT_CONNECT"        = "Directly";
 "OPDS_CATALOG_SESSION_TITLE" = "The connection method to a catalog server";
-"OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server -> OPDS catalog";
+"OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server";
 
 
 /* TOR SETTINGS */
@@ -1042,6 +1044,15 @@
 "LANGUAGES"             = "Languages";
 "ENTER_LANGUAGE"        = "Enter Language";
 
+/* LOCALIZATION SETTINGS */
+
+"LOCALIZATION_CONF"             = "Localization";
+"LOCALIZATION_HEADER"           = "List of supported user interface languages";
+"LOCALIZATION_FOOTER"           = "Please report about any inaccuracies and offer new localization in https://github.com/kolyvan/kybook2-localization";
+"LOCALIZATION_CHANGE_TITLE"     = "Change Language";
+"LOCALIZATION_CHANGE_MESSAGE"   = "Warning - this is a dangerous feature! Applying can cause issues during the application startup. Use it at your own risk.";
+"LOCALIZATION_CHANGE_MESSAGE2"  = "For applying changes the application must be closed right now!\nPlease start KyBook after the closing.";
+
 
 /* FILES SYNCHRONIZER */
 
@@ -1122,6 +1133,7 @@
 "FOLLOW_TWITTER"        = "Follow @KyBook_App";
 "FOLLOW_VKONTAKTE"      = "KyBook VKontakte";
 "COPYRIGHT_NAME"        = "Konstantin Bukreev";
+"ACKNOWLEDGMENT"        = "Acknowledgement";
 
 
 /* RATE APP */

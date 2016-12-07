@@ -65,6 +65,7 @@
 "FETCH"             = "Получить";
 "MARK"              = "Отметить";
 "CUSTOMIZE"         = "Настроить";
+"CHANGE"            = "Изменить";
 
 
 /* COMMON WORDS */
@@ -246,6 +247,7 @@
 "SIBLING_FOLDERS"   = "Одноуровневые папки";
 "READONLY_STORAGE_TITLE" = "Хранилище только для чтения";
 "READONLY_STORAGE_MSG_FMT" = "Невозможно выполнить операцию. Нет разрешения на запись в '%@'.";
+"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "Необходимо предварительно скопировать файл архива на устройство из облачного хранилища.";
 
 /* FILES MAIN SETTINS  */
 
@@ -785,7 +787,7 @@
 "PROXY_LIST"            = "Список прокси";
 "DIRECT_CONNECT"        = "Напрямую";
 "OPDS_CATALOG_SESSION_TITLE" = "Способ соединения с сервером каталога";
-"OPDS_CATALOG_SESSION_HINT" = "Для изменения прокси сервера откройте настройки приложения -> Сеть -> Прокси сервер -> OPDS Каталог";
+"OPDS_CATALOG_SESSION_HINT" = "Для изменения прокси сервера откройте настройки приложения -> Сеть -> Прокси сервер";
 
 
 /* TOR SETTINGS */
@@ -1041,6 +1043,15 @@
 "LANGUAGES"             = "Языки";
 "ENTER_LANGUAGE"        = "Ввести язык";
 
+/* LOCALIZATION SETTINGS */
+
+"LOCALIZATION_CONF"             = "Локализация";
+"LOCALIZATION_HEADER"           = "Список поддерживаемых языков пользовательского интерфейса";
+"LOCALIZATION_FOOTER"           = "Пожалуйста сообщайте о неточностях и предлагайте новые локализации в https://github.com/kolyvan/kybook2-localization";
+"LOCALIZATION_CHANGE_TITLE"     = "Изменить язык";
+"LOCALIZATION_CHANGE_MESSAGE"   = "Внимание - это опасная функция! Применение может вызвать проблемы при запуске приложения. Используйте на свой страх и риск.";
+"LOCALIZATION_CHANGE_MESSAGE2"  = "Для внесения изменений приложение должно быть закрыто прямо сейчас!\nПожалуйста, запустите KyBook после закрытия.";
+
 
 /* FILES SYNCHRONIZER */
 
@@ -1122,6 +1133,7 @@
 "FOLLOW_TWITTER"        = "Читать @KyBook_App";
 "FOLLOW_VKONTAKTE"      = "KyBook ВКонтакте";
 "COPYRIGHT_NAME"        = "Константин Букреев";
+"ACKNOWLEDGMENT"        = "Благодарность";
 
 
 /* RATE APP */
