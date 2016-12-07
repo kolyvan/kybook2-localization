@@ -1,0 +1,1300 @@
+/*
+  Localizable.strings
+  rocket
+
+  Created by Kolyvan on 26.04.15.
+  Copyright (c) 2015 Kolyvan. All rights reserved.
+*/
+
+
+/* COMMON */
+
+"DEFAULT"           = "Προεπιλογή";
+"EMPTY"             = "Κενό";
+"NONE"              = "Κανένα";
+"UNKNOWN"           = "Άγνωστο";
+
+
+/* COMMON VERBS */
+
+"ADD"               = "Προσθήκη";
+"EDIT"              = "Επεξεργασία";
+
+"CREATE"            = "Δημιουργία";
+"COPY"              = "Αντιγραφή";
+"MOVE"              = "Μετακίνηση";
+"REMOVE"            = "Αφαίρεση";
+"RENAME"            = "Μετονομασία";
+
+"OPEN"              = "Άνοιγμα";
+"SAVE"              = "Αποθήκευση";
+"SHARE"             = "Κοινή χρήση";
+"SEARCH"            = "Αναζήτηση";
+
+"SELECT"            = "Επιλογή";
+"SELECT_ALL"        = "Επιλογή όλων";
+
+"RELOAD"            = "Επαναφόρτωση";
+"RESTART"           = "Επανεκκίνηση";
+"START"             = "Εκκίνηση";
+"STOP"              = "Διακοπή";
+"CANCEL"            = "Ακύρωση";
+"CONTINUE"          = "Συνέχεια";
+"RESET"             = "Επαναφορά";
+"DONE"              = "Έτοιμο";
+"AGREE"             = "Δέχομαι";
+
+"SEND"              = "Αποστολή";
+"SYNC"              = "Συγχρονισμός";
+"UPLOAD"            = "Ανέβασμα";
+
+"ENABLE"            = "Ενεργοποίηση";
+"EXCLUDE"           = "Εξαίρεση";
+"RELINK"            = "Επανασύνδεση";
+
+"READ"              = "Ανάγνωσμα";
+"LISTEN"            = "Ακρόαση";
+
+"SHOW"              = "Εμφάνιση";
+"HIDE"              = "Απόκρυψη";
+"CLOSE"             = "Κλείσιμο";
+
+"GO"                = "Μετάβαση";
+"SPEAK"             = "Αππαγελία";
+"TRANSLATE"         = "Μετάφραση";
+"FETCH"             = "Μετάκληση";
+"MARK"              = "Επισήμανση";
+"CUSTOMIZE"         = "Προσαρμογή";
+"CHANGE"            = "Άλλαξε";
+
+
+/* COMMON WORDS */
+
+"ACTION"            = "Ενέργεια";
+"AUTO"              = "Αυτόματα";
+"NOTE"              = "Σημείωση";
+"USER"              = "Χρήστης";
+"SAMPLE"            = "Δείγμα";
+"DATABASE"          = "Βάση δεδομένων";
+"STORAGE"           = "Αποθήκη";
+"STORAGES"          = "Αποθήκες";
+"IMAGE"             = "Εικόνα";
+"IMAGES"            = "Εικόνες";
+"BOOK"              = "Βιβλίο";
+"BOOKS"             = "Βιβλία";
+"AUDIOBOOK"         = "Ηχογραφημένο βιβλίο";
+"TEXT"              = "Κείμενο";
+"COLOR"             = "Χρώμα";
+"AUDIO"             = "Ήχος";
+"GUIDE"             = "Οδηγός";
+"MORE"              = "Περισσότερο";
+"BACKGROUND"        = "Βάθος";
+"BLACK"             = "Μαύρο";
+"CHAPTER"           = "Κεφάλαιο";
+"MODE"              = "Τρόπος";
+"ALWAYS"            = "Πάντοτε";
+"OFF"               = "Σβηστό";
+"LIST"              = "Κατάλογος";
+"CARDS"             = "Καρτέλες";
+
+
+/* COMMON DATE TIME */
+
+"DATE"              = "Ημερομηνία";
+"TODAY"             = "Σήμερα";
+"YESTERDAY"         = "Χθές";
+"WEAK_AGO"          = "Εβδομάδα πριν";
+"MONTH_AGO"         = "Μήνας πριν";
+"YEAR_AGO"          = "Πέρσι";
+
+
+/* COMMON PHRASES */
+
+"BLANK_PAGE"        = "Κενή σελίδα";
+"WAIT_MESSAGE"      = "Παρακαλούμε, περιμένετε..";
+"WAITING"           = "Αναμονή..";
+"SEARCHING"         = "Αναζήτηση..";
+"NO_SEARCH_RESULT"  = "Δεν υπάρχουν αποτελέσματα αναζήτησης";
+"OPEN_BOOK"         = "Άνοιγμα βιβλίου";
+"CLOSE_BOOK"        = "Κλείσιμο βιβλίου";
+"BOOK_COVERS"       = "Εξώφυλλα βιβλίων";
+"EMPTY_TEXT"        = "Δεν υπάρχει κείμενο";
+"FILE_SIZE"         = "Μέγεθος αρχείου";
+"ABOUT_AUTHOR"      = "Σχετικά με το συντάκτη";
+
+
+/* APP MAIN */
+
+"KYBOOK"            = "KyBook";
+"MYBOOKS_TITLE"     = "Βιβλία";
+"MYFILES_TITLE"     = "Αρχεία";
+"SEARCH_TITLE"      = "Αναζήτηση";
+"LIBRARIES_TITLE"   = "Βιβλιοθήκες";
+"USERSPACE_TITLE"   = "Πίνακας Ελέγχου";
+"MAIN_SCREEN"       = "Κύρια οθόνη";
+"APPLICATION"       = "Εφαρμογή";
+"PROFILE"           = "Προφίλ";
+"FEEDBACK"          = "Aνάδραση";
+"SUPPORT"           = "Υποστήριξη";
+
+
+/* DIALOG */
+
+"USERNAME"              = "Όνομα χρήστη";
+"PASSWORD"              = "Συνθηματικό";
+"EMAIL"                 = "Ηλεκτρονική διεύθυνση";
+"ENTER_NAME"            = "Εισάγετε όνομα";
+"LOGIN"                 = "Σύνδεση";
+"LOGOUT"                = "Αποσύνδεση";
+"SIGN_IN"               = "Είσοδος";
+"SING_UP"               = "Εγγραφή";
+
+
+/* DIALOG PLACEHOLDERS */
+
+"USERNAME_HINT"     = "όνομα χρήστη";
+"PASSWORD_HINT"     = "συνθηματικό";
+"SEARCH_HINT"       = "αναζήτηση";
+"TITLE_HINT"        = "τίτλος";
+"NAME_HINT"         = "όνομα";
+
+
+/* DIALOG REMOVE FILE/BOOK */
+
+"DELETE"                = "Διαγραφή";
+"DELETE_BOOK"           = "Διαγραφή βιβλίου";
+"DELETE_FILE"           = "Διαγραφή αρχείου";
+"DELETE_RECORD"         = "Διαγραφή εγγραφής";
+"DELETE_ALL"            = "Διαγραφή όλων!";
+"DELETE?"               = "Να διαγραφτεί?";
+"DELETE_Q_FMT"          = "Να διαγραφτεί '%@'?";       // Delete 'something'?
+"DELETE_ITEMS?"         = "Να διαγραφτεί %@ '%@'?";    // Delete file 'name.ext'?
+"DELETE_FILES?"         = "Να διαγραφτούν %lu αρχεία?";  // Delete 2 files?
+"DELETE_RECORD_DEVICE"  = "Αρχεία σ'αυτή τη συσκευή";
+"DELETE_RECORD_MSG"     = "Διαγραφή όλων αρχείων με αυτό το βιβλίο, διαγραφή εγγραφής από τη βάση δεδομένων και από το αποθηκευτικό νέφο";
+"WARNING_DELETE_FOLDER" = "Είστε σίγουρος?\nΌλο περιεχόμενο του φακέλου '%@' θα διαγραφτεί!\nΕισάγετε '%@' για επιβεβαίωση.";
+"WARNING_DELETE_DB_ITEM" = "Είστε σίγουρος?\nΗ εγγραφή θα διαγραφτεί οριστικά από την βάση δεδομένων!";
+
+
+/* DOWNLOAD */
+
+"DOWNLOAD"              = "Λήψη";
+"ASK_DOWNLOAD_FMT"      = "Λήψη '%@'?";     // Download 'something'?
+"DOWNLOADING"           = "Λήψη";
+"DOWNLOAD_COMPLETE"     = "Η λήψη ολοκληρώθηκε";
+"DOWNLOADS"             = "Λήψεις";
+"DOWNLOADED"            = "Ληφθέντα αρχεία";
+"DOWNLOAD_FILE"         = "Λήψη αρχείου";
+"DOWNLOAD_FILE_MESSAGE" = "Εισάγετε URL για λήψη αρχείου";
+
+
+/* STATE */
+
+"STATE"                 = "Κατάσταση";
+"STATUS"                = "Θέση";
+
+"RUNNING"               = "Εκτέλεση..";
+"LOADING"               = "Φόρτωση, παρακαλούμε, περιμένετε..";
+"LOADING_SHORT"         = "Φόρτωση..";
+"LOADING_FMT"           = "Φόρτωση %u%%";
+"PREPARING"             = "Προετοιμασία..";
+"INSTALLATION"          = "Εγκατάσταση..";
+
+"CANCELLED"             = "Ακυρώθηκε";
+"FAILURE"               = "Σφάλμα";
+"COMPLETED"             = "Ολοκληρώθηκε";
+"FINISHED"              = "Ολοκληρώθηκε";
+"READY"                 = "Έτοιμο";
+
+"DISCONNECTED"          = "Αποσυνδεδεμένο";
+"CONNECTING"            = "Σύνδεση..";
+"CONNECTED"             = "Συνδεδεμένο";
+"BOOTSTRAP"             = "Εκκίνηση";
+
+
+/* FILES */
+
+"DEVICE"            = "Συσκευή";
+"LOCALNET"          = "Τοπικό δίκτυο";
+"INTERNET"          = "Διαδίκτυο";
+"FILE"              = "Αρχείο";
+"FILES"             = "Αρχεία";
+"FOLDER"            = "Φάκελος";
+"FOLDER_CONFIG"     = "Ρυθμίσεις φακέλου";
+"ACTIONS"           = "Ενέργειες";
+"SORTING"           = "Tαξινόμηση";
+"GROUPING"          = "Kατηγοριοποίηση";
+"SHOWING"           = "Eμφάνιση";
+"CREATE_FOLDER"     = "Δημιουργία φακέλου";
+"SELECT_FOLDER"     = "Επιλογή φακέλου";
+"SELECT_FILE"       = "Επιλογή αρχείου";
+"FILES_EXT_FMT"     = "Αρχεία %@";       // Files epub,pdf,djvu
+"NO_FILES_EXT_FMT"  = "Δεν υπάρχουν αρχεία %@";    // No files epub,pdf,djvu
+"NO_FILES"          = "Δεν υπάρχουν αρχεία";
+"EMPTY_FOLDER"      = "Κενός φάκελος";
+"FOLDER_FOOTER"     = "%@ στα %d αρχεία"; // 12KB in 3 files
+"DEVICE_FOLDERS"    = "Φάκελοι";
+"ALL_DEVICE_FOLDERS"= "Φάκελοι στη συσκευή";
+"EMPTY_STORAGES"    = "Δεν έχετε προσθέσει καμία αποθήκη";
+"SUBFOLDERS_TITLE"  = "Yποφάκελοι στο '%@'";         // Subfolders in 'Books/1'
+"NOSUBFOLDERS_FMT"  = "Δεν υπάρχουν υποφάκελοι στο '%@'";      // No subfolders in 'Books/1'
+"COPY_FILES_FMT"    = "%@ αρχεία από '%@' στο '%@'"; // Move files from 'Downloads' to 'Books/1'
+"TRANSFERRING"      = "Μεταφορά αρχείων";
+"IMPORT_FILE"       = "Εισαγωγή αρχείου";
+"EXPORT_FILE"       = "Εξαγωγή αρχείου";
+"PROTECTED_FILE_TITLE" = "Προστατευόμενο αρχείο";
+"PLEASE_ENTER_PASSWORD" = "Παρακαλούμε, εισάγετε συνθηματικό";
+"SIBLING_FOLDERS"   = "Oµοειδείς φάκελοι";
+"READONLY_STORAGE_TITLE" = "Αποθήκη μόνο για ανάγνωση";
+"READONLY_STORAGE_MSG_FMT" = "Αδυνατή η εκτέλεση της επιχείρησης. Δεν έχετε άδεια εγγραφής στο '%@'.";
+"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "Must first copy the archive file to the device from the cloud storage.";
+
+/* FILES MAIN SETTINS  */
+
+"FILES_DOWNLOADS_DEST"              = "Aπoθήκη για ληφθέντα αρχεία";
+"FILES_DOWNLOADS_DEST_HINT"         = "Τοποθεσία φακέλου 'Λήψεις'. Σ' αυτό το φάκελο θα κατεβαστούν τα αρχεία από OPDS καταλόγους και βιβλιοθήκες";
+"FILES_INBOX_DEST"                  = "Αποθήκη για εισερχόμενα αρχεία";
+"FILES_INBOX_DEST_HINT"             = "Τοποθεσία φακέλου 'Εισερχόμενα'. Σ' αυτό το φάκελο θα τοποθετούν αρχεία μεταφερόμενα από άλλες εφαρμογές";
+"FILES_APP_FOLDER"                  = "Φάκελος Αρχέια/Εφαρμογές";
+"FILES_APP_FOLDER_HINT"             = "Εμφάνιση φακέλου 'Εφαρμογές' στο τμήμα Αρχεία. Φάκελος Αρχεία/Εφαρμογές περιέχει γραμματοσειρές, εξώφυλλα, σημειώσεις, εφεδρικά αντίγραφα κτλ.";
+"FILES_ITUNES_FOLDERS_MODE"         = "Κοινή χρήση αρχείων iTunes - καινούριοι φάκελοι";
+"FILES_ITUNES_FOLDERS_MODE_AUTO"    = "Προσθήκη στα Αρχεία";
+"FILES_ITUNES_FOLDERS_MODE_MOVE"    = "Μετακίνηση στα Αρχεία/Βιβλία";
+"FILES_ITUNES_FOLDERS_MODE_MANUAL"  = "Παράλειψη. Επιτρέπεται χειροκίνητη προσθέση αργότερα";
+"FILES_ITUNES_FOLDERS_MODE_HINT"    = "Η ενέργεια μετά την ανίχνευση του νέου φακέλου που προστέθηκε από το χρήστη μέσω κοινή χρήση αρχείων iTunes.\n\n - Αυτόματη διμιουργία φακέλου ρίζας στα Αρχεία.\n - μετακίνηση φακέλων στα Αρχεία/Βιβλία.\n - Στο χρήστη επιτρέπεται διμιουργία φακέλου ρίζας στα Αρχεία.";
+
+
+/* SORTING GROUPING */
+
+"BY_NAME"           = "Κατ' όνομα";
+"BY_DATE"           = "Kατ' ημερομηνία";
+"BY_SIZE"           = "Κατά μέγεθος";
+"BY_FORMAT"         = "Κατά μορφή";
+"BY_AUTHOR"         = "Κατά συγγραφέα";
+"BY_SEQUENCE"       = "Κατά σειρά";
+"BY_SUBJECT"        = "Κατά θέμα";
+"BY_TAG"            = "Κατ' ετικέτα";
+"BY_TITLE"          = "Κατά τίτλο";
+"BY_BOOK"           = "Κατά βιβλίο";
+"BY_POSITION"       = "Κατά τοποθεσία";
+"BY_PROGRESS"       = "Κατά πρόοδο";
+
+
+/* CELLS PRESENTATION */
+
+"SMALL_CARDS"       = "Μικρές καρτέλες";
+"BOOK_COVERS_SMALL" = "Μικρά εξώφυλλα";
+"BOOK_PILES"        = "Σωροί";
+"BOOK_BACKS"        = "Ράχες";
+"FLAT_PRESENTATION" = "Ισόπεδη";
+"MASONRY_LAYOUT"    = "Μωσαϊκή";
+
+
+/* DROPBOX */
+
+"DROPBOX_LINK_TITLE"        = "Dropbox δεν είναι συνδεδεμένος";
+"DROPBOX_LINK_MESSAGE"      = "Επιλέξτε την προτιμώμενη μέθοδο ελέγχου ταυτότητας σας";
+"DROPBOX_LINK_RUN_APP"      = "Εκτέλεση Dropbox";
+"DROPBOX_LINK_OPEN_SITE"    = "Άνοιγμα www.dropbox.com";
+"DROPBOX_ADD_TITLE"         = "Προσθήκη Dropbox";
+"DROPBOX_ADD_MESSAGE"       = "Χορήγηση άδειας πρόσβασης στα αρχεία σας μέσα Dropbox";
+"DROPBOX_MIGRATE_MESSAGE"   = "Δυστυχώς, αυτή η ενημέρωση απαιτεί επανασύνδεση με Dropbox σας";
+
+
+/* YANDEX DISK */
+
+"YANDEX_DISK"               = "Yandex Disk";
+"YANDEX_DISK_APP"           = "Yandex Disk Εφαρμογή";
+"YANDEX_ADD_TITLE"          = "Προσθήκη Yandex Disk";
+"YANDEX_ADD_MESSAGE"        = "H xορήγηση άδειας πρόσβασης στα αρχεία σας μέσα Yandex Disk";
+
+
+/* GOOGLE DRIVE */
+
+"GOOGLE_DRIVE"              = "Google Drive";
+
+/* cloud.mai.ru */
+
+"CLOUD_MAIL_RU"             = "Νέφος Mail.ru";
+"CLOUD_MAIL_RU_CAUTION"     = "Προειδοποίηση, αυτή είναι μια ανεπίσημη εφαρμογή του πρωτοκόλλου για την εργασία με Cloud Mail.ru.\nΘα συνδεθήτε με το νέφο με δική σας ευθύνη και χωρίς καμία εγγύηση της ποιότητας, της διαθεσιμότητας, της ακεραιότητας των δεδομένων, της ασφάλειας, ή οτιδήποτε άλλου.\nΠριν από τη χρήση διαβάστε τη συμφωνία άδειας χρήσης της υπηρεσίας cloud@mail.ru https://cloud.mail.ru/LA/";
+
+/* CLOUDS PERM */
+
+"STORAGE_PERM_FULL"         = "Πλήρης πρόσβαση";
+"STORAGE_PERM_APP"          = "Μόνο στο φάκελο Εφαρμογές";
+
+
+/* SMB/CIFS */
+
+"SMB_SHARES"            = "Κοινοί χρήση";
+"LOCAL_NETWORK"         = "Τοπικό δίκτυο";
+"NETWORK_NEIGHBORHOOD"  = "Δικτυακό τόπο";
+"SMB_WORKGROUP"         = "Ομάδα εργασίας (προαιρετικό)";
+"SMB_SERVER"            = "Διακομιστής";
+"SMB_SHARE"             = "Κοινόχρηστο σημείο";
+"SMB_USERNAME"          = "Χρήστης  (προαιρετικό)";
+"SMB_PASSWORD"          = "Συνθηματικό (προαιρετικό)";
+"NETBIOS_DISCOVERY"     = "Ανακάληψη τοπικόυ δικτύου";
+
+
+/* WEBDAV */
+
+"ADD_WEBDAV"            = "Προσθήκη διακομιστή WebDAV";
+"KNOWN_WEBDAVS"         = "Γνωστά αποθηκευτικά νέφη WebDAV";
+
+
+/* LIBRARIES */
+
+"EMPTY_LIBRARIES"       = "Δεν έχετε προσθέσει καμία βιβλιοθήκη";
+
+
+/* LITRES */
+
+"LITRES"                    = "LitRes";
+"LITRES_SITE"               = "Iστοσελίδα LitRes";
+"LITRES_CONNECT_MESSAGE"    = "KyBook θα ήθελε να συνδεθεί με το LitRes σας";
+"BASKET"                    = "Καλάθι";
+"TO_BASKET"                 = "Προσθήκη στο καλάθι";
+"FROM_BASKET"               = "Διαγραφή από το καλάθι";
+"BUYBOOK_FMT"               = "Τιμή αγοράς %@";  // Buy for $5
+
+
+/* OPDS CATALOG */
+
+"OPDS_CATALOG"              = "OPDS Κατάλογος";
+"LOCAL_OPDS"                = "Έυρεση στο τοπικό δίκτυο";
+"ADD_OPDS_CATALOG_FOOTER"   = "Εισάγετε διεύθυνση στο πεδίο αναζήτησης για προσθήκη προσαρμοσμένου OPDS καταλόγου.";
+"BAD_OPDS_SEARCH"           = "OPDS Κατάλογος δεν υποστηρίζει αναζήτηση";
+"OPDS_CATALOG_PROBING"      = "Διερεύνηση..";
+"OPDS_CATALOG_FIX_MESSAGE"  = "Φαίνεται ότι δεν είχε προσδιοριστεί πλήρης διεύθυνση του OPDS καταλόγου. Η διεύθυνση διορθώθηκε σε μία κατάλληλη. Παρακαλούμε, ελέγξτε προσεκτικά.";
+"OPDS_CATALOG_BAD_CONTENT_FMT" = "OPDS Κατάλογος επέστρεψε λάθος τύπο περιεχομένου '%@' από %@";
+
+
+/* SAMIZDAT */
+
+"SAMIZDAT"          = "Samizdat";
+"SAMIZDAT_SITE"     = "Iστοσελίδα Samizdat";
+"RESET_UPDATE"      = "Επαναφορά της ενημέρωσης";
+"SAMIZDAT_UPDATED"  = "Ενημερώθηκε";
+"SAMIZDAT_SIZE"     = "Χωρητικότητα";
+"SAMIZDAT_VISITORS" = "Επισκέπτες ετησίως";
+"SAMIZDAT_IMPORT"   = "Εισαγωγή συγγραφέων";
+"SAMIZDAT_IMPORT_HINT" = "";
+"SAMIZDAT_EXPORT"   = "Εξαγωγή συγγραφέων";
+"SAMIZDAT_EXPORT_HINT" = "";
+"SAMIZDAT_AUTHORS"  = "Όλοι οι συγγραφείς κατά αλφαβητική σειρά";
+"SAMIZDAT_SERVER"   = "Διακομιστής Samizdat (hostname)";
+"ADD_TO_BOOKS"      = "Προσθήκη στα Βιβλία";
+"SAMIZDAT_UPDATES_HINT" = "Τραβήξτε για να ανανεώσετε και να αποκτήσετε την πιο πρόσφατη ενημέρωση";
+"SAMIZDAT_ADD_AUTHOR_HINT" = "Χρησιμοποιήστε παρατεταμένο πάτημα για να προσθέσετε ένα συγγραφέα";
+
+
+/* BOOKCARD */
+
+"BOOK_CARD"     = "Κάρτα Βιβλίου";
+"TITLE"         = "Τίτλος";
+"AUTHOR"        = "Συγγραφέας";
+"AUTHORS"       = "Συγγραφείς";
+"SUBJECT"       = "Θέμα";
+"SUBJECTS"      = "Θέματα";
+"SEQUENCE"      = "Σειρά";
+"SEQUENCES"     = "Σειρές";
+"ANNOTATION"    = "Σχόλιο";
+"LANGUAGE"      = "Γλώσσα";
+"ISBN"          = "ISBN";
+"IDENTIFIER"    = "Αναγνωριστικό";
+"IDENTIFIERS"   = "Αναγνωριστικά";
+"LINK"          = "Σύνδεσμος";
+"LINKS"         = "Σύνδεσμοι";
+"LOCATIONS"     = "Τοποθεσίες";
+"PUBLISHER"     = "Εκδότης";
+"KEYWORDS"      = "Λέξεις-κλειδιά";
+"NOTES"         = "Σημειώσεις";
+"REVIEWS"       = "Αναφορές";
+"RELATED_BOOKS" = "Σχετικά βιβλία";
+"TAGS"          = "Ετικέτες";
+"GENRES"        = "Είδη";
+"COLLECTIONS"   = "Συλλογές";
+"RATING"        = "Αξιολόγηση";
+"MY_RATING"     = "Αξιολόγησή μου";
+"SOURCE"        = "Πηγή";
+"READ_STAT"     = "Στατιστικά ανάγνωσης";
+"READ_STAT_FMT" = "Στις %@, Αναγνωσμένο %d%% σε %@"; // At 15:30, Read 12% for 5min
+"TEXT_ENCODING" = "Κωδικοποίηση κειμένου";
+"MOBI_PID"      = "MobiPocket PID (Kindle Serial Number)";
+
+"METADATA"      = "Μεταδεδομένα";
+"SAVE_CHANGES_TITLE" = "Τα δεδομένα έχουν υποστεί επεξεργασία. Να αποθηκευτούν αλλαγες?";
+
+"BOOK_READ_STATE_TITLE" = "Aνάδραση";
+"BOOK_READ_STATE_HINT" = "Εντύπωση";
+"BOOK_READ_STATE_DONE" = "Αναγνωσμένο";
+"BOOK_READ_STATE_NONE" = "Σήμανση ως αναγνωσμένο";
+
+
+/* BOOKCARD ACTIONS */
+
+"ADD_AUTHOR"            = "Προσθήκη συγγραφέα";
+"ADD_SUBJECT"           = "Προσθήκη θέματος";
+"ADD_ID"                = "Προσθήκη ID";
+"ADD_TAG"               = "Προσθήκη ετικέτας";
+"ADD_TITLE"             = "Προσθήκη τίτλου";
+"ADD_SUBTITLE"          = "Προσθήκη υποτίτλου";
+"ADD_SEQUENCE"          = "Προσθήκη σειράς";
+"ADD_SEQUENCE_NUMBER"   = "Προσθήκη αριθμού σειράς";
+"ADD_ANNOTATION"        = "Προσθήκη σχολίου";
+"ADD_LANG"              = "Προσθήκη γλώσσας";
+"ADD_PUBLISHER"         = "Προσθήκη εκδότη";
+"ADD_DATE"              = "Προσθήκη ημερομηνίας";
+"ADD_ISBN"              = "Προσθήκη ISBN";
+"ADD_KEYWORDS"          = "Προσθήκη λέξεων-κλειδιών";
+"ADD_LIBID"             = "Προσθήκη LIBID";
+"ADD_LINK"              = "Προσθήκη σύνδεσμου";
+"ADD_TEXT_ENCODING"     = "Προσθήκη κωδικοποίησης";
+"ADD_MOBI_PID"          = "Προσθήκη PID";
+"ADD_PASSWORD"          = "Προσθήκη συνθηματικόυ";
+"ENTER_TITLE"           = "Εισαγωγή τίτλου";
+"ENTER_COLOR"           = "Εισαγωγή χρώματος";
+"ENTER_ENCODING"        = "Εισαγωγή κωδικοποίησης";
+"ACQUIRE_BOOK"          = "Απόκτηση";
+"READ_ONLINE"           = "Ανάγνωσμα online";
+"SHARE_INFO"            = "Κοινή χρήση δεδομένων";
+"SHARE_FILE"            = "Κοινή χρήση αρχείου";
+
+
+/* BOOKCARD COVER */
+
+"BOOK_COVER"            = "Εξώφυλλο βιβλίου";
+"SELECT_COVER_IMAGE"    = "Αλλαγή εξώφυλλου";
+"COVER_FROM_BOOK"       = "Επαναφορά από το βιβλίο";
+"PHOTOS"                = "Φωτογραφίες";
+"PHOTO"                 = "Φωτογραφία";
+"WEB"                   = "Διαδίκτιο";
+"WEB_SEARCH"            = "Διαδικτυακή αναζήτηση";
+
+
+/* BOOKCARD RATING */
+
+"RATING_0"              = "Δεν έχει αξιολογηθεί";
+"RATING_1"              = "Μην διαβάζετε";
+"RATING_2"              = "Πολύ κακό";
+"RATING_3"              = "Κακό";
+"RATING_4"              = "Μέτριο";
+"RATING_5"              = "Έτσι κι έτσι";
+"RATING_6"              = "Πρόστιμο";
+"RATING_7"              = "Καλά";
+"RATING_8"              = "Πολύ καλά";
+"RATING_9"              = "Εξαιρετικό";
+"RATING_10"             = "Αριστούργημα";
+
+
+/* BOOKREADER */
+
+"PAGE_FMT"              = "Σελίδα %u";
+"PAGE_FMT_SHORT"        = "σ. %u";
+"BACK_TO_PAGE_FMT"      = "Επιστροφή στην σελίδα %u";
+
+"CONTENTS"              = "Περιεχώμενα";
+"EMPTY_TOC"             = "Αυτό το βιβλίο δεν έχει πίνακα περιεχομένων";
+"BOOKMARKS"             = "Σελιδοδείκτες";
+"EMPTY_NOTES"           = "Δεν υπάρχουν σελιδοδείκτες και σημειώσεις";
+
+"LOADING_STATUS"        = "Φόρτωση..";
+"LAYOUTING_STATUS"      = "Διάταξη..";
+
+"EXTRAS"                = "Πρόσθετα";
+"THUMBNAILS"            = "Μικρογραφίες";
+"AUTOSCROLL"            = "Αυτόματη κύλιση";
+"DEFINE"                = "Καθορισμός";
+"RAPID_READ"            = "Ταχυανάγνωση";
+"GOTO_PAGE"             = "Μετάβαση στη σελίδα";
+"GOTO_MENU"             = "Μετάβαση..";
+"PAGE_NO"               = "Αριθμός σελίδας";
+"HORIZ_SCROLL_LOCK"     = "Oριζόντια κύλιση";
+
+"RESET_BOOK_CURSOR_TITLE" = "Θέση ανάγνωσης";
+"RESET_BOOK_CURSOR_MESSAGE" = "Φαίνεται ότι η θέση ανάγνωσης σε αυτό το βιβλίο άλλαξε πρόσφατα στην άλλη συσκευή σας. Θα θέλατε να πάτε στη θέση ανάγνωσης αποκτημένη από το iCloud;";
+
+
+/* BOOKREADER SEARCH PARAMS */
+
+"MATCHING_TEXTUTAL"     = "Kείμενο";
+"MATCHING_REGULAR"      = "Kανονικές εκφράσεις";
+"MATCHING_FUZZY"        = "Ασαφής";
+
+
+/* BOOKREADER NOTE DRAW MODE */
+
+"DRAW_FILL"             = "Γέμισμα";
+"DRAW_STRIKETHROUGH"    = "Διακριτή διαγραφή";
+"DRAW_UNDERLINE"        = "Υπογράμμιση";
+"DRAW_WAVY"             = "Κυματιστή γραμμή";
+"DRAW_DOTS"             = "Αποσιωπητικά";
+
+
+/* BOOKREADER FONT SETTINGS */
+
+"FONT"              = "Γραμματοσειρά";
+"FONTS"             = "Γραμματοσειρές";
+"FONT_SIZE"         = "Μέγεθος γραμματοσειράς";
+"FONT_BOLD"         = "Έντονη";
+"FONT_ITALIC"       = "Πλάγια";
+"FAVORITE_FONTS"    = "Αγαπημένες Γραμματοσειρές";
+"USER_FONTS"        = "Γραμματοσειρές χρήστη";
+"SYSTEM_FONTS"      = "Γραμματοσειρές συστήματος";
+"DOWNLODABLE_FONTS" = "Γραμματοσειρές για λήψη";
+"HINT_USER_FONTS"   = "Αντιγράψτε αρχεία γραμματοσειρών (.ttf ή .otf) στα Έγγραφα της εφαρμογής μέσω κοινή χρήση αρχείων iTunes.";
+
+
+/* BOOKREADER THEME SETTINGS */
+
+"THEMES"            = "Θέματα";
+"ADD_THEME_CELL"    = "Προσθήκη";        // short title
+"DAY"               = "Ημέρα";
+"NIGHT"             = "Νύχτα";
+"SEPIA"             = "Καστανόχρωμο";
+"DARK"              = "Σκούρο";
+"SAND"              = "Άμμος";
+"TANGO"             = "Ταγκό";
+"BRIGHTNESS"        = "Λάμψη";
+"USER_IMAGES_HINT"  = "Αντιγράψτε εικόνες:\n- στα Έγγραφα του KyBook μέσω κοινή χρήση αρχείων iTunes.\n- μέσω 'Αρχεία' στο φάκελο Εφαρμογή/Εικόνες.\n\nΟι εικόνες φόντου είναι δυνατές μόνο για epub/fb2 βιβλία. Η λειτουργία κύλισης είναι συμβατή μόνο με το μοτίβο.";
+
+
+/* BOOKREADER LAYOUT SETTINGS */
+
+"PARAGRAPH"                 = "Παράγραφος";
+"LAYOUT"                    = "Διάταξη";
+"PARA_INDENT"               = "Εσοχή";
+"PARA_SPACING"              = "Απόσταση";
+"KERNING"                   = "Πύκνωση";
+"LINE_HEIGHT"               = "Ύψος γραμμής (%)";
+"LINE_SPACING"              = "Διάστιχο";
+"JUSTIFICATION"             = "Στοίχιση";
+"HYPHENATION"               = "Συλλαβισμός";
+"PAGE_TURN_MODE"            = "Τρόπος αλλαγής σελίδων";
+"PAGE_TURN_CURL"            = "Γύρισμα";
+"PAGE_TURN_SCROLL"          = "Κύλιση";
+"PAGE_TURN_SLIDE"           = "Ολίσθηση";
+"PAGE_SPREAD_LANDSCAPE"     = "Σελιδοποίηση με οριζόντιο προσανατολισμό";
+"PAGE_SPREAD"               = "Δισέλιδο";
+"PAGE_MARGINS"              = "Περιθώρια σελίδας";
+"LEFT_MARGIN"               = "Αριστερό";
+"RIGHT_MARGIN"              = "Δεξιό";
+"TOP_MARGIN"                = "Πάνω";
+"BOTTOM_MARGIN"             = "Κάτω";
+"PAGE_MISC"                 = "Διάφορα σελίδας";
+"PAGE_HEADER"               = "Kεφαλίδα";
+"PAGE_FOOTER"               = "Υποσέλιδο";
+"USER_STYLESHEET"           = "Ύφος χρήστη";
+"SELECT_USER_STYLESHEET"    = "Επίλογη πίνακα υφών";
+"USER_STYLESHEET_HINT"      = "Αντιγράψτε αρχεία υφών (.css):\n- στα Έγγραφα του KyBook μέσω κοινή χρήση αρχείων iTunes.\n- μέσω 'Αρχεία' στο φάκελο Εφαρμογή/Ύφη.";
+"PASS_BOOK_STYLES"          = "Αγνόηση υφών βιβλίου";
+"SOLE_BOOK"                 = "Μόνο για αυτό το βιβλίο";
+"SOLE_BOOK_TITLE"           = "Πεδίο εφαρμογής ρυθμίσεων";
+"SOLE_BOOK_HINT"            = "Απó προεπιλογή οι ρυθμίσεις ισχύουν για όλα τα βιβλία της ίδιας μορφής";
+"RENDER_TABLE"              = "Μέθοδος απόδοσης πίνακα";
+"AS_IMAGE"                  = "Ως εικόνα";
+"AS_TEXT"                   = "Ως κείμενο";
+
+
+/* BOOKREADER PDF/DJVU SETTINGS */
+
+"DOCUMENT"                  = "Έγγραφο";
+"FIT_MODE"                  = "Λειτουργία κλίμακος";
+"FIT_TEXT"                  = "Περιοχή κειμένου";
+"FIT_WIDTH"                 = "Πλάτος";
+"FIT_PAGE"                  = "Περιοχή σελίδας";
+"HIGHLIGHT_LINKS"           = "Επισήμανση συνδέσμων";
+"HIGH_QUALITY"              = "Υψηλή ποιότητα";
+"RENDER_ALL"                = "Απόδοση όλων";
+"RENDER_PROGRESSIVE"        = "Προοδευτικότητα";
+"RENDER_FAST_ZOOM"          = "Ταχεία αυξομείωση";
+"RENDER"                    = "Απόδοση";
+
+/* BOOKREADER COMICS SETTINGS */
+
+"COMICS_SETTINGS"           = "Ρυθμίσεις κόμικς";
+"ADAPTIVE"                  = "Προσαρμοστικός";
+
+
+/* BOOKREADER AUDIO SETTINGS */
+
+"AUDIO_SETTINGS"            = "Ρυθμίσεις ήχου";
+"WAVEFORM"                  = "Εμψύχωση ημιτόνου κυματομορφής";
+"SUBTITLES"                 = "Υπότιτλοι";
+"SUBTITLES_HINT"            = "Εφαρμογή υποστηρίζει υπότιτλους σε μορφή SRT";
+"PLAYBACK_RATE"             = "Ρυθμός";
+"PLAYLIST"                  = "Λίστα αναπαραγωγής";
+"PLAYLIST_HINT"             = "Αυτόματη δημιουργία λίστας αναπαραγωγής από τα αρχεία ήχου σε ένα φάκελο";
+
+
+/* COMMON SETTINGS */
+
+"SETTINGS"              = "Ρυθμίσεις";
+"MORE_SETTINGS"         = "Περισσότερες ρυθμίσεις";
+"MISC_CONF"             = "Διάφορες ρυθμίσεις";
+"ADVANCED"              = "Προχωρημένα";
+
+/* CACHING SETTINGS */
+
+"CACHING_CONF"          = "Προσωρινή αποθήκευση";
+"INTERNET_IMAGES"       = "Εικόνες από διαδίκτυο";
+"CLEAR_CACHE"           = "Καθάρισμα προσωρινής αποθήκευσης";
+"MAXSIZE_MB"            = "Μέγιστο μέγεθος (MB)";
+"FILESIZE_MB"           = "Μέγεθος αρχείου (MB)";
+"LIFETIME_DAYS"         = "Διάρκεια (μέρες)";
+
+
+/* DATABASE SETTINGS */
+
+"DATABASE_CONF"         = "Βάση δεδομένων";
+"RESET_DB"              = "Επαναφορά βάσης δεδομένων";
+"CONFIRM_RESET_DB"      = "Είστε σίγουρος?\nΌλο περιεχόμενο βάσης δεδομένων θα διαγραφεί!\nΕισάγετε 'Επαναφορά' για επιβεβαίωση.";
+"DATABASE_TIMESTAMP"    = "Χρονική σήμανση";
+"BACKUP_DB"             = "Εφεδρικό αντίγραφο βάσης δεδομένων";
+"BACKUP_DB_MESSAGE"     = "Να προστεθεί εφεδρικό αντίγραφο βάσης δεδομένων στο φάκελο Αρχεία/Εφαρμογή/Εφεδρικά?";
+"NO_BACKUPS"            = "Δεν υπάρχουν αντίγραφα βάσης δεδομένων";
+"RESTORE_DB"            = "Επαναφορά βάσης δεδομένων";
+"RESTORE_DB_MESSAGE"    = "Είστε σίγουρος?\nΌλο το περιεχόμενο βάσης δεδομένων θα αλλαχτεί με το εφεδρικό αντίγραφο βάσης δεδομένων!";
+"WIPE_DB_TITLE"         = "Βάση δεδομένων";
+"WIPE_DB_MESSAGE"       = "Προσοχή! Η βάση δεδομένων της εφαρμογής έχει επαναφερθεί! Αυτό δεν είναι σφάλμα.";
+"AUTO_ADD_BOOKRECORD"   = "Αυτόματη προσθήκη εγγραφής στη βάση δεδομένων για αρχεία";
+"AUTO_ADD_BOOKRECORD_DOWNLOAD" = "ληφθέντα από το διαδίκτυο";
+"AUTO_ADD_BOOKRECORD_DOCUMENTS" = "αποκτημένα από το iTunes";
+"APPEND_DB"             = "Προσθήκη στη βάση δεδομένων";
+
+
+/* SYNC SETTINGS */
+
+"SYNC_CONF"                 = "Συγχρονισμός";
+"ICLOUD_SYNC"               = "Συγχρονισμός iCloud";
+"ICLOUD_SYNC_HINT"          = "Συγχρονισμός μεταδεδομένων των βιβλίων (θέσεις ανάγνωσης, σελιδοδείκτες, σημειώσεις, κτλ.) μέσω iCloud";
+"SYNC_TIMESTAMP"            = "Tελευταίος συγχρονισμός";
+"CLOUD_LIFE_REFRESH"        = "Ανανέωση του ανοιχτόυ βιβλίου";
+"CLOUD_LIFE_REFRESH_HINT"   = "Ενημερώση της θέσεως ανάγνωσης, των σελιδοδεικτών και των σημειώσεων στο ανοιχτό βιβλίο κατά την παραλαβή της ειδοποίησης push για τις αλλαγές σε μια άλλη συσκευή";
+"CLOUD_SYNC_APPDIR"         = "φάκελος Αρχεία/Εφαρμογή";
+"CLOUD_SYNC_APPDIR_HINT"    = "Συγχρονισμός αρχείων πού προστέθηκαν από τον χρήστη στο φάκελο Αρχεία/Εφαρμογή (γραμματοσειρές, ύφη, εικόνες, περιλήψεις)";
+"SIGN_IN_ICLOUD_TITLE"      = "Είσοδος στο iCloud";
+"SIGN_IN_ICLOUD_MESSAGE"    = "Συνδεθείτε με το iCloud λογαριασμό σας. Στην Αρχική οθόνη ξεκινήστε Ρυθμίσεις, πατήστε iCloud και εισαγάγετε το Apple ID σας. Ενεργοποιήστε το iCloud Drive. Εάν δεν έχετε λογαριασμό iCloud πατήστε Δημιουργία νέου Apple ID.";
+"NO_ICLOUD_MESSAGE"         = "Παρακαλούμε, συνδεθείτε με το iCloud  λογαριασμό σας για τη χρήση Συλλόγου.";
+"ICLOUD_RESOLVING_MESSAGE"  = "Έλεγχος κατάστασης του iCloud λογαριασμού..";
+"ICLOUD_DISABLED_MESSAGE"   = "iCloud έχει απενεργοποιηθεί, ελέγξτε τις ρυθμίσεις σας για τη χρήση Κοινωνία.";
+"SYNC_METADATA_IN"          = "Συγχρονισμός μεταδεδομένων των βιβλίων";
+"SYNC_METADATA_IN_HINT"     = "";
+"IN_DEVICE"                 = "Στη συσκευή";
+"IN_CLOUD"                  = "Στο iCloud";
+"IN_LOCALNET"               = "Στο τοπικό δίκτυο";
+"IN_INTERNET"               = "Στο αποθηκευτικό Νέφος";
+"CLOUD_SYNC_PUSH_NOTIFICATION_ALERT" = "Για σταθερό συγχρονισμό, παρακαλούμε, επιτρέψτε να σας στέλνει η εφαρμογή τις ειδοποιήσεις >>";
+"CLOUD_SYNC_PUSH_NOTIFICATION_STATUS" = "Ειδοποιήσεις Push";
+"CLOUD_SYNC_PUSH_NOTIFICATION_HINT" = "Οι ειδοποιήσεις απαιτούνται για σταθερό συγχρονισμό μεταδεδομένων των βιβλίων μεταξύ συσκευών σάς";
+
+
+/* i18 SETTINGS */
+
+"INTERNATIONALIZATION"  = "Διεθνοποίηση";
+"ADD_LANG_DIRECTION"    = "Προσθήκη κατεύθυνσης";
+"TRANSLATION_SERVICE"   = "Μεταφραστική Υπηρεσία";
+"TRANSLATION_DIRECTION" = "Κατεύθυνση μετάφρασης";
+"AUTO_DETECT_LANG"      = "Αυτόματη ανίχνευση γλώσσας";
+"LANGUAGE_PAIR"         = "Γλωσσικό ζεύγος";
+
+
+/* BOOKREADER SETTINGS */
+
+"BOOK_READER"               = "Κατά την διάρκεια της ανάγνωσης";
+"LOCK_ROTATION"             = "Κλείδωμα περιστροφής";
+"LOCK_ROTATION_HINT"        = "Να μη αλλάζεται προσανατολισμός της συσκευής έως το βιβλίο είναι ανοιχτό.";
+"LOCK_ROTATION_HINT_WARN"   = "Να μη αλλάζεται προσανατολισμός της συσκευής έως το βιβλίο είναι ανοιχτό.\nΚλείδωμα περιστροφής δεν υποστηρίζεται για το iPad Air 2 και iPad Mini 2 με iOS 9!";
+"AUTO_FULLSCREEN"           = "Πλήρης οθόνη - Αυτόματο";
+"AUTO_FULLSCREEN_HINT"      = "Αυτόματη εναλλαγή σε λειτουργία πλήρους οθόνης μετά το άνοιγμα του βιβλίου";
+"IDLE_TIMER_OFF"            = "Idle χρονόμετρο είναι απενεργοποιημένο";
+"IDLE_TIMER_OFF_HINT"       = "Η οθόνη παραμένει ενεργοποιημένη εφόσον το βιβλίο είναι ανοικτό";
+"SCALE_TEXT_VIA_PINCH_HINT" = "Τσιμπήστε για αλλαγή μεγέθους του κειμένου EPUB, MOBI, FB2 με τρόπο αλλαγής σελίδας: Γύρισμα.";
+"SCALE_TEXT_VIA_PINCH"      = "Aλλαγή μεγέθους κειμένου με το τσίμπημα";
+"BOOK_EDGE_PAN_GESTURE"     = "Kίνηση του χεριού σε μια άκρη της οθόνης";
+"BOOK_EDGE_PAN_GESTURE_HINT" = "Χρησιμοποίηση κίνησης χεριού σε μια άκρη της οθόνης για ανοίμα του αριστερόυ μενού με γύρισμα τρόπο αλλαγής σελίδας, και δεξί μενού με όλους τρόπους. Για να εκτελέσετε αυτή τη ρύθμιση, θα πρέπει να κλείσετε το βιβλίο.";
+"BOOK_NAV_PANELS"           = "Πίνακες πλοήγησης";
+"BOOK_HEADER"               = "Κεφαλίδα";
+"BOOK_HEADER_LUMA"          = "Φωτεινότητα κειμένου";
+"BOOK_FOOTER"               = "Υποσέλιδο";
+"PAGES_LEFT"                = "Σελίδες έμειναν στο κεφάλαιο";
+"PAGES_LEFT_HINT"           = "Ισχύει μόνο για EPUB, MOBI, FB2.";
+
+
+/* BOOKREADER RAPID SELECTION SETTINGS */
+
+"RAPID_SELECTION"           = "Γρήγορη επιλογή";
+"RAPID_MENU"                = "Γρήγορο τμήμα μενού";
+"RAPID_SELECTION_HINT"      = "Γρήγορη επιλογή, χωρίς άρση δαχτύλου από την οθόνη.";
+"RAPID_MENU_HINT"           = "Το τμήμα μενού, το οποίο θα εκτελεστεί μετά από μια γρήγορη επιλογή, χωρίς το αναδυόμενο μενού.";
+
+
+/* BOOKREADER TAP SETTINGS */
+
+"BOOK_TAP_INTERACT"         = "Μέθοδος αλληλεπίδρασης";
+"BOOK_TAP_INTERACT_TITLE"   = "Αλληλεπίδραση με τους συνδέσμους και άλλα διαδραστικά στοιχεία σε ένα βιβλίο";
+"BOOK_TAP_INTERACT_HINT"    = "Αυτή η ρύθμιση ισχύει μόνο για EPUB,FB2,MOBI,KB. Για να εκτελέσετε αυτή τη ρύθμιση, θα πρέπει να κλείσετε το βιβλίο.";
+"TAP_GESTURE"               = "Ελαφρό χτύπημα";
+"LONG_PRESS_GESTURE"        = "Παρατεταμένο πάτημα";
+"TAP_LONG_PRESS_GESTURE"    = "Ελαφρό χτύπημα, Παρατεταμένο πάτημα";
+
+
+/* MISC SETTINGS */
+
+"COMPATIBILITY"             = "Συμβατότητα";
+"NORMALIZED_AUTHOR"         = "Κανονικοποιημένη μορφή τίτλου συγγραφέα";
+"SHOW_SIZE_OF_BATCH"        = "Εμφάνιση μεγέθους της κατηγορίας";
+"HIDE_EMPTY_BACTH"          = "Απόκρυψη κενών κατηγοριών";
+"BOOKCARD_WORD_COUNT"       = "Καταμέτρηση λέξεων";
+"RESTORE_AT_LAUNCH"         = "Επαναφορά της κατάστασης κατά την εκκίνηση";
+"HELP_SHOW_TIPS"            = "Εμφάνιση συμβουλές";
+"ITUNES_FILE_SHARING"       = "Κοινή χρήση αρχείων iTunes";
+"WATCH_DOCUMENTS_FOLDER"    = "Παρατήρηση εγγράφων KyBook";
+"WATCH_DOCUMENTS_FOLDER_HINT" = "Παρακολούθηση για τα νέα αρχεία στο φάκελο Αρχεία του KyBook όταν η συσκευή σας είναι συνδεδεμένη με έναν υπολογιστή μέσω USB";
+"FILES_SHOW_SIBLINGS"       = "Oµοειδείς φάκελοι";
+"FILES_GROUP_BOOKS"         = "Ομαδοποίηση με βιβλία";
+"FILES_CONF_HINT"           = "Oµοειδείς φάκελοι - μια πλευρική γραμμή για υποφακέλους σε οριζόντιο προσανατολισμό.\nΟμαδοποίηση με βιβλία - ένας πρόσθετος τρόπος ομαδοποίησης με τα γνωρίσματα του βιβλίου.";
+"FILES_GROUPING_HINT"       = "Ομαδοποίηση με τον συγγραφέα/σειρές είναι κατάλληλή μόνο για τρόπους παρουσίασης άλλους από «Αρχεία»";
+
+
+/* BOOKCARD ANIMATION SETTINGS */
+
+"BOOKCARD_ANIMATION"    = "Εμψύχωση";
+"SIMPLE_ANIMATION"      = "Απλή";
+"FLIP_ANIMATION"        = "Flip";
+"ZOOM_ANIMATION"        = "Zoom";
+"PUSH_ANIMATION"        = "Push";
+
+
+/* MENU SETTINGS */
+
+"MENU_CONF"             = "Μενού";
+"MENU_ITEMS"            = "Τμήματα μενού";
+"SYSTEM_POPUP_MENU"     = "Μενού συστήματος";
+
+
+/* NETWORK SETTINGS */
+
+"NETWORK_CONF"          = "Δίκτυο";
+"OPEN_URL"              = "Άνοιγμα URL";
+"SAFARI"                = "Safari";
+"STREAMING"             = "Αναπαραγωγή ροής";
+"AUDIO_STREAMING"       = "Ροή ήχου";
+"DOWNLOAD_BOOKS"        = "Λήψη βιβλίων";
+"SELECT_DOWNLOAD_FORMAT" = "Πάντα να επιλέγεται μορφή αρχείου";
+"PROXY_SERVER"          = "Proxy διακομιστής";
+"SELECT_PROXY"          = "Επολογή του proxy";
+"PROXY_LIST"            = "Λίστα των proxy";
+"DIRECT_CONNECT"        = "Απευθείας";
+"OPDS_CATALOG_SESSION_TITLE" = "Μέθοδος σύνδεσης με διακομιστή καταλόγου";
+"OPDS_CATALOG_SESSION_HINT" = "Για την αλλαγή του διακομιστή Proxy ανοίξτε ρυθμίσεις της εφαρμογής -> Δίκτυο -> Proxy διακομιστής -> OPDS κατάλογος";
+
+
+/* TOR SETTINGS */
+
+"TOR_NETWORK"           = "Δίκτυο Tor";
+"TOR_BOOTSTRAP_ALERT"   = "Eκκίνηση του δικτύου Tor μπορεί να διαρκέσει πολύ χρόνο. Παρακαλούμε περιμένετε.";
+"TOR_NETWORK_CONF_HEADER" = "Προσοχή! KyBook συνδέεται αυτόματα με δίκτυο Tor κατά του ανοίγματος .onion OPDS καταλόγου.";
+"TOR_NETWORK_CONF_FOOTER" = "KyBook θα συνδέεται αυτόματα με δίκτυο Tor και θα ανοίγει 'σήραγγα' για την κίνηση δεδομένων για .onion OPDS καταλόγους και ιστοσελίδες.\n\nΠεριήγηση στο διαδίκτυο και κατέβασμα μέσω του δικτύου Tor θα είναι σημαντικά πιο αργά από την μέσω μιας σύνδεσης χωρίς 'σήραγγα'.\n\nΠαρακαλώούμε σημειώστε ότι KyBook δεν προορίζεται για πλοήγηση στο διαδίκτυο ανώνυμα! Tor KyBook λύνει μόνο το πρόβλημα της προσβασιμότητας δικτύου.\n\nΑυτό το προϊόν χρησιμοποιεί τα κατανεμημένα δίκτυα Tor, παράγεται ανεξάρτητα από το λογισμικό ανωνυμίας Tor και δεν φέρει καμία εγγύηση από το Tor Project σχετικά με την ποιότητα, την καταλληλότητα ή οτιδήποτε άλλο.";
+"TOR_BRIDGES"           = "Γέφυρες";
+"TOR_ADD_BRIDGE"        = "Προσθήκη γέφυρας";
+"TOR_BRIDGES_HINT"      = "Γέφυρες είναι ηλεκτρονόμοι του Tor που σας βοηθάνε να παρακάμπτετε την λογοκρισία. Γέφυρες δεν είναι υποχρεωτικές! Μόνο αν υποψιάζεστε ότι η πρόσβασή σας στο δίκτυο Tor είναι αποκλεισμένη, ενδέχεται να θέλετε να χρησιμοποιήσετε τις γέφυρες. Περισσότερες πληροφορίες στο bridges.torproject.org";
+
+
+/* TTS SETTINGS */
+
+"TTS_TITLE"             = "Σύνθεση ομιλίας";
+"TTS_CONF"              = "Σύνθεση ομιλίας";
+"TTS_PITCH"             = "Τόνος";
+"TTS_RATE"              = "Ρυθμός";
+"TTS_VOLUME"            = "Ένταση";
+"TTS_VOICES"            = "Φωνές";
+
+
+/* APP THEME SETTINGS */
+
+"APP_THEME"             = "Θέματα εφαρμογής";
+"THEME_EDIT"            = "Θέμα";
+"THEME_NAME_PROMT"      = "Όνομα θέματος";
+"THEME_COLOR"           = "Βασικό";
+"THEME_CONTRAST"        = "Αντίθεση";
+"THEME_DIVIDER"         = "Διαχωριστής";
+"THEME_ACCENT"          = "Έμφαση";
+"THEME_TEXT"            = "Κείμενο";
+"THEME_SECOND_TEXT"     = "Δευτερεύων κείμενο";
+"THEME_SECOND_BACK"     = "Δευτερεύων βάθος";
+"THEME_BACKGROUND"      = "Βάθος";
+"THEME_CONTROL"         = "Στοιχεία ελέγχου";
+"THEME_SELECTION"       = "Επιλογή";
+"THEME_PATTERN"         = "Σχέδιο";
+"THEME_RETINA"          = "Retina";
+"THEME_GRADIENT"        = "Κλίση";
+
+
+/* VOCABULARY SETTINGS */
+
+"DICTIONARY"            = "Λεξικό";
+"DICT_LEMMA"            = "Λήμμα";
+"DICT_LEMMA_HINT"       = "Αναζήτηση με κανονική μορφή μιας λέξης (Λήμμα).";
+"USER_DICTIONARIES"     = "Λεξικά χρήστη";
+"ENTER_WORD"            = "Εισαγάγετε λέξη";
+"LOADING_VOCABULARY_FMT"= "Φόρτωση '%@'";
+"SEARCH_VOCABULARY_FMT" = "Αναζήτηση σε '%@'";
+"RECORD_COUNT"          = "Αριθμός εγγραφών";
+"NO_LANGUAGE"           = "Η γλώσσα δεν έχει καθοριστεί";
+"VOCABULARY_FORMAT"     = "Μορφή λεξικού";
+"DICTIONARIES"          = "Λεξικά";
+"DICTIONARIES_HINT"     = "Επιλέξτε δωρεάν λεξικό για λήψη και εγκατάσταση";
+"INSTALLED_DICTIONARIES" = "Εγκατεστημένα λεξικά";
+"ACTION_DICTIONARY"     = "Προσθήκη λεξικού";
+"DOWNLOAD_DICTIONARY"   = "Λήψη από το διαδίκτυο";
+"INSTALL_DICTIONARY"    = "Εγκατάσταση από αρχεία";
+"INSTALL_DICTIONARY_HINT" = "Υποστηριζόμενη μορφή λεξικών - StarDict, Lingvo DSL. Συμπιεσμένα (.zip, .rar, .tar, .tbz, .tgz) και απλά (.dsl) αρχεία.";
+"INSTALLED_DICTIONARY_HINT" = "Μπορείτε να αλλάξετε τη σειρά λεξικών, απενεργοποιήστε προσωρινά ή να καταργήσετε εντελώς ένα λεξικό.";
+"DICTIONARY_HINT"       = "Για αναζήτηση σε ένα λεξικό, επιλέξτε μια λέξη στο βιβλίο και στη συνέχεια πατήστε 'Ορισμός' στο μενού περιβάλλοντος.";
+
+
+/* TRANSLATION SETTIGNS */
+
+"TRANSLATION_CONF" = "Μετάφραση";
+
+
+/* SOUND SETTINGS */
+
+"SOUNDS"        = "Ήχοι";
+"EVENTS"        = "Γεγονότα";
+"PAGE_CURL"     = "Γύρισμα";
+
+
+/* SEARCH SETTINGS */
+
+"SEARCH_SETTINGS"       = "Ρυθμίσεις αναζήτησης";
+"SEARCH_INTERNET"       = "Αναζήτηση στο διαδίκτυο";
+"SEARCH_PAID"           = "Αναζήτηση αμειβόμενων βιβλίων";
+"LANGUAGE_FILTER"       = "Φίλτρο με γλώσσα";
+"LANGUAGE_FILTER_HINT"  = "Κωδικοί γλωσσών, χωρισμένοι με κόμμα";
+
+
+/* SIDEBAR SETTINGS */
+
+"SIDEBAR"               = "Πλαϊνή γραμμή";
+"SIDEBAR_SOLID"         = "Στερεός";
+"SIDEBAR_GRADIENT"      = "Κλίση";
+"SIDEBAR_PATTERN"       = "Σχέδιο";
+"SIDEBAR_ABSTRACT"      = "Αφηρημένος";
+
+
+/* LAUNCH SETTINGS */
+
+"LAUNCH"                = "Εκτόξευση";
+"LAUNCH_FAILURE_ALERT"  = "Αποτυχημένη εκτόξευση εντολής";
+"LAUNCH_NONE_ALERT"     = "Δεν υπάρχουν ισχύουσες εντολές";
+"LAUNCH_EDIT"           = "Επεξεργασία εκτόξευσης";
+"LAUNCH_COMMAND"        = "Εντολή";
+"LAUNCH_COMMANDS"       = "Εντολές";
+"RESET_COMMANDS_Q"      = "Επαναφορά εντολών?";
+
+
+/* BOOKSHELF SETTINGS */
+
+"BOOKSHEL_CONF"     = "Ρυθμίσεις ραφιού";
+"REVERSE_SORT"      = "Αντίστροφη ταξινόμηση";
+"COLORED_CARD"      = "Χρωματιστές καρτέλες";
+"SHELVES_COVER"     = "Ράφια για εξώφυλλα";
+
+
+/* COLOR PALETTE */
+
+"COLORS"                = "Παλέτα";
+"SWITCH_PALLETE"        = "Αλλαγή παλέτας";
+"System Colors"         = "Χρώματα συστήματος";
+"iOS7 Colors"           = "Χρώματα iOS7";
+"Cool Colors"           = "Ψυχρά χρώματα";
+"Flat Colors"           = "Επίπεδα χρώματα";
+"HTML Colors"           = "Παλέτα HTML";
+"X11 Colors"            = "Παλέτα X11";
+
+
+/* SHARE */
+
+"SHARE_CONF"            = "Κοινή χρήση";
+"SHARE_BOOK_TEMPLATE"   = "Πρότυπο μηνύματος στην περίπτωση Βιβλίου";
+"SHARE_TEXT_TEMPLATE"   = "Πρότυπο μηνύματος στην περίπτωση Κειμένου";
+"SHARE_ATTACHMENTS"     = "Τα συνημμένα";
+"READ_IN_KYBOOK"        = "Διαβάζω στο #KyBook";
+"OPEN_IN"               = "Ανοίγμα στο ...";
+"OPEN_IN_SAFARI"        = "Ανοίγμα στο Safari";
+"OPEN_IN_FAIL_TITLE"    = "Δεν υπάρχουν εγκατεστημένες κατάλληλες εφαρμογές";
+"OPEN_IN_FAIL_MESSAGE"  = "Φαίνεται ότι η συσκευή σας δεν έχει οποιεσδήποτε άλλες εγκατεστημένες εφαρμογές που μπορούν να ανοίξουν αυτό το αρχείο.";
+"SAVE_AS_PDF"           = "Αποθήκευση ως PDF";
+
+
+/* SOCIETY */
+
+"SOCIETY"               = "Κοινωνία";
+"ADMIN"                 = "Διαχειριστής";
+"MODERATOR"             = "Μετριαστής";
+"ADMAN"                 = "Διαφημιστής";
+"BANNED"                = "Αποκλεισμένο";
+"ANONYMOUS"             = "Ανώνυμος";
+"REVIEW_TITLE"          = "Κριτική";
+"YOUR_REVIEW"           = "Η κριτική σας";
+"ADD_REVIEW"            = "Προσθήκη κριτικής";
+"DIGEST"                = "Σύνοψη";
+"ADD_REPLY"             = "Προσθήκη απάντησης";
+"POST_TITLE"            = "Mήνυμα";
+"REPLY_TITLE"           = "Απάντησης";
+"EDIT_POST"             = "Επεξεργασία μηνύματος";
+"ADD_POST"              = "Προσθήκη μηνύματος";
+"POSTS"                 = "Mηνήματα";
+"MY"                    = "Τα δικά μου";
+"ME"                    = "Εγώ";
+"SOCIETY_CONF"          = "Κοινωνία";
+"REGION"                = "Χώρα";
+"RUSSIA"                = "Ρωσία";
+"CLOUD_ENABLED"         = "Χρησιμοποίηση του iCloud";
+"CLOUD_DB"              = "Στο νέφος";
+
+
+/* IAP AD */
+
+"IAP_TITLE"             = "Αγορές εντός της εφαρμογής";
+"IAP_RESTORED"          = "Η αγορά επαναφέρθηκε";
+"IAP_COMPLETED"         = "Η αγορά ολοκληρώθηκε. Ευχαριστούμε πολύ";
+"IAP_FAILED"            = "Η αγορά απέτυχε";
+"IAP_UNABLE"            = "Συγνώμη, είναι αδύνατον να γίνει αγορά";
+"IAP_RESTORE"           = "Επαναφορά αγορές";
+"IAP_RESTORE_HINT"      = "Εάνν πριν έχετε ήδη κάνει μια αγορά εντός εφαρμογής, παρακαλούμε πατήστε το κουμπί 'Επαναφορά Αγορές'";
+"IAP_BETATEST"          = "Οι αγορές εντός της εφαρμογής που  αποκτήθηκαν στη beta έκδοση είναι άκυρες!";
+"IAP_UNABLE_COMPLETE"   = "Δεν είναι δυνατή η ολοκλήρωση αγοράς!";
+"IAP_UNKNOWN_PID_FMT"   = "Άγνωστο αναγνωριστικό: %@";
+"BIZ_BUY_TITLE"         = "Αγοράστε τώρα";
+"BIZ_BUY_PRO_SALE_TITLE" = "Αγορά (έκπτωση)";
+"BIZ_UPGRADE_PRO"       = "Αναβάθμιση σε Pro";
+"BIZ_PURCHASE_PRO"      = "Για αναβάθμιση σε Pro, παρακαλούμε να πληρώσετε την αγορά εντός της εφαρμογής και όλες οι δυνατότητες της εφαρμογής θα γίνουν διαθέσιμες. Αναβάθμιση σε Pro επιπλέον αφαιρεί όλες τις διαφημίσεις.";
+"BIZ_INFORM_PRO"        = "KyBook προσφέρει Pro δυνατότητες δωρεάν κατά τη διάρκεια μιας δοκιμαστικής περιόδου. Για να συνεχίσετε να χρησιμοποιήσετε τις Pro δυνατότητες μετά τη δοκιμαστική περίοδο, παρακαλούμε αναβαθμίστε KyBook σε Pro.";
+"BIZ_PURCHASE_PROMISE"  = "Σίγουρα, θα αγοράσω αργότερα";
+"BIZ_PRO_TRIAL_LEFT_FMT" = "Δωρεάν Pro - %@";
+"BIZ_PRO_TERM_LEFT_FMT" = "Πληρωμένο Pro - %@";
+"BIZ_REQUIRE_PRO"       = "Απαιτείται αναβάθμιση σε Prο!";
+"BIZ_PRO"               = "Pro";
+"BLANK_AD_BANNER"       = "Απενεργοποίηση διαφημίσεων!";
+
+
+/* TIPS */
+
+"BOOK_TIP_FULLSCREEN"   = "Έξοδος από την λειτουργία πλήρους οθόνης\nΠατήστε στο κέντρο της οθόνης";
+"BOOK_TIP_SIDEBAR"      = "Ανοίξτε πλαϊνή γραμμή του μενού\nΣύρετε το δάχτυλό σας από την άκρη";
+"BOOK_TIP_BOOKMARK"     = "Προσθήκη σελιδοδείκτη";
+"BOOK_TIP_SETTINGS"     = "Ρυθμίσεις";
+"BOOK_TIP_MORE"         = "Πίνακας Περιεχομένου, Σελιδοδείκτες";
+"BOOK_TIP_MENU"         = "Προηγμένες δυνατότητες: σύνθεση ομιλίας, ταχεία ανάγνωση";
+
+
+/* IMAGE SELECT */
+
+"IMAGE_SELECT_IMAGES"   = "ΕΙΚΟΝΕΣ";
+"IMAGE_SELECT_PHOTOS"   = "ΦΩΤΟΓΡΑΦΙΕΣ";
+"IMAGE_SELECT_GOOGLE"   = "GOOGLE";
+"IMAGE_SELECT_FLICKR"   = "FLICKR";
+
+
+/* BOOKS SCANNER */
+
+"SCAN_TITLE"            = "Προσθήκη βιβλίων";
+"SCAN_STORAGE"          = "Επιλογή αποθήκης";
+"SCAN_PROCESSING"       = "Επεξεργασία..";
+"SCAN_START_HINT"       = "Επιλογή αποθήκης για σάρωση";
+"SCAN_PROGRESS_FMT"     = "Σύνολο: %u, Καινούργια: %u/%u";
+
+
+/* RAPID READ */
+
+"RAPID_READ_WMP_FMT"    = "%u λέξεις ανά λεπτό";
+"RAPID_READ_TIME_LEFT"  = "απομένουν";
+"RAPID_READ_WORDS"      = "λέξεις";
+
+
+/* SUMMARY */
+
+"SUMMARY"               = "Περίληψη";
+"SUMMARIES"             = "Περίληψεις";
+"SUMMARY_CONF"          = "Ρυθμίσεις περίληψης";
+"SUMMARY_STYLES"        = "Ύφη";
+"SUMMARY_TYPING"        = "Κατά την πληκτρολόγηση";
+"SUMMARY_QUOTE"         = "Παραπομπή";
+"SUMMARY_QUOTE_LINK"    = "Εισαγωγή συνδέσμου";
+"TYPING_ASSISTANCE"     = "Βοήθεια κατά την πληκτρολόγηση";
+"SPELL_CHECKING"        = "Έλεγχος ορθογραφίας";
+"DETECT_LINKS"          = "Ανίχνευση συνδέσμων";
+"SUMMARY_STYLE"         = "Ύφος";
+"READONLY"              = "Μόνο για ανάγνωση";
+"SUMMARIES_SIMPLE"      = "Απλή";
+"SUMMARIES_FOCUSED"     = "Εστιασμένη";
+"SUMMARIES_SOLID"       = "Στερεά";
+"SUMMARIES_BLUR"        = "Θολή";
+"SUMMARIES_COVER"       = "Εξώφυλλο";
+"AUTO_SUMMARY"          = "Αυτόματη περίληψη";
+"RUN_SUMMARIZER"        = "Εκτέλεση";
+
+
+/* LANGUAGE SELECT */
+
+"LANGUAGES"             = "γλώσσες";
+"ENTER_LANGUAGE"        = "Εισαγωγή γλώσσας";
+
+/* LOCALIZATION SETTINGS */
+
+"LOCALIZATION_CONF"             = "Localization";
+"LOCALIZATION_HEADER"           = "List of supported user interface languages";
+"LOCALIZATION_FOOTER"           = "Please report any inaccuracies and offer new localization in https://github.com/kolyvan/kybook2-localization";
+"LOCALIZATION_CHANGE_TITLE"     = "Change Language";
+"LOCALIZATION_CHANGE_MESSAGE"   = "Warning - this is a dangerous feature! Applying can cause issues during the application startup. Use it at your own risk.";
+"LOCALIZATION_CHANGE_MESSAGE2"  = "For applying changes the application must be closed right now!\nPlease start KyBook after the closing.";
+
+
+/* FILES SYNCHRONIZER */
+
+"SYNCHRONIZER"          = "Συγχρονιστής";
+"SYNC_NOW"              = "Συγχρονισμός τώρα";
+"SYNC_DATE"             = "Ημερομηνία συγχρονισμού";
+"PLEASE_SELECT_FOLDERS" = "Παρακαλούμε, επιλέξτε τους φακέλους";
+"SYNC_COLLECTING"       = "Συλλογή δεδομένων";
+"SYNC_ANALYZING"        = "Ανάλυση";
+"SYNC_EXECUTING"        = "Εκτέλεση";
+"SYNC_TASKS_FMT"        = "Εργασίες: %zd";     // Tasks: 5
+"SYNCER_FOOTER_NOTICE"  = "Προσοχή! H εφαρμογή της λειτουργίας συγχρονισμού φακέλους ακόμα δεν έχει ολοκληρωθεί και δεν έχει δοκιμαστεί πλήρως. Χρησιμοποιήστε το με δική σας ευθύνη.";
+
+
+/* BOOK MAKER */
+
+"TITLE_PAGE"        = "Σελίδα τίτλου";
+"MAKE_AUDIOBOOK"    = "Κατασκευασία ακουστικού βιβλίου";
+
+/* BOOKS CATEGORIES */
+
+"NEW"               = "Νέo";
+"NEWS"              = "Ειδήσεις";
+"RECENT"            = "Πρόσφατα";
+"LATEST"            = "Νέες κυκλοφορίες";
+"UPDATES"           = "Ενημερώσεις";
+"TOP_RATED"         = "Κορυφαία";
+"ALL_BOOKS"         = "Όλα τα βιβλία";
+"FREE_BOOKS"        = "Δωρεάν βιβλία";
+"AUDIOBOOKS"        = "Ακουστικά βιβλία";
+"HOT"               = "Hot";
+"POPULAR"           = "Δημοφιλή";
+"BESTSELLERS"       = "Ευπώλητα";
+"MY_BOOKS"          = "Τα βιβλία μου";
+
+/* HOME CONTROLLER */
+
+"TAP_TO_CONTINUE_READ" = "Πατήστε για να συνεχίσετε την ανάγνωση";
+
+/* SSL */
+
+"SSL_WHITELIST"         = "Λευκή λίστα";
+"SSL_WARNING_TITLE"     = "SSL Προειδοποίηση";
+"SSL_WARNING_MESSAGE"   = "Είτε το πιστοποιητικό SSL είναι αυτο-υπογεγραμμένο είτε το πιστοποιητικό υπογεγραμμένο από μια μη αξιόπιστη αρχή.";
+
+/* ARCHIVE */
+
+"EMPTY_ARCHIVE" = "Κενό αρχείο";
+"UNARCHIVE"     = "Κατάργηση αρχειοθέτησης";
+"UNARCHIVE?"    = "Να καταργηθεί αρχειοθέτηση?";
+
+/* FAVORITES */
+
+"FAVORITES"         = "Αγαπημένα";
+"ADD_FAVORITE"      = "Προσφήκη στα αγαπημένα";
+"REMOVE_FAVORITE"   = "Κατάργηση από τα αγαπημένα";
+"EMPTY_FAVORITES"   = "Δεν υπάρχουν τα αποθηκευμένα αγαπημένα";
+"GROUP_FAVORITES"   = "Ταξινόμηση αγαπημένων";
+"FAVORITED"         = "Στα αγαπημένα";
+
+
+/* ABOUT APP */
+
+"RATE_APP"              = "Βαθμολογήστε KyBook";
+"RATE_APPSTORE"         = "Βαθμολογήστε στο App Store";
+"RATE_TWITTER"          = "Τιτίβισμα στο Twitter";
+"RATE_VKONTAKTE"        = "Δημοσιεύετε στο VK.com";
+"RATE_FACEBOOK"         = "Δημοσιεύετε στο Facebook";
+"RATE_TEXT_TEMPLATE"    = "KyBook 2 - Είναι ο καλύτερος τρόπος για να διαβάζετε τα βιβλία σας!";
+"SEND_FEEDBACK"         = "Aνάδραση";
+"SHAKE_FOR_FEEDBACK"    = "Tινάξτε τη συσκευή για ανάδραση";
+"HELP"                  = "Βοήθεια";
+"HELP_FAQ"              = "Συχνές ερωτήσεις";
+"HELP_DISCUSS"          = "Συζήτηση";
+"ABOUT_APP"             = "Σχετικά με την εφαρμογή";
+"APP_VERSION"           = "Έκδοση";
+"SOCIAL_MEDIA"          = "Κοινωνικά δίκτυα";
+"FOLLOW_TWITTER"        = "Ακολουθήστε μας @KyBook_App";
+"FOLLOW_VKONTAKTE"      = "KyBook VKontakte";
+"COPYRIGHT_NAME"        = "Konstantin Bukreev";
+"ACKNOWLEDGMENT"        = "Acknowledgement";
+
+
+/* RATE APP */
+
+"RATEAPP_TITLE_FMT"     = "Μπορείτε να βαθμολογήσετε %@?";
+"RATEAPP_ASK_FMT"       = "Σας αρέσει %@?";
+"RATEAPP_RATE"          = "Τότε τι θα λέγατε για την βαθμολογία στο App Store;";
+"RATEAPP_FEEDBACK"      = "Θα σας πείραζε να μας δώσετε κάποια ανάδραση;";
+"RATEAPP_AGREE"         = "Σίγουρα, θα βαθμολογήσω";
+"RATEAPP_YES"           = "Ναι!";
+"RATEAPP_NO"            = "Όχι πραγματικά";
+"RATEAPP_OK"            = "Εντάξει";
+"RATEAPP_CANCEL"        = "Όχι, ευχαριστώ";
+"RATEAPP_SUBTITLE"      = "Παρακαλούμε βαθμολογήστε την εμπειρία σας";
+"RATEAPP_RATE_DO"       = "Βαθμολογήστε το στο App Store";
+"RATEAPP_FEEDBACK_DO"   = "Στείλτε μας κάποια ανάδραση";
+
+/* AUTH */
+
+"AUTH"              = "Εξουσιοδότηση";
+"AUTH_SUCCESS"      = "Εξουσιοδότηση ολοκληρώθηκε επιτυχώς";
+"AUTHENTICATED"     = "Εξουσιοδοτημένος";
+
+
+/* PERMISSIONS */
+
+"PERMISSION_HEADER" = "Γεια, KyBook θα ήθελε να πάρει την άδεια.";
+"PERMISSION_NOTIFICATION_FOOTER" = "Μπορούμε να σας στείλουμε κοινοποιήσεις για καλύτερο συγχρονισμό μεταδεδομένων των βιβλίων μεταξύ των συσκευών σας. Αυτές κοινοποιήσεις δεν θα περιλαμβάνουν τους ήχους, εμβλήματα και ειδοποιήσεις. Η επεξεργασία των κοινοποιήσεων θα γίνει στο φόντο. Μπορείτε πάντα να αλλάξετε τον τρόπο κοινοποίησης στις ρυθμίσεις της συσκευής.";
+"PERMISSION_NOTIFICATION_ALLOW" = "Επιτρέψτε κοινοποιήσεις";
+
+
+/* ??? */
+
+"PACKAGE"           = "Πακέτο";
+"VIRTUAL"           = "Εικονικός";
+
+/* ERRORS */
+
+"Error"                     = "Σφάλμα";
+
+"UNKNOWN_FAILURE"           = "Άγνωστο σφάλμα";
+
+"NETWORK_FAILURE"           = "Σφάλμα δικτύου";
+"FILE_IO_ERROR"             = "Σφάλμα συστήματος αρχείων";
+"OUT_OF_MEMORY"             = "Δεν υπάρχει αρκετός χώρος στην μνήμη";
+
+"NO_NETWORK_CONNECTION"     = "Δεν υπάρχει σύνδεση δικτύου";
+"NOT_RESPONDING"            = "Δεν ανταποκρίνεται";
+"EMPTY_RESPONSE"            = "Κενή ανταπόκριση";
+"BAD_RESPONSE"              = "Μη έγκυρη ανταπόκριση";
+
+"NOT_FOUND"                 = "Δεν βρέθηκε";
+
+"AUTH_REQUIRED"             = "Απαιτείται εξουσιοδότηση";
+"UNAUTHORIZED"              = "Μη εξουσιοδοτημένο";
+"ACCESS_DENIED"             = "Δεν επιτρέπεπεται η πρόσβαση";
+
+"FAILURE_RESPONSE"          = "Αναφερόμενο για ένα σφάλμα";
+"SERVER_ERROR"              = "Διακομιστής ανέφερε ένα σφάλμα";
+"FATAL_ERROR"               = "Ωχ! Κάτι πήγε στραβά!";
+"INTERNAL_ERROR"            = "Εσωτερικό σφάλμα";
+
+"BAD_NAME"                  = "Λανθασμένο όνομα ";
+"BAD_PATH"                  = "Λανθασμένη διαδρομή";
+"BAD_ZIPFILE"               = "Αδύνατο αποσυμπίεση αρχείου";
+"BAD_EPUB"                  = "Λανθασμένο EPub αρχείο";
+
+"DAILY_LIMIT"               = "Υπέρβαση ημερήσιου ορίου";
+"TEXT_TOO_LONG"             = "Υπέρβαση μέγιστης μεγέθους κειμένου";
+
+"BAD_LANGUAGE_CODE"         = "Λάθος κωδικός γλώσσας";
+"BAD_LANG_TARGET"           = "Η γλώσσα στόχου λείπει ή είναι άκυρη";
+"BAD_LANG_DIRECTION"        = "Η προδιαγεγραμμένη κατεύθυνση μετάφρασης δεν υποστηρίζεται";
+"BAD_LANG_TEXT"             = "Το κείμενο δεν μπορεί να μεταφραστεί";
+
+"ICLOUD_NOT_CONNECTED"      = "Δεν υπάρχει σύνδεση με iCloud";
+
+"DUPLICATE_STORAGE"         = "Διπλότυπη αποθήκη";
+"DUPLICATE_LIBRARY"         = "Διπλότυπη βιβλιοθήκη";
+"YANDEX_NOT_LINKED"         = "Το Yandex Disk δεν ειναι συνδεδεμένο";
+
+"ERROR_401_STORAGE_TITLE"   = "Μη εξουσιοδοτημένο (401)";
+"ERROR_401_STORAGE_MESSAGE" = "Φαίνεται πως η προηγούμενη εξουσιοδότηση έχει καταστεί άκυρη. Παρακαλούμε συνδέστε %@ ξανά.";
+
+"STORAGE_NOT_LINKED"        = "Αποθηκευτικό νέφος δεν ειναι συνδεδεμένο";
+"STORAGE_ENDPOINT_ERR"      = "Αναφερόμενο για ένα σφάλμα";
+
+"SPEECH_SYNTHESIZER_ERROR"          = "Δεν υπάρχει συνθέτης ομιλίας";
+"SPEECH_SYNTHESIZER_VOICE_ERROR"    = "Αδύνατο να βρεθεί κατάλληλη φωνή για σύνθεση ομιλίας";
+
+"FAIL_SENDMAIL_TITLE"       = "Αδύνατη η αποστολή γράμματος";
+"FAIL_SENDMAIL_MESSAGE"     = "Παρακαλούμε ρυθμίσετε λογαριασμό ηλεκτρονικού ταχυδρομείου σας";
+
+"SIGN_IN_FAILURE"           = "Σφάλμα εξουσιοδότησης";
+"SING_UP_FAILURE"           = "Σφάλμα εγγραφής";
+"PASS_RECOVER_FAILURE"      = "Σφάλμα ανάκτησης συνθηματικού";
+
+"ALREADY_EXISTS"            = "Υπάρχει ήδη";
+"USERNAME_ALREADY_EXISTS"   = "Αυτό το όνομα υπάρχει ήδη";
+"USERNAME_NOT_AVAILABLE"    = "Το όνομα χρήστη δεν είναι διαθέσιμο";
+
+"UNABLE_OPENBOOK"           = "Αδύνατο το άνοιγμα του βιβλίου";
+"DRM_PROTECTION_FAILURE"    = "Αποτυχία ανοίγματος του βιβλίου λόγω προστασίας DRM";
+"BAD_FILE_FORMAT"           = "Άκυρος τύπος αρχείου";
+
+"NOT_IMPLEMENTED"           = "Δεν έχει υλοποιηθεί";
+"UNSUPPORTED"               = "Αυτή η λειτουργία δεν υποστηρίζεται";
+"UNSUPPORTED_FILE_FORMAT"   = "Μορφή αρχείου δεν υποστηρίζεται";
+"UNSUPPORTED_VERSION"       = "Έκδοση δεν υποστηρίζεται";
+"UNSUPPORTED_ACTION_STORAGE"= "Αδύνατη η εκτέλεση";
+"COPY_SMB_NOT_IMPLEMENTED"  = "Η διαδικασία αντιγραφής δεν έχει υλοποιηθεί για το SMB/CIFS";
+
+"ALERT_BAD_LAYOUT"          = "Φαίνεται πως η διάταξη κατέστη άκυρη και to KyBook δεν μπόρεσε να το χειριστεί! Παρακαλούμε, κλείστε το βιβλίο και επομένως καθαρίστε την προσωρινή αποθήκευση βιβλίων στις ρυθμίσεις εφαρμογής";
+
+"BAD_LOGIN_PASSWORD"        = "Μη έγκυρο το όνομα χρήστη ή το συνθηματικό";
+
+/* SMB ERRORS */
+
+"UNABLE_RESOLVE"            = "Αδύνατη η επίλυση του ιστοτόπου/διεύθυνσης";
+"UNABLE_CONNECT"            = "Αδύνατη η σύνδεση με υπολογιστή δικτύου";
+"BAD_SHARE"                 = "Μη έγκυρο κοινόχρηστο σημείο";
+"FILE_IS_DIRECTORY"         = "Το αρχείο είναι ένας φάκελος";
+"FILE_ALREADY_EXISTS"       = "Αυτό το αρχείο υπάρχει ήδη";
+
+/* WEBDAV ERRORS */
+
+"Server returns a wrong WebDav response" = "Διακομιστής επιστρέφει λάθος απάντηση WebDav";
+
+
+/* VENDORS */
+
+// texted
+"Open Link"     = "Άνοιγμα συνδέσμου";
+"Edit Link"     = "Επεξεργασία συνδέσμου";
+"Insert Link"   = "Εισαγωγή συνδέσμου";
+"Title"         = "Τίτλος";
+"Done"          = "Έτοιμο";
+"Cancel"        = "Ακύρωση";
+
+
+/* OBSOLETE (NOT USED NOW)
+
+ "PATH_HINT"         = "διαδρομή";
+ "RECOMMENDED_TITLE" = "Συνιστάται";
+ "MAIN_TITLE"        = "Αρχικό";
+ "IMPORT_METADATA_V1" = "Εισαγωγή μεταδεδομένων v1";
+ "REMOVEADS"         = "Αφαίρεση διαφημίσεων";
+ "NO_IMAGES"         = "Δεν υπάρχουν εικόνες";
+ "GENERAL"           = "Γενικά";
+ "DETACH"            = "Αποσύνδεση";
+ "SMB"               = "SMB/CIFS";
+ "SET_COVER"         = "Ορισμός εξωφύλλου";
+ "PAGE"              = "Σελίδα";
+ "GENERAL_CONF"      = "Γενικές";
+ "ADD_DEVICE_FOLDER" = "Προσθήκη φακέλου";
+ "CUSTOM_URL_SCHEME" = "Προσαρμογή σχήματος URL";
+*/
+
+/* DROPBOX OBSOLETE
+
+ "DROPBOX_NOT_LINKED"    = "Το Dropbox δεν είναι συνδεδεμένο";
+ "DROPBOX_ENDED"         = "Η συνεδρία Dropbox έληξε";
+ "DROPBOX_ASK_RELINK"    = "Επιθυμείτε επανασύνδεση?";
+*/

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.stringsdict.plist
+   rocket
+
+   Created by Kolyvan on 16.11.15.
+   Copyright (c) 2015 Kolyvan. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>%d words</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@words@</string>
+            <key>words</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν λέξεις</string>
+                <key>one</key>
+                <string>μια λέξη</string>
+                <key>other</key>
+                <string>%d λέξεις</string>
+            </dict>
+        </dict>
+        <key>%d records</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@records@</string>
+            <key>records</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν εγγραφές</string>
+                <key>one</key>
+                <string>ένα ρεκόρ</string>
+                <key>other</key>
+                <string>%d εγγραφές</string>
+            </dict>
+        </dict>
+        <key>%d files</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@files@</string>
+            <key>files</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν αρχεία</string>
+                <key>one</key>
+                <string>ένα αρχείο</string>
+                <key>other</key>
+                <string>%d αρχεία</string>
+            </dict>
+        </dict>
+        <key>%d pages</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@pages@</string>
+            <key>pages</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν σελίδες</string>
+                <key>one</key>
+                <string>μία σελίδα</string>
+                <key>other</key>
+                <string>%d σελίδες</string>
+            </dict>
+        </dict>
+        <key>%d days</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@days@</string>
+            <key>days</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν ημέρες</string>
+                <key>one</key>
+                <string>μια μέρα</string>
+                <key>other</key>
+                <string>%d μέρες</string>
+            </dict>
+        </dict>
+        <key>%d books</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@books@</string>
+            <key>books</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν βιβλία</string>
+                <key>one</key>
+                <string>ένα βιβλίο</string>
+                <key>other</key>
+                <string>%d βιβλίο</string>
+            </dict>
+        </dict>        
+        <key>%d authors</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%#@authors@</string>
+            <key>authors</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>d</string>
+                <key>zero</key>
+                <string>μηδέν συγγραφείς</string>
+                <key>one</key>
+                <string>ένας συγγραφέας</string>
+                <key>other</key>
+                <string>%d συγγραφείς</string>
+            </dict>
+        </dict>
+    </dict>
+</plist>
