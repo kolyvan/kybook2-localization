@@ -19,3 +19,4 @@ Please, feel free to send a pull request or create an issue if found any typo or
 
 ### Thanks
 - [Carsten Perthel](https:///github.com/cpesoft) for the German translation.
+- @marek_wayne for the Greek translation.
