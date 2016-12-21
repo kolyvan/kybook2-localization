@@ -188,7 +188,6 @@
 "DOWNLOAD_FILE_MESSAGE" = "Geben Sie die URL zum Herunterladen der Datei an";
 
 
-
 /* STATE */
 
 "STATE"                 = "Status";
@@ -248,7 +247,8 @@
 "SIBLING_FOLDERS"   = "Geschwister Ordner";
 "READONLY_STORAGE_TITLE" = "Nur-Lesen Speicher";
 "READONLY_STORAGE_MSG_FMT" = "Vorgang konnte nicht durchgeführt werden. Keine Schreibberechtigungen für '%@'.";
-"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "Must first copy the archive file to the device from the cloud storage.";
+"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "The file is an archive. The application does not know the content of this archive. Obtaining contents of the archive in the cloud requires unzipping. To unzip the file, you must copy it to your device.";
+"UNABLE_OPEN_STORAGE_MESSAGE" = "Unable to open the file '%@' from the cloud storage. Must first copy the file to the device.";
 
 /* FILES MAIN SETTINS  */
 

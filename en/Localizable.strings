@@ -247,7 +247,8 @@
 "SIBLING_FOLDERS"   = "Sibling folders";
 "READONLY_STORAGE_TITLE" = "Readonly Storage";
 "READONLY_STORAGE_MSG_FMT" = "Could not perform this operation. No write permissions to '%@'.";
-"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "Must first copy the archive file to the device from the cloud storage.";
+"UNABLE_UNARCHIVE_STORAGE_MESSAGE" = "The file is an archive. The application does not know the content of this archive. Obtaining contents of the archive in the cloud requires unzipping. To unzip the file, you must copy it to your device.";
+"UNABLE_OPEN_STORAGE_MESSAGE" = "Unable to open the file '%@' from the cloud storage. Must first copy the file to the device.";
 
 /* FILES MAIN SETTINS  */
 
@@ -262,7 +263,6 @@
 "FILES_ITUNES_FOLDERS_MODE_MOVE"    = "Move into Files/Books";
 "FILES_ITUNES_FOLDERS_MODE_MANUAL"  = "Skip. Allow add manually later";
 "FILES_ITUNES_FOLDERS_MODE_HINT"    = "The action upon detection of new folder added by the user via iTunes File Sharing.\n\n - automatically create a root folder in the Files.\n - move folders into Files/Books\n - Allow the user to create a root folder in the Files.";
-
 
 /* SORTING GROUPING */
 
