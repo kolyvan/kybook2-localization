@@ -121,6 +121,7 @@
 "EMPTY_TEXT"        = "No text";
 "FILE_SIZE"         = "File size";
 "ABOUT_AUTHOR"      = "About the author";
+"FOUND_FMT"         = "Found: %zu";
 
 
 /* APP MAIN */
@@ -387,6 +388,8 @@
 "ADD_TO_BOOKS"      = "Add to Books";
 "SAMIZDAT_UPDATES_HINT" = "Pull to refresh and obtain the latest update";
 "SAMIZDAT_ADD_AUTHOR_HINT" = "Use a long-press gesture to add an author";
+"SAMIZDAT_ADD_AUTHOR_HELP"  = "Enter a name or a page address of the Samizdat's author in the search field and tap Search.";
+"SAMIZDAT_ADDDED_AUTHOR_OK" = "Samizdat: added the author";
 
 
 /* BOOKCARD */
@@ -975,7 +978,7 @@
 "BIZ_PURCHASE_PRO"      = "For upgrade to Pro, please pay the in-app purchase and all features of the application will become available. Upgrade to Pro additionally removes all advertising.";
 "BIZ_INFORM_PRO"        = "KyBook provides Pro features for free during a trial period. To continue use the Pro features after the trial period, please upgrade KyBook to Pro.";
 "BIZ_PURCHASE_PROMISE"  = "Sure, I'll buy later";
-"BIZ_PRO_TRIAL_LEFT_FMT" = "Free Pro - %@";
+"BIZ_PRO_TRIAL_LEFT_FMT" = "Trial period will expire in %@";
 "BIZ_PRO_TERM_LEFT_FMT" = "Paid Pro - %@";
 "BIZ_REQUIRE_PRO"       = "Requires upgrade to Pro!";
 "BIZ_PRO"               = "Pro";
