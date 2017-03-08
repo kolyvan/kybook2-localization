@@ -499,6 +499,7 @@
 
 "CONTENTS"              = "Inhalt";
 "EMPTY_TOC"             = "Kein Inhaltsverzeichnis";
+"BOOKMARK"              = "Lesezeichen";
 "BOOKMARKS"             = "Lesezeichen"; // Buchzeichen
 "EMPTY_NOTES"           = "Keine Lesezeichen und Notizen";
 
@@ -517,6 +518,9 @@
 
 "RESET_BOOK_CURSOR_TITLE" = "Die Leseposition";
 "RESET_BOOK_CURSOR_MESSAGE" = "Es scheint, dass die Leseposition in diesem Buch vor kurzem auf einem anderen Gerät geändert wurde. Möchten Sie die Leseposition von iCloud übernehmen?";
+
+"NEXT_PAGE"             = "Folgeseite";
+"PREV_PAGE"             = "Vorherige Seite";
 
 
 /* BOOKREADER SEARCH PARAMS */
@@ -642,6 +646,7 @@
 
 "CACHING_CONF"          = "Caching";
 "INTERNET_IMAGES"       = "Internet Bilder";
+"WEB_CONTENT"           = "Web-Inhalte";
 "CLEAR_CACHE"           = "Cache leeren";
 "MAXSIZE_MB"            = "Maximale Größe (MB)";
 "FILESIZE_MB"           = "Dateigröße (MB)";
@@ -792,6 +797,7 @@
 "DIRECT_CONNECT"        = "Direkte Verbindung";
 "OPDS_CATALOG_SESSION_TITLE" = "Die Verbindungsmethode zu einem Katalogserver";
 "OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server";
+"PROXY_OPDS_CATALOG_HINT"   = "In order to the application become to use a proxy server for connection to OPDS catalog also need choose a connection method 'via proxy server' in OPDS catalog settings in the Libraries section";
 
 
 /* TOR SETTINGS */

@@ -499,6 +499,7 @@
 
 "CONTENTS"              = "Περιεχώμενα";
 "EMPTY_TOC"             = "Αυτό το βιβλίο δεν έχει πίνακα περιεχομένων";
+"BOOKMARK"              = "Σελιδοδείκτη";
 "BOOKMARKS"             = "Σελιδοδείκτες";
 "EMPTY_NOTES"           = "Δεν υπάρχουν σελιδοδείκτες και σημειώσεις";
 
@@ -517,6 +518,9 @@
 
 "RESET_BOOK_CURSOR_TITLE" = "Θέση ανάγνωσης";
 "RESET_BOOK_CURSOR_MESSAGE" = "Φαίνεται ότι η θέση ανάγνωσης σ'αυτό το βιβλίο άλλαξε πρόσφατα στην άλλη συσκευή σας. Θα θέλατε να πάτε στη θέση ανάγνωσης αποκτημένη από το iCloud;";
+
+"NEXT_PAGE"             = "Επόμενη σελίδα";
+"PREV_PAGE"             = "Προηγούμενη σελίδα";
 
 
 /* BOOKREADER SEARCH PARAMS */
@@ -642,6 +646,7 @@
 
 "CACHING_CONF"          = "Προσωρινή αποθήκευση";
 "INTERNET_IMAGES"       = "Εικόνες από Διαδίκτυο";
+"WEB_CONTENT"           = "Web content";
 "CLEAR_CACHE"           = "Καθάρισμα προσωρινής αποθήκευσης";
 "MAXSIZE_MB"            = "Μέγιστο μέγεθος (MB)";
 "FILESIZE_MB"           = "Μέγεθος αρχείου (MB)";
@@ -792,6 +797,7 @@
 "DIRECT_CONNECT"        = "Απευθείας";
 "OPDS_CATALOG_SESSION_TITLE" = "Μέθοδος σύνδεσης με διακομιστή καταλόγου";
 "OPDS_CATALOG_SESSION_HINT" = "Για την αλλαγή του διακομιστή Proxy ανοίξτε ρυθμίσεις της εφαρμογής -> Δίκτυο -> Proxy διακομιστής -> OPDS κατάλογος";
+"PROXY_OPDS_CATALOG_HINT"   = "In order to the application become to use a proxy server for connection to OPDS catalog also need choose a connection method 'via proxy server' in OPDS catalog settings in the Libraries section";
 
 
 /* TOR SETTINGS */

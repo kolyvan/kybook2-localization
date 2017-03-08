@@ -226,7 +226,7 @@
 "SORTING"           = "Sorting";
 "GROUPING"          = "Grouping";
 "SHOWING"           = "Showing";
-"CREATE_FOLDER"     = "Create a folder";
+"CREATE_FOLDER"     = "Create folder";
 "SELECT_FOLDER"     = "Select a folder";
 "SELECT_FILE"       = "Select a file";
 "FILES_EXT_FMT"     = "Files %@";       // Files epub,pdf,djvu
@@ -241,8 +241,8 @@
 "NOSUBFOLDERS_FMT"  = "No subfolders in '%@'";      // No subfolders in 'Books/1'
 "COPY_FILES_FMT"    = "%@ files from '%@' to '%@'"; // Move files from 'Downloads' to 'Books/1'
 "TRANSFERRING"      = "File Transfer";
-"IMPORT_FILE"       = "Import File";
-"EXPORT_FILE"       = "Export File";
+"IMPORT_FILE"       = "Import file";
+"EXPORT_FILE"       = "Export file";
 "PROTECTED_FILE_TITLE" = "The file is protected";
 "PLEASE_ENTER_PASSWORD" = "Please enter a password";
 "SIBLING_FOLDERS"   = "Sibling folders";
@@ -499,6 +499,7 @@
 
 "CONTENTS"              = "Contents";
 "EMPTY_TOC"             = "This book does not contain a table of contents";
+"BOOKMARK"              = "Bookmark";
 "BOOKMARKS"             = "Bookmarks";
 "EMPTY_NOTES"           = "No bookmarks and notes";
 
@@ -517,6 +518,9 @@
 
 "RESET_BOOK_CURSOR_TITLE" = "The read position";
 "RESET_BOOK_CURSOR_MESSAGE" = "It seems what the read position in this book was recently changed on the another your device. Would you like to go to the read position obtained from iCloud?";
+
+"NEXT_PAGE"             = "Next page";
+"PREV_PAGE"             = "Previous page";
 
 
 /* BOOKREADER SEARCH PARAMS */
@@ -642,6 +646,7 @@
 
 "CACHING_CONF"          = "Caching";
 "INTERNET_IMAGES"       = "Internet Images";
+"WEB_CONTENT"           = "Web content";
 "CLEAR_CACHE"           = "Clear cache";
 "MAXSIZE_MB"            = "Maximum Size (MB)";
 "FILESIZE_MB"           = "File Size (MB)";
@@ -780,7 +785,7 @@
 /* NETWORK SETTINGS */
 
 "NETWORK_CONF"          = "Network";
-"OPEN_URL"              = "Open URL";
+"OPEN_URL"              = "Open Link";
 "SAFARI"                = "Safari";
 "STREAMING"             = "Streaming";
 "AUDIO_STREAMING"       = "Audio Streaming";
@@ -792,6 +797,7 @@
 "DIRECT_CONNECT"        = "Directly";
 "OPDS_CATALOG_SESSION_TITLE" = "The connection method to a catalog server";
 "OPDS_CATALOG_SESSION_HINT" = "For changing the Proxy Server, open the application settings -> Network -> Proxy server";
+"PROXY_OPDS_CATALOG_HINT"   = "In order to the application become to use a proxy server for connection to OPDS catalog also need choose a connection method 'via proxy server' in OPDS catalog settings in the Libraries section";
 
 
 /* TOR SETTINGS */
